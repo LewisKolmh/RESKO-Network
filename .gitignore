@@ -1,0 +1,10 @@
+.Rhistory
+.RData
+.Rproj.user/
+
+*.tmp
+*.log
+
+results/*.html
+
+data/temp/
