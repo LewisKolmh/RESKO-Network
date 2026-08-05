@@ -55,3 +55,65 @@ Result:
 
 This suggests that direct eEF1A inhibitors are poorly
 represented within adverse-event resources used by RESKO.
+
+# A4 Construction of an eEF1A-Centred Network
+
+## Objective
+
+Construct a protein interaction network centred on EEF1A1 and
+EEF1A2.
+
+## Rationale
+
+Known eEF1A inhibitors were absent from SIDER and therefore
+could not be used directly in a side-effect driven RESKO
+workflow.
+
+A network-centric approach was therefore adopted to identify
+biological partners, pathways and candidate druggable proteins
+associated with eEF1A.
+
+## Data Source
+
+STRING API
+
+Species:
+Homo sapiens (9606)
+
+## Seed Proteins
+
+EEF1A1
+EEF1A2
+
+## Outputs
+
+A4_eef1a_string_interactions.csv
+> summary(interactions$score)
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.4020  0.9317  0.9945  0.9366  0.9990  0.9990 
+
+ ## A5 Neo4j Network File Creation
+
+### Objective
+
+Convert STRING interaction data into graph nodes and edges
+suitable for Neo4j import.
+
+### Input
+
+A4_eef1a_string_interactions.csv
+
+### Outputs
+
+nodes_proteins.csv
+
+edges_interacts_with.csv
+
+### Relationship Type
+
+INTERACTS_WITH
+
+### Purpose
+
+Generate the initial eEF1A-centred protein interaction
+network for downstream Neo4j Bloom visualisation.
