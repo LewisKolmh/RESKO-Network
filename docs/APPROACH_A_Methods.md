@@ -117,3 +117,88 @@ INTERACTS_WITH
 
 Generate the initial eEF1A-centred protein interaction
 network for downstream Neo4j Bloom visualisation.
+
+## A6 Reactome Pathway Enrichment
+
+### Result
+
+46 significantly enriched Reactome pathways were identified
+from the EEF1A-centred interaction network including 18 unique proteins from 84 STRING interactions.
+
+### Interpretation
+
+The resulting pathways provide biological context for the
+EEF1A interaction neighbourhood and form the pathway layer
+of the network graph.
+
+### Output
+
+results/A6_reactome_pathways.csv
+
+A6 Status: Complete
+
+STRING interaction network:
+84 edges
+
+Unique Proteins Identified:
+18 Proteins
+
+Reactome enrichment:
+46 pathways
+
+Notable pathways:
+
+- Eukaryotic Translation Elongation
+- Translation
+- Peptide Chain Elongation
+- Viral mRNA Translation
+
+Significance:
+
+Minimum adjusted p-value:
+3.40e-20
+
+ Description                                                    Count p.adjust
+   <chr>                                                          <dbl>    <dbl>
+ 1 Eukaryotic Translation Elongation                                 12 3.40e-20
+ 2 Translation                                                       13 1.01e-14
+ 3 Selenoamino acid metabolism                                        9 9.62e-13
+ 4 Peptide chain elongation                                           8 5.93e-12
+ 5 Eukaryotic Translation Termination                                 8 7.00e-12
+ 6 Nonsense Mediated Decay (NMD) independent of the Exon Junctio…     8 7.04e-12
+ 7 Nonsense-Mediated Decay (NMD)                                      8 2.80e-11
+ 8 Nonsense Mediated Decay (NMD) enhanced by the Exon Junction C…     8 2.80e-11
+ 9 Viral mRNA Translation                                             7 2.54e-10
+10 PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA      7 2.54e-10
+
+## A6 Results
+
+### STRING Network
+
+84 protein interaction edges were retrieved for EEF1A1
+and EEF1A2 from STRING.
+
+### Reactome Enrichment
+
+46 significantly enriched Reactome pathways were identified.
+
+Top pathways:
+
+- Eukaryotic Translation Elongation
+- Translation
+- Selenoamino Acid Metabolism
+- Peptide Chain Elongation
+- Eukaryotic Translation Termination
+- Viral mRNA Translation
+
+Minimum adjusted p-value:
+
+3.40 × 10^-20
+
+### Graph Construction
+
+Protein nodes retained in pathway enrichment:
+17
+
+Protein-pathway relationships:
+276

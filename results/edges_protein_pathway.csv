@@ -1,0 +1,277 @@
+protein,pathway,relationship
+RPL4,Eukaryotic Translation Elongation,PARTICIPATES_IN
+EEF1G,Eukaryotic Translation Elongation,PARTICIPATES_IN
+RPL18A,Eukaryotic Translation Elongation,PARTICIPATES_IN
+EEF1B2,Eukaryotic Translation Elongation,PARTICIPATES_IN
+EEF1A1,Eukaryotic Translation Elongation,PARTICIPATES_IN
+RPL3,Eukaryotic Translation Elongation,PARTICIPATES_IN
+EEF1D,Eukaryotic Translation Elongation,PARTICIPATES_IN
+RPL7,Eukaryotic Translation Elongation,PARTICIPATES_IN
+EEF1A2,Eukaryotic Translation Elongation,PARTICIPATES_IN
+RPS3,Eukaryotic Translation Elongation,PARTICIPATES_IN
+RPS3A,Eukaryotic Translation Elongation,PARTICIPATES_IN
+RPS2,Eukaryotic Translation Elongation,PARTICIPATES_IN
+RPL4,Translation,PARTICIPATES_IN
+EEF1G,Translation,PARTICIPATES_IN
+RPL18A,Translation,PARTICIPATES_IN
+EEF1B2,Translation,PARTICIPATES_IN
+EEF1A1,Translation,PARTICIPATES_IN
+RPL3,Translation,PARTICIPATES_IN
+EEF1D,Translation,PARTICIPATES_IN
+RPL7,Translation,PARTICIPATES_IN
+EEF1A2,Translation,PARTICIPATES_IN
+ETF1,Translation,PARTICIPATES_IN
+RPS3,Translation,PARTICIPATES_IN
+RPS3A,Translation,PARTICIPATES_IN
+RPS2,Translation,PARTICIPATES_IN
+RPL4,Selenoamino acid metabolism,PARTICIPATES_IN
+RPL18A,Selenoamino acid metabolism,PARTICIPATES_IN
+RPL3,Selenoamino acid metabolism,PARTICIPATES_IN
+RPL7,Selenoamino acid metabolism,PARTICIPATES_IN
+PAPSS1,Selenoamino acid metabolism,PARTICIPATES_IN
+RPS3,Selenoamino acid metabolism,PARTICIPATES_IN
+PAPSS2,Selenoamino acid metabolism,PARTICIPATES_IN
+RPS3A,Selenoamino acid metabolism,PARTICIPATES_IN
+RPS2,Selenoamino acid metabolism,PARTICIPATES_IN
+RPL4,Peptide chain elongation,PARTICIPATES_IN
+RPL18A,Peptide chain elongation,PARTICIPATES_IN
+EEF1A1,Peptide chain elongation,PARTICIPATES_IN
+RPL3,Peptide chain elongation,PARTICIPATES_IN
+RPL7,Peptide chain elongation,PARTICIPATES_IN
+RPS3,Peptide chain elongation,PARTICIPATES_IN
+RPS3A,Peptide chain elongation,PARTICIPATES_IN
+RPS2,Peptide chain elongation,PARTICIPATES_IN
+RPL4,Eukaryotic Translation Termination,PARTICIPATES_IN
+RPL18A,Eukaryotic Translation Termination,PARTICIPATES_IN
+RPL3,Eukaryotic Translation Termination,PARTICIPATES_IN
+RPL7,Eukaryotic Translation Termination,PARTICIPATES_IN
+ETF1,Eukaryotic Translation Termination,PARTICIPATES_IN
+RPS3,Eukaryotic Translation Termination,PARTICIPATES_IN
+RPS3A,Eukaryotic Translation Termination,PARTICIPATES_IN
+RPS2,Eukaryotic Translation Termination,PARTICIPATES_IN
+RPL4,Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC),PARTICIPATES_IN
+RPL18A,Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC),PARTICIPATES_IN
+RPL3,Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC),PARTICIPATES_IN
+RPL7,Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC),PARTICIPATES_IN
+ETF1,Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC),PARTICIPATES_IN
+RPS3,Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC),PARTICIPATES_IN
+RPS3A,Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC),PARTICIPATES_IN
+RPS2,Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC),PARTICIPATES_IN
+RPL4,Nonsense-Mediated Decay (NMD),PARTICIPATES_IN
+RPL18A,Nonsense-Mediated Decay (NMD),PARTICIPATES_IN
+RPL3,Nonsense-Mediated Decay (NMD),PARTICIPATES_IN
+RPL7,Nonsense-Mediated Decay (NMD),PARTICIPATES_IN
+ETF1,Nonsense-Mediated Decay (NMD),PARTICIPATES_IN
+RPS3,Nonsense-Mediated Decay (NMD),PARTICIPATES_IN
+RPS3A,Nonsense-Mediated Decay (NMD),PARTICIPATES_IN
+RPS2,Nonsense-Mediated Decay (NMD),PARTICIPATES_IN
+RPL4,Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC),PARTICIPATES_IN
+RPL18A,Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC),PARTICIPATES_IN
+RPL3,Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC),PARTICIPATES_IN
+RPL7,Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC),PARTICIPATES_IN
+ETF1,Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC),PARTICIPATES_IN
+RPS3,Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC),PARTICIPATES_IN
+RPS3A,Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC),PARTICIPATES_IN
+RPS2,Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC),PARTICIPATES_IN
+RPL4,Viral mRNA Translation,PARTICIPATES_IN
+RPL18A,Viral mRNA Translation,PARTICIPATES_IN
+RPL3,Viral mRNA Translation,PARTICIPATES_IN
+RPL7,Viral mRNA Translation,PARTICIPATES_IN
+RPS3,Viral mRNA Translation,PARTICIPATES_IN
+RPS3A,Viral mRNA Translation,PARTICIPATES_IN
+RPS2,Viral mRNA Translation,PARTICIPATES_IN
+RPL4,PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA,PARTICIPATES_IN
+RPL18A,PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA,PARTICIPATES_IN
+RPL3,PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA,PARTICIPATES_IN
+RPL7,PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA,PARTICIPATES_IN
+RPS3,PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA,PARTICIPATES_IN
+RPS3A,PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA,PARTICIPATES_IN
+RPS2,PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA,PARTICIPATES_IN
+RPL4,Influenza Infection,PARTICIPATES_IN
+RPL18A,Influenza Infection,PARTICIPATES_IN
+RAN,Influenza Infection,PARTICIPATES_IN
+RPL3,Influenza Infection,PARTICIPATES_IN
+RPL7,Influenza Infection,PARTICIPATES_IN
+RPS3,Influenza Infection,PARTICIPATES_IN
+RPS3A,Influenza Infection,PARTICIPATES_IN
+RPS2,Influenza Infection,PARTICIPATES_IN
+RPL4,Regulation of expression of SLITs and ROBOs,PARTICIPATES_IN
+RPL18A,Regulation of expression of SLITs and ROBOs,PARTICIPATES_IN
+RPL3,Regulation of expression of SLITs and ROBOs,PARTICIPATES_IN
+RPL7,Regulation of expression of SLITs and ROBOs,PARTICIPATES_IN
+ETF1,Regulation of expression of SLITs and ROBOs,PARTICIPATES_IN
+RPS3,Regulation of expression of SLITs and ROBOs,PARTICIPATES_IN
+RPS3A,Regulation of expression of SLITs and ROBOs,PARTICIPATES_IN
+RPS2,Regulation of expression of SLITs and ROBOs,PARTICIPATES_IN
+RPL4,Selenocysteine synthesis,PARTICIPATES_IN
+RPL18A,Selenocysteine synthesis,PARTICIPATES_IN
+RPL3,Selenocysteine synthesis,PARTICIPATES_IN
+RPL7,Selenocysteine synthesis,PARTICIPATES_IN
+RPS3,Selenocysteine synthesis,PARTICIPATES_IN
+RPS3A,Selenocysteine synthesis,PARTICIPATES_IN
+RPS2,Selenocysteine synthesis,PARTICIPATES_IN
+RPL4,ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA,PARTICIPATES_IN
+RPL18A,ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA,PARTICIPATES_IN
+RPL3,ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA,PARTICIPATES_IN
+RPL7,ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA,PARTICIPATES_IN
+RPS3,ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA,PARTICIPATES_IN
+RPS3A,ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA,PARTICIPATES_IN
+RPS2,ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA,PARTICIPATES_IN
+RPL4,Formation of a pool of free 40S subunits,PARTICIPATES_IN
+RPL18A,Formation of a pool of free 40S subunits,PARTICIPATES_IN
+RPL3,Formation of a pool of free 40S subunits,PARTICIPATES_IN
+RPL7,Formation of a pool of free 40S subunits,PARTICIPATES_IN
+RPS3,Formation of a pool of free 40S subunits,PARTICIPATES_IN
+RPS3A,Formation of a pool of free 40S subunits,PARTICIPATES_IN
+RPS2,Formation of a pool of free 40S subunits,PARTICIPATES_IN
+RPL4,Response of EIF2AK4 (GCN2) to amino acid deficiency,PARTICIPATES_IN
+RPL18A,Response of EIF2AK4 (GCN2) to amino acid deficiency,PARTICIPATES_IN
+RPL3,Response of EIF2AK4 (GCN2) to amino acid deficiency,PARTICIPATES_IN
+RPL7,Response of EIF2AK4 (GCN2) to amino acid deficiency,PARTICIPATES_IN
+RPS3,Response of EIF2AK4 (GCN2) to amino acid deficiency,PARTICIPATES_IN
+RPS3A,Response of EIF2AK4 (GCN2) to amino acid deficiency,PARTICIPATES_IN
+RPS2,Response of EIF2AK4 (GCN2) to amino acid deficiency,PARTICIPATES_IN
+RPL4,L13a-mediated translational silencing of Ceruloplasmin expression,PARTICIPATES_IN
+RPL18A,L13a-mediated translational silencing of Ceruloplasmin expression,PARTICIPATES_IN
+RPL3,L13a-mediated translational silencing of Ceruloplasmin expression,PARTICIPATES_IN
+RPL7,L13a-mediated translational silencing of Ceruloplasmin expression,PARTICIPATES_IN
+RPS3,L13a-mediated translational silencing of Ceruloplasmin expression,PARTICIPATES_IN
+RPS3A,L13a-mediated translational silencing of Ceruloplasmin expression,PARTICIPATES_IN
+RPS2,L13a-mediated translational silencing of Ceruloplasmin expression,PARTICIPATES_IN
+RPL4,GTP hydrolysis and joining of the 60S ribosomal subunit,PARTICIPATES_IN
+RPL18A,GTP hydrolysis and joining of the 60S ribosomal subunit,PARTICIPATES_IN
+RPL3,GTP hydrolysis and joining of the 60S ribosomal subunit,PARTICIPATES_IN
+RPL7,GTP hydrolysis and joining of the 60S ribosomal subunit,PARTICIPATES_IN
+RPS3,GTP hydrolysis and joining of the 60S ribosomal subunit,PARTICIPATES_IN
+RPS3A,GTP hydrolysis and joining of the 60S ribosomal subunit,PARTICIPATES_IN
+RPS2,GTP hydrolysis and joining of the 60S ribosomal subunit,PARTICIPATES_IN
+RPL4,SRP-dependent cotranslational protein targeting to membrane,PARTICIPATES_IN
+RPL18A,SRP-dependent cotranslational protein targeting to membrane,PARTICIPATES_IN
+RPL3,SRP-dependent cotranslational protein targeting to membrane,PARTICIPATES_IN
+RPL7,SRP-dependent cotranslational protein targeting to membrane,PARTICIPATES_IN
+RPS3,SRP-dependent cotranslational protein targeting to membrane,PARTICIPATES_IN
+RPS3A,SRP-dependent cotranslational protein targeting to membrane,PARTICIPATES_IN
+RPS2,SRP-dependent cotranslational protein targeting to membrane,PARTICIPATES_IN
+RPL4,Eukaryotic Translation Initiation,PARTICIPATES_IN
+RPL18A,Eukaryotic Translation Initiation,PARTICIPATES_IN
+RPL3,Eukaryotic Translation Initiation,PARTICIPATES_IN
+RPL7,Eukaryotic Translation Initiation,PARTICIPATES_IN
+RPS3,Eukaryotic Translation Initiation,PARTICIPATES_IN
+RPS3A,Eukaryotic Translation Initiation,PARTICIPATES_IN
+RPS2,Eukaryotic Translation Initiation,PARTICIPATES_IN
+RPL4,Cap-dependent Translation Initiation,PARTICIPATES_IN
+RPL18A,Cap-dependent Translation Initiation,PARTICIPATES_IN
+RPL3,Cap-dependent Translation Initiation,PARTICIPATES_IN
+RPL7,Cap-dependent Translation Initiation,PARTICIPATES_IN
+RPS3,Cap-dependent Translation Initiation,PARTICIPATES_IN
+RPS3A,Cap-dependent Translation Initiation,PARTICIPATES_IN
+RPS2,Cap-dependent Translation Initiation,PARTICIPATES_IN
+RPL4,Signaling by ROBO receptors,PARTICIPATES_IN
+RPL18A,Signaling by ROBO receptors,PARTICIPATES_IN
+RPL3,Signaling by ROBO receptors,PARTICIPATES_IN
+RPL7,Signaling by ROBO receptors,PARTICIPATES_IN
+ETF1,Signaling by ROBO receptors,PARTICIPATES_IN
+RPS3,Signaling by ROBO receptors,PARTICIPATES_IN
+RPS3A,Signaling by ROBO receptors,PARTICIPATES_IN
+RPS2,Signaling by ROBO receptors,PARTICIPATES_IN
+RPL4,Influenza Viral RNA Transcription and Replication,PARTICIPATES_IN
+RPL18A,Influenza Viral RNA Transcription and Replication,PARTICIPATES_IN
+RPL3,Influenza Viral RNA Transcription and Replication,PARTICIPATES_IN
+RPL7,Influenza Viral RNA Transcription and Replication,PARTICIPATES_IN
+RPS3,Influenza Viral RNA Transcription and Replication,PARTICIPATES_IN
+RPS3A,Influenza Viral RNA Transcription and Replication,PARTICIPATES_IN
+RPS2,Influenza Viral RNA Transcription and Replication,PARTICIPATES_IN
+RPL4,Ribosome-associated quality control,PARTICIPATES_IN
+RPL18A,Ribosome-associated quality control,PARTICIPATES_IN
+RPL3,Ribosome-associated quality control,PARTICIPATES_IN
+RPL7,Ribosome-associated quality control,PARTICIPATES_IN
+RPS3,Ribosome-associated quality control,PARTICIPATES_IN
+RPS3A,Ribosome-associated quality control,PARTICIPATES_IN
+RPS2,Ribosome-associated quality control,PARTICIPATES_IN
+RPL4,Metabolism of amino acids and derivatives,PARTICIPATES_IN
+RPL18A,Metabolism of amino acids and derivatives,PARTICIPATES_IN
+RPL3,Metabolism of amino acids and derivatives,PARTICIPATES_IN
+RPL7,Metabolism of amino acids and derivatives,PARTICIPATES_IN
+PAPSS1,Metabolism of amino acids and derivatives,PARTICIPATES_IN
+RPS3,Metabolism of amino acids and derivatives,PARTICIPATES_IN
+PAPSS2,Metabolism of amino acids and derivatives,PARTICIPATES_IN
+RPS3A,Metabolism of amino acids and derivatives,PARTICIPATES_IN
+RPS2,Metabolism of amino acids and derivatives,PARTICIPATES_IN
+RPL4,Cellular response to starvation,PARTICIPATES_IN
+RPL18A,Cellular response to starvation,PARTICIPATES_IN
+RPL3,Cellular response to starvation,PARTICIPATES_IN
+RPL7,Cellular response to starvation,PARTICIPATES_IN
+RPS3,Cellular response to starvation,PARTICIPATES_IN
+RPS3A,Cellular response to starvation,PARTICIPATES_IN
+RPS2,Cellular response to starvation,PARTICIPATES_IN
+RPL4,Major pathway of rRNA processing in the nucleolus and cytosol,PARTICIPATES_IN
+RPL18A,Major pathway of rRNA processing in the nucleolus and cytosol,PARTICIPATES_IN
+RPL3,Major pathway of rRNA processing in the nucleolus and cytosol,PARTICIPATES_IN
+RPL7,Major pathway of rRNA processing in the nucleolus and cytosol,PARTICIPATES_IN
+RPS3,Major pathway of rRNA processing in the nucleolus and cytosol,PARTICIPATES_IN
+RPS3A,Major pathway of rRNA processing in the nucleolus and cytosol,PARTICIPATES_IN
+RPS2,Major pathway of rRNA processing in the nucleolus and cytosol,PARTICIPATES_IN
+RPL4,rRNA processing in the nucleus and cytosol,PARTICIPATES_IN
+RPL18A,rRNA processing in the nucleus and cytosol,PARTICIPATES_IN
+RPL3,rRNA processing in the nucleus and cytosol,PARTICIPATES_IN
+RPL7,rRNA processing in the nucleus and cytosol,PARTICIPATES_IN
+RPS3,rRNA processing in the nucleus and cytosol,PARTICIPATES_IN
+RPS3A,rRNA processing in the nucleus and cytosol,PARTICIPATES_IN
+RPS2,rRNA processing in the nucleus and cytosol,PARTICIPATES_IN
+RPL4,rRNA processing,PARTICIPATES_IN
+RPL18A,rRNA processing,PARTICIPATES_IN
+RPL3,rRNA processing,PARTICIPATES_IN
+RPL7,rRNA processing,PARTICIPATES_IN
+RPS3,rRNA processing,PARTICIPATES_IN
+RPS3A,rRNA processing,PARTICIPATES_IN
+RPS2,rRNA processing,PARTICIPATES_IN
+EEF1A1,SARS-CoV-1 modulates host translation machinery,PARTICIPATES_IN
+RPS3,SARS-CoV-1 modulates host translation machinery,PARTICIPATES_IN
+RPS3A,SARS-CoV-1 modulates host translation machinery,PARTICIPATES_IN
+RPS2,SARS-CoV-1 modulates host translation machinery,PARTICIPATES_IN
+EEF1A1,SARS-CoV-1-host interactions,PARTICIPATES_IN
+RPS3,SARS-CoV-1-host interactions,PARTICIPATES_IN
+RPS3A,SARS-CoV-1-host interactions,PARTICIPATES_IN
+RPS2,SARS-CoV-1-host interactions,PARTICIPATES_IN
+RPL4,Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide,PARTICIPATES_IN
+RPL18A,Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide,PARTICIPATES_IN
+RPL3,Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide,PARTICIPATES_IN
+RPL7,Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide,PARTICIPATES_IN
+EEF1A1,SARS-CoV-1 Infection,PARTICIPATES_IN
+RPS3,SARS-CoV-1 Infection,PARTICIPATES_IN
+RPS3A,SARS-CoV-1 Infection,PARTICIPATES_IN
+RPS2,SARS-CoV-1 Infection,PARTICIPATES_IN
+RPS3,SARS-CoV-2 modulates host translation machinery,PARTICIPATES_IN
+RPS3A,SARS-CoV-2 modulates host translation machinery,PARTICIPATES_IN
+RPS2,SARS-CoV-2 modulates host translation machinery,PARTICIPATES_IN
+RPS3,"Formation of the ternary complex, and subsequently, the 43S complex",PARTICIPATES_IN
+RPS3A,"Formation of the ternary complex, and subsequently, the 43S complex",PARTICIPATES_IN
+RPS2,"Formation of the ternary complex, and subsequently, the 43S complex",PARTICIPATES_IN
+RPS3,Translation initiation complex formation,PARTICIPATES_IN
+RPS3A,Translation initiation complex formation,PARTICIPATES_IN
+RPS2,Translation initiation complex formation,PARTICIPATES_IN
+RPS3,Ribosomal scanning and start codon recognition,PARTICIPATES_IN
+RPS3A,Ribosomal scanning and start codon recognition,PARTICIPATES_IN
+RPS2,Ribosomal scanning and start codon recognition,PARTICIPATES_IN
+RPS3,"Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S",PARTICIPATES_IN
+RPS3A,"Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S",PARTICIPATES_IN
+RPS2,"Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S",PARTICIPATES_IN
+HSF1,HSF1 activation,PARTICIPATES_IN
+EEF1A1,HSF1 activation,PARTICIPATES_IN
+EEF1A1,Protein methylation,PARTICIPATES_IN
+RPS2,Protein methylation,PARTICIPATES_IN
+EEF1A1,SARS-CoV Infections,PARTICIPATES_IN
+RPS3,SARS-CoV Infections,PARTICIPATES_IN
+RPS3A,SARS-CoV Infections,PARTICIPATES_IN
+RPS2,SARS-CoV Infections,PARTICIPATES_IN
+RPS3,SARS-CoV-2-host interactions,PARTICIPATES_IN
+RPS3A,SARS-CoV-2-host interactions,PARTICIPATES_IN
+RPS2,SARS-CoV-2-host interactions,PARTICIPATES_IN
+HSF1,Cellular response to heat stress,PARTICIPATES_IN
+EEF1A1,Cellular response to heat stress,PARTICIPATES_IN
+RPS3,SARS-CoV-2 Infection,PARTICIPATES_IN
+RPS3A,SARS-CoV-2 Infection,PARTICIPATES_IN
+RPS2,SARS-CoV-2 Infection,PARTICIPATES_IN
+PAPSS1,Glycosaminoglycan metabolism,PARTICIPATES_IN
+PAPSS2,Glycosaminoglycan metabolism,PARTICIPATES_IN
+HSF1,Attenuation phase,PARTICIPATES_IN

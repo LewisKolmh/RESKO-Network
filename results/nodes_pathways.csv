@@ -1,0 +1,47 @@
+pathway,type,p_adjust
+Eukaryotic Translation Elongation,Pathway,3.397433978097321e-20
+Translation,Pathway,1.0065258334966395e-14
+Selenoamino acid metabolism,Pathway,9.616846936403197e-13
+Peptide chain elongation,Pathway,5.928118580475828e-12
+Eukaryotic Translation Termination,Pathway,7.003575560472208e-12
+Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC),Pathway,7.042836771406497e-12
+Nonsense-Mediated Decay (NMD),Pathway,2.7966411090098397e-11
+Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC),Pathway,2.7966411090098397e-11
+Viral mRNA Translation,Pathway,2.544904232375666e-10
+PELO:HBS1L and ABCE1 dissociate a ribosome on a non-stop mRNA,Pathway,2.544904232375666e-10
+Influenza Infection,Pathway,2.7242823797530885e-10
+Regulation of expression of SLITs and ROBOs,Pathway,2.745687752007831e-10
+Selenocysteine synthesis,Pathway,2.745687752007831e-10
+ZNF598 and the Ribosome-associated Quality Trigger (RQT) complex dissociate a ribosome stalled on a no-go mRNA,Pathway,3.251521207947329e-10
+Formation of a pool of free 40S subunits,Pathway,4.189823247303044e-10
+Response of EIF2AK4 (GCN2) to amino acid deficiency,Pathway,4.189823247303044e-10
+L13a-mediated translational silencing of Ceruloplasmin expression,Pathway,7.708152752386895e-10
+GTP hydrolysis and joining of the 60S ribosomal subunit,Pathway,7.708152752386895e-10
+SRP-dependent cotranslational protein targeting to membrane,Pathway,7.708152752386895e-10
+Eukaryotic Translation Initiation,Pathway,1.0985783427114468e-9
+Cap-dependent Translation Initiation,Pathway,1.0985783427114468e-9
+Signaling by ROBO receptors,Pathway,1.3179760181533254e-9
+Influenza Viral RNA Transcription and Replication,Pathway,2.560420125030903e-9
+Ribosome-associated quality control,Pathway,3.7499174806878505e-9
+Metabolism of amino acids and derivatives,Pathway,4.117723000752976e-9
+Cellular response to starvation,Pathway,6.545489022813235e-9
+Major pathway of rRNA processing in the nucleolus and cytosol,Pathway,1.3363729687061411e-8
+rRNA processing in the nucleus and cytosol,Pathway,1.933521860764655e-8
+rRNA processing,Pathway,3.5331002484978165e-8
+SARS-CoV-1 modulates host translation machinery,Pathway,9.163281620611484e-7
+SARS-CoV-1-host interactions,Pathway,4.034745820503295e-5
+Ribosome Quality Control (RQC) complex extracts and degrades nascent peptide,Pathway,4.0745414275097046e-5
+SARS-CoV-1 Infection,Pathway,1.7942004653453714e-4
+SARS-CoV-2 modulates host translation machinery,Pathway,1.8891018240014615e-4
+"Formation of the ternary complex, and subsequently, the 43S complex",Pathway,1.9455402723799972e-4
+Translation initiation complex formation,Pathway,2.68834434814445e-4
+Ribosomal scanning and start codon recognition,Pathway,2.68834434814445e-4
+"Activation of the mRNA upon binding of the cap-binding complex and eIFs, and subsequent binding to 43S",Pathway,2.7526191691727936e-4
+HSF1 activation,Pathway,3.825602343630285e-4
+Protein methylation,Pathway,9.600275965177728e-4
+SARS-CoV Infections,Pathway,0.0084300189058074
+SARS-CoV-2-host interactions,Pathway,0.0084300189058074
+Cellular response to heat stress,Pathway,0.01914486565287488
+SARS-CoV-2 Infection,Pathway,0.02457973583821641
+Glycosaminoglycan metabolism,Pathway,0.04103191816072374
+Attenuation phase,Pathway,0.04566032203009826
