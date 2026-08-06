@@ -202,3 +202,22 @@ Protein nodes retained in pathway enrichment:
 
 Protein-pathway relationships:
 276
+
+> nrow(pathway_nodes)
+[1] 46
+> 
+> nrow(protein_pathway_edges)
+[1] 276
+> 
+> head(pathway_nodes)
+# A tibble: 6 × 3
+  pathway                                                         type  p_adjust
+  <chr>                                                           <chr>    <dbl>
+1 Eukaryotic Translation Elongation                               Path… 3.40e-20
+2 Translation                                                     Path… 1.01e-14
+3 Selenoamino acid metabolism                                     Path… 9.62e-13
+4 Peptide chain elongation                                        Path… 5.93e-12
+5 Eukaryotic Translation Termination                              Path… 7.00e-12
+6 Nonsense Mediated Decay (NMD) independent of the Exon Junction… Path… 7.04e-12
+> 
+> head(protein_pathway_edges)
