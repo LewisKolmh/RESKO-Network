@@ -1,0 +1,40 @@
+molecule_chembl_id,queried_protein,queried_target_chembl_id,standard_type,standard_units,evidence_class,evidence_tier,measurement_count,minimum_standard_value,median_standard_value,maximum_standard_value,maximum_pchembl_value,unique_assay_count,validity_warning_count,potential_duplicate_count
+CHEMBL5653589,EEF1G,CHEMBL4295735,ED50,nM,Functional dose response,Tier 3: quantitative functional response,1,0.491,0.491,0.491,9.31,1,0,0
+CHEMBL3752910,RPS3,CHEMBL6066939,ED50,nM,Functional dose response,Tier 3: quantitative functional response,1,3.858,3.858,3.858,8.41,1,0,0
+CHEMBL3752910,EEF1G,CHEMBL4295735,ED50,nM,Functional dose response,Tier 3: quantitative functional response,1,11.42,11.42,11.42,7.94,1,0,0
+CHEMBL3752910,RPL7,CHEMBL6066948,ED50,nM,Functional dose response,Tier 3: quantitative functional response,1,16.7,16.7,16.7,7.78,1,0,0
+CHEMBL5653589,RPS3,CHEMBL6066939,ED50,nM,Functional dose response,Tier 3: quantitative functional response,1,40.59,40.59,40.59,7.39,1,0,0
+CHEMBL3752910,RPS2,CHEMBL6066954,ED50,nM,Functional dose response,Tier 3: quantitative functional response,1,80.43,80.43,80.43,7.09,1,0,0
+CHEMBL3752910,RPL18A,CHEMBL6067541,ED50,nM,Functional dose response,Tier 3: quantitative functional response,1,98.14,98.14,98.14,7.01,1,0,0
+CHEMBL5653589,EEF1B2,CHEMBL4295731,ED50,nM,Functional dose response,Tier 3: quantitative functional response,1,661.51,661.51,661.51,6.18,1,0,0
+CHEMBL5653589,RPS2,CHEMBL6066954,ED50,nM,Functional dose response,Tier 3: quantitative functional response,1,1825.35,1825.35,1825.35,5.74,1,0,0
+CHEMBL3752910,RPS3A,CHEMBL6067564,ED50,nM,Functional dose response,Tier 3: quantitative functional response,1,2452.47,2452.47,2452.47,5.61,1,0,0
+CHEMBL3752910,RPL3,CHEMBL6066907,ED50,nM,Functional dose response,Tier 3: quantitative functional response,1,2638.87,2638.87,2638.87,5.58,1,0,0
+CHEMBL5653589,RPL18A,CHEMBL6067541,ED50,nM,Functional dose response,Tier 3: quantitative functional response,1,3154.06,3154.06,3154.06,5.5,1,0,0
+CHEMBL3752910,RPL4,CHEMBL6066910,ED50,nM,Functional dose response,Tier 3: quantitative functional response,1,4728.58,4728.58,4728.58,5.33,1,0,0
+CHEMBL5653589,RPL3,CHEMBL6066907,ED50,nM,Functional dose response,Tier 3: quantitative functional response,1,10412.18,10412.18,10412.18,4.98,1,0,0
+CHEMBL5653589,RPL7,CHEMBL6066948,ED50,nM,Functional dose response,Tier 3: quantitative functional response,1,12290.41,12290.41,12290.41,4.91,1,0,0
+CHEMBL5653589,RPL4,CHEMBL6066910,ED50,nM,Functional dose response,Tier 3: quantitative functional response,1,24906.3,24906.3,24906.3,4.6,1,0,0
+CHEMBL1232461,RPS3,CHEMBL6066939,IC50,nM,Inhibitory potency,Quantitative record requiring review,1,240,240,240,,1,0,0
+CHEMBL1232461,RPS3A,CHEMBL6067564,IC50,nM,Inhibitory potency,Tier 1: quantitative inhibition,1,3440,3440,3440,5.46,1,0,0
+CHEMBL1232461,EEF1G,CHEMBL4295735,IC50,nM,Inhibitory potency,Tier 1: quantitative inhibition,1,4300,4300,4300,5.37,1,0,0
+CHEMBL1232461,EEF1A1,CHEMBL1795120,IC50,nM,Inhibitory potency,Quantitative record requiring review,1,10000,10000,10000,,1,0,0
+CHEMBL5653589,EEF1G,CHEMBL4295735,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,0.491,0.491,0.491,9.31,1,0,0
+CHEMBL1802814,EEF1A1,CHEMBL1795120,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,3.74,3.74,3.74,8.43,1,0,0
+CHEMBL3752910,RPS3,CHEMBL6066939,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,3.858,3.858,3.858,8.41,1,0,0
+CHEMBL1802815,EEF1A1,CHEMBL1795120,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,8.15,8.15,8.15,8.09,1,0,0
+CHEMBL3752910,EEF1G,CHEMBL4295735,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,11.42,11.42,11.42,7.94,1,0,0
+CHEMBL3752910,RPL7,CHEMBL6066948,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,16.7,16.7,16.7,7.78,1,0,0
+CHEMBL5653589,RPS3,CHEMBL6066939,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,40.59,40.59,40.59,7.39,1,0,0
+CHEMBL1802973,EEF1A1,CHEMBL1795120,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,57.2,57.2,57.2,7.24,1,0,0
+CHEMBL3752910,RPS2,CHEMBL6066954,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,80.43,80.43,80.43,7.09,1,0,0
+CHEMBL3752910,RPL18A,CHEMBL6067541,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,98.14,98.14,98.14,7.01,1,0,0
+CHEMBL5653589,EEF1B2,CHEMBL4295731,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,661.51,661.51,661.51,6.18,1,0,0
+CHEMBL5653589,RPS2,CHEMBL6066954,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,1825.35,1825.35,1825.35,5.74,1,0,0
+CHEMBL3752910,RPS3A,CHEMBL6067564,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,2452.47,2452.47,2452.47,5.61,1,0,0
+CHEMBL3752910,RPL3,CHEMBL6066907,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,2638.87,2638.87,2638.87,5.58,1,0,0
+CHEMBL5653589,RPL18A,CHEMBL6067541,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,3154.06,3154.06,3154.06,5.5,1,0,0
+CHEMBL3752910,RPL4,CHEMBL6066910,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,4728.58,4728.58,4728.58,5.33,1,0,0
+CHEMBL5653589,RPL3,CHEMBL6066907,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,10412.18,10412.18,10412.18,4.98,1,0,0
+CHEMBL5653589,RPL7,CHEMBL6066948,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,12290.41,12290.41,12290.41,4.91,1,0,0
+CHEMBL5653589,RPL4,CHEMBL6066910,Kd,nM,Binding affinity,Tier 2: quantitative binding,1,24906.3,24906.3,24906.3,4.6,1,0,0

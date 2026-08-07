@@ -1,0 +1,10 @@
+category,count
+All ChEMBL records,81
+Unique ChEMBL molecules,22
+Quantitative concentration records,39
+IC50 records in nM,4
+Kd records in nM,19
+ED50 records in nM,16
+Priority inhibitory records,2
+Compound-protein summaries,39
+Candidate molecules with quantitative evidence,6

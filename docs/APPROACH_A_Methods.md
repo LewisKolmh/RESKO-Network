@@ -286,3 +286,58 @@ Output Files:
 - A7_GO_Biological_Process.csv
 - nodes_biological_process.csv
 - edges_protein_go.csv
+
+# A8 Drug Target Integration
+
+## Objective
+
+Identify druggable targets within the eEF1A-centred biological network and establish relationships between network proteins and experimentally annotated ChEMBL targets.
+
+## Rationale
+
+Direct eEF1A inhibitors were not represented within the SIDER database and therefore could not be used directly in a side-effect driven repositioning workflow.
+
+Following construction of the eEF1A-centred interaction network and functional enrichment analyses, proteins within the network were mapped to ChEMBL target identifiers to facilitate downstream compound discovery.
+
+## Input
+
+results/nodes_proteins.csv
+
+## Protein Export
+
+### Objective
+
+Extract a unique list of proteins present within the eEF1A-centred interaction network.
+
+### Output
+
+results/A8_target_proteins.csv
+
+### Results
+
+Unique proteins exported: 18
+
+Proteins identified:
+
+- RPL18A
+- RPS3
+- RPL4
+- EEF1G
+- EEF1A1
+- RPL7
+- RPS2
+- RPL3
+- RPS3A
+- EEF1B2
+- ST6GALNAC1
+- EEF1A2
+- PAPSS1
+- ETF1
+- EEF1D
+- HSF1
+- PAPSS2
+- RAN
+
+## ChEMBL Target Mapping
+
+### 

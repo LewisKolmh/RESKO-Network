@@ -1,0 +1,7 @@
+metric,count
+Evidence-level compound-protein edges,39
+Simplified compound-protein edges,23
+Unique compounds,6
+Unique target proteins,10
+Relationship: BINDS_TO,19
+Relationship: INHIBITS,4
