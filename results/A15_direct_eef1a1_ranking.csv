@@ -1,0 +1,7 @@
+direct_rank,molecule_chembl_id,display_name,direct_eligibility,direct_primary_target,direct_primary_relationship,direct_minimum_activity_nM,direct_target_score,direct_evidence_score,direct_potency_score,direct_provenance_score,direct_development_score,direct_total_score,priority_category
+1,CHEMBL1802814,CHEMBL1802814,Direct EEF1A1 evidence,EEF1A1,BINDS_TO,3.74,4,2,4,3,0,13,Dual priority
+2,CHEMBL1802815,CHEMBL1802815,Direct EEF1A1 evidence,EEF1A1,BINDS_TO,8.15,4,2,4,3,0,13,Dual priority
+3,CHEMBL1232461,MOLIBRESIB,Direct EEF1A1 evidence,EEF1A1,HAS_INHIBITORY_ACTIVITY_AGAINST,10000,4,3,1,3,2,13,Dual priority
+4,CHEMBL1802973,CHEMBL1802973,Direct EEF1A1 evidence,EEF1A1,BINDS_TO,57.2,4,2,3,3,0,12,Dual priority
+5,CHEMBL5653589,CHEMBL5653589,Network-only evidence,EEF1G,BINDS_TO,0.491,2,2,4,3,0,11,Network priority
+6,CHEMBL3752910,CHEMBL3752910,Network-only evidence,EEF1G,BINDS_TO,11.42,2,2,3,3,0,10,Network priority

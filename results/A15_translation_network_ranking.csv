@@ -1,0 +1,7 @@
+network_rank,molecule_chembl_id,display_name,strongest_network_target,strongest_network_relationship,strongest_network_activity_nM,network_target_count,eef1_target_count,ribosomal_target_count,network_relevance_score,network_coverage_score,network_potency_score,network_provenance_score,network_development_score,network_breadth_penalty,network_total_score,priority_category
+1,CHEMBL1232461,MOLIBRESIB,EEF1A1,HAS_INHIBITORY_ACTIVITY_AGAINST,240,4,2,2,4,4,2,3,2,0,15,Dual priority
+2,CHEMBL1802814,CHEMBL1802814,EEF1A1,BINDS_TO,3.74,1,1,0,4,2,4,3,0,0,13,Dual priority
+3,CHEMBL1802815,CHEMBL1802815,EEF1A1,BINDS_TO,8.15,1,1,0,4,2,4,3,0,0,13,Dual priority
+4,CHEMBL5653589,CHEMBL5653589,EEF1G,BINDS_TO,0.491,8,2,6,3,4,4,3,0,2,12,Network priority
+5,CHEMBL3752910,CHEMBL3752910,EEF1G,BINDS_TO,3.858,8,1,7,3,4,4,3,0,2,12,Network priority
+6,CHEMBL1802973,CHEMBL1802973,EEF1A1,BINDS_TO,57.2,1,1,0,4,2,3,3,0,0,12,Dual priority

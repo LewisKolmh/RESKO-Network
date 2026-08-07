@@ -1,0 +1,14 @@
+"metric","count"
+"Candidate activity records curated",61
+"Unique assays",35
+"Assays successfully retrieved",35
+"Unique source documents",3
+"Documents successfully retrieved",3
+"Binding-assay records",61
+"Functional-assay records",0
+"High-confidence target assignments (score >=8)",61
+"Single-protein target assignments (score 9)",61
+"Duplicate-value groups requiring review",16
+"Identical values across multiple activity types",16
+"Likely same-assay reannotations",16
+"Likely same-document evidence groups",16
