@@ -221,3 +221,68 @@ Protein-pathway relationships:
 6 Nonsense Mediated Decay (NMD) independent of the Exon Junction… Path… 7.04e-12
 > 
 > head(protein_pathway_edges)
+
+## A7 GO Biological Process Enrichment
+
+### Objective
+
+Identify biological processes significantly enriched
+among proteins present in the eEF1A-centred interaction network.
+
+### Input
+
+A6_protein_master_list.csv
+
+### Method
+
+Gene symbols were converted to Entrez identifiers
+using org.Hs.eg.db.
+
+GO Biological Process enrichment was performed using
+clusterProfiler.
+
+### Results
+
+Mapped genes: 18
+
+Enriched GO Biological Processes: 53
+
+### Output
+
+results/A7_GO_Biological_Process.csv
+
+   Description                                                    Count p.adjust
+   <chr>                                                          <dbl>    <dbl>
+ 1 cytoplasmic translation                                            9 3.37e-11
+ 2 translational elongation                                           5 1.12e- 6
+ 3 negative regulation of myoblast fusion                             3 8.96e- 4
+ 4 negative regulation of syncytium formation by plasma membrane…     3 8.96e- 4
+ 5 regulation of myoblast fusion                                      3 1.19e- 3
+ 6 regulation of syncytium formation by plasma membrane fusion        3 1.40e- 3
+ 7 myoblast fusion                                                    3 1.98e- 3
+ 8 syncytium formation by plasma membrane fusion                      3 1.98e- 3
+ 9 cell-cell fusion                                                   3 1.98e- 3
+10 syncytium formation                                                3 1.98e- 3
+11 chaperone-mediated autophagy                                       2 1.98e- 3
+12 nucleoside bisphosphate metabolic process                          2 1.98e- 3
+13 ribonucleoside bisphosphate metabolic process                      2 1.98e- 3
+14 purine nucleoside bisphosphate metabolic process                   2 1.98e- 3
+15 purine ribonucleoside bisphosphate metabolic process               2 1.98e- 3
+
+## A7 Results
+
+### GO Biological Process Enrichment
+
+Mapped genes: 18
+
+Enriched GO Biological Processes: 53
+
+Unique GO Nodes: 33
+
+Protein-GO Relationships: 93
+
+Output Files:
+
+- A7_GO_Biological_Process.csv
+- nodes_biological_process.csv
+- edges_protein_go.csv

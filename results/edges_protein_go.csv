@@ -1,0 +1,94 @@
+protein,biological_process,relationship
+RPL3,cytoplasmic translation,INVOLVED_IN
+RPL7,cytoplasmic translation,INVOLVED_IN
+EEF1D,cytoplasmic translation,INVOLVED_IN
+RPS2,cytoplasmic translation,INVOLVED_IN
+RPS3,cytoplasmic translation,INVOLVED_IN
+ETF1,cytoplasmic translation,INVOLVED_IN
+RPL4,cytoplasmic translation,INVOLVED_IN
+RPS3A,cytoplasmic translation,INVOLVED_IN
+RPL18A,cytoplasmic translation,INVOLVED_IN
+EEF1D,translational elongation,INVOLVED_IN
+EEF1G,translational elongation,INVOLVED_IN
+EEF1A1,translational elongation,INVOLVED_IN
+EEF1B2,translational elongation,INVOLVED_IN
+EEF1A2,translational elongation,INVOLVED_IN
+RPL7,negative regulation of myoblast fusion,INVOLVED_IN
+RPL4,negative regulation of myoblast fusion,INVOLVED_IN
+RPL18A,negative regulation of myoblast fusion,INVOLVED_IN
+RPL7,negative regulation of syncytium formation by plasma membrane fusion,INVOLVED_IN
+RPL4,negative regulation of syncytium formation by plasma membrane fusion,INVOLVED_IN
+RPL18A,negative regulation of syncytium formation by plasma membrane fusion,INVOLVED_IN
+RPL7,regulation of myoblast fusion,INVOLVED_IN
+RPL4,regulation of myoblast fusion,INVOLVED_IN
+RPL18A,regulation of myoblast fusion,INVOLVED_IN
+RPL7,regulation of syncytium formation by plasma membrane fusion,INVOLVED_IN
+RPL4,regulation of syncytium formation by plasma membrane fusion,INVOLVED_IN
+RPL18A,regulation of syncytium formation by plasma membrane fusion,INVOLVED_IN
+RPL7,myoblast fusion,INVOLVED_IN
+RPL4,myoblast fusion,INVOLVED_IN
+RPL18A,myoblast fusion,INVOLVED_IN
+RPL7,syncytium formation by plasma membrane fusion,INVOLVED_IN
+RPL4,syncytium formation by plasma membrane fusion,INVOLVED_IN
+RPL18A,syncytium formation by plasma membrane fusion,INVOLVED_IN
+RPL7,cell-cell fusion,INVOLVED_IN
+RPL4,cell-cell fusion,INVOLVED_IN
+RPL18A,cell-cell fusion,INVOLVED_IN
+RPL7,syncytium formation,INVOLVED_IN
+RPL4,syncytium formation,INVOLVED_IN
+RPL18A,syncytium formation,INVOLVED_IN
+EEF1A1,chaperone-mediated autophagy,INVOLVED_IN
+EEF1A2,chaperone-mediated autophagy,INVOLVED_IN
+PAPSS1,nucleoside bisphosphate metabolic process,INVOLVED_IN
+PAPSS2,nucleoside bisphosphate metabolic process,INVOLVED_IN
+PAPSS1,ribonucleoside bisphosphate metabolic process,INVOLVED_IN
+PAPSS2,ribonucleoside bisphosphate metabolic process,INVOLVED_IN
+PAPSS1,purine nucleoside bisphosphate metabolic process,INVOLVED_IN
+PAPSS2,purine nucleoside bisphosphate metabolic process,INVOLVED_IN
+PAPSS1,purine ribonucleoside bisphosphate metabolic process,INVOLVED_IN
+PAPSS2,purine ribonucleoside bisphosphate metabolic process,INVOLVED_IN
+PAPSS1,3'-phosphoadenosine 5'-phosphosulfate metabolic process,INVOLVED_IN
+PAPSS2,3'-phosphoadenosine 5'-phosphosulfate metabolic process,INVOLVED_IN
+RPL7,myotube differentiation,INVOLVED_IN
+RPL4,myotube differentiation,INVOLVED_IN
+RPL18A,myotube differentiation,INVOLVED_IN
+HSF1,negative regulation of DNA repair,INVOLVED_IN
+RPS3,negative regulation of DNA repair,INVOLVED_IN
+RPL7,striated muscle contraction,INVOLVED_IN
+RPL4,striated muscle contraction,INVOLVED_IN
+RPL18A,striated muscle contraction,INVOLVED_IN
+HSF1,cellular response to heat,INVOLVED_IN
+EEF1D,cellular response to heat,INVOLVED_IN
+HSF1,cellular response to ionizing radiation,INVOLVED_IN
+EEF1D,cellular response to ionizing radiation,INVOLVED_IN
+RPL7,striated muscle cell differentiation,INVOLVED_IN
+RPL4,striated muscle cell differentiation,INVOLVED_IN
+RPL18A,striated muscle cell differentiation,INVOLVED_IN
+HSF1,response to heat,INVOLVED_IN
+EEF1D,response to heat,INVOLVED_IN
+RPL7,ribosome biogenesis,INVOLVED_IN
+RAN,ribosome biogenesis,INVOLVED_IN
+RPS3A,ribosome biogenesis,INVOLVED_IN
+RAN,purine ribonucleotide metabolic process,INVOLVED_IN
+PAPSS1,purine ribonucleotide metabolic process,INVOLVED_IN
+PAPSS2,purine ribonucleotide metabolic process,INVOLVED_IN
+RAN,ribonucleotide metabolic process,INVOLVED_IN
+PAPSS1,ribonucleotide metabolic process,INVOLVED_IN
+PAPSS2,ribonucleotide metabolic process,INVOLVED_IN
+EEF1A1,host-mediated perturbation of symbiont process,INVOLVED_IN
+ST6GALNAC1,host-mediated perturbation of symbiont process,INVOLVED_IN
+RPL7,muscle cell differentiation,INVOLVED_IN
+RPL4,muscle cell differentiation,INVOLVED_IN
+RPL18A,muscle cell differentiation,INVOLVED_IN
+RAN,ribose phosphate metabolic process,INVOLVED_IN
+PAPSS1,ribose phosphate metabolic process,INVOLVED_IN
+PAPSS2,ribose phosphate metabolic process,INVOLVED_IN
+RPL7,muscle contraction,INVOLVED_IN
+RPL4,muscle contraction,INVOLVED_IN
+RPL18A,muscle contraction,INVOLVED_IN
+HSF1,response to ionizing radiation,INVOLVED_IN
+EEF1D,response to ionizing radiation,INVOLVED_IN
+EEF1A1,modulation of process of another organism,INVOLVED_IN
+ST6GALNAC1,modulation of process of another organism,INVOLVED_IN
+PAPSS1,sulfur compound biosynthetic process,INVOLVED_IN
+PAPSS2,sulfur compound biosynthetic process,INVOLVED_IN
