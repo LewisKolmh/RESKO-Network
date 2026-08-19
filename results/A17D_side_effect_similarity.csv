@@ -1,0 +1,16 @@
+drug_1,drug_2,comparison_group,drug_1_side_effect_count,drug_2_side_effect_count,shared_side_effect_count,union_side_effect_count,jaccard_similarity,tfidf_cosine_similarity
+nilotinib,imatinib,kinase_inhibitor_group,339,323,206,456,0.4517543859649123,0.45291387139825673
+nilotinib,ponatinib,kinase_inhibitor_group,339,179,139,379,0.36675461741424803,0.41031424418785317
+alprazolam,triazolam,benzodiazepine_related_group,199,90,69,220,0.31363636363636366,0.37956325807605973
+imatinib,ponatinib,kinase_inhibitor_group,323,179,126,376,0.3351063829787234,0.3651229633871434
+triazolam,temazepam,benzodiazepine_related_group,90,81,42,129,0.32558139534883723,0.3257906878154207
+alprazolam,temazepam,benzodiazepine_related_group,199,81,57,223,0.2556053811659193,0.3048923785682997
+imatinib,alprazolam,cross_group,323,199,97,425,0.22823529411764706,0.22162859430736748
+nilotinib,alprazolam,cross_group,339,199,98,440,0.22272727272727272,0.2193608672459622
+alprazolam,ponatinib,cross_group,199,179,58,320,0.18125,0.17084657546715906
+imatinib,triazolam,cross_group,323,90,51,362,0.1408839779005525,0.16789449197871703
+nilotinib,triazolam,cross_group,339,90,51,378,0.1349206349206349,0.1626001981416259
+imatinib,temazepam,cross_group,323,81,40,364,0.10989010989010989,0.1275785850373007
+nilotinib,temazepam,cross_group,339,81,41,379,0.10817941952506596,0.12301821476044945
+ponatinib,temazepam,cross_group,179,81,25,235,0.10638297872340426,0.1004876177570046
+triazolam,ponatinib,cross_group,90,179,26,243,0.10699588477366255,0.10035584580709173

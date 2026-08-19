@@ -1,0 +1,11 @@
+metric,value
+sider_drug_count,1430
+query_compound_count,10
+total_similarity_comparisons,14300
+candidate_threshold,0.3
+sider_candidates_tanimoto_ge_0_30,6
+sider_candidates_tanimoto_ge_0_50,1
+sider_candidates_tanimoto_ge_0_70,0
+maximum_observed_tanimoto,0.505494505494505
+queries_with_close_neighbour_ge_0_70,0
+queries_with_moderate_neighbour_ge_0_50,1

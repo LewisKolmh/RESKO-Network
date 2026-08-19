@@ -1,0 +1,7 @@
+candidate_name,sider_stitch_flat_id,pubchem_cid,inchi_key,molecule_chembl_id,pref_name,molecule_type,max_phase,first_approval,mapping_status,nearest_query_name,nearest_query_tanimoto,similarity_band,unique_side_effect_count,atc_codes
+nilotinib,CID100644241,644241,HHZIURLSWUIHRB-UHFFFAOYSA-N,CHEMBL255863,NILOTINIB,Small molecule,4,2007,mapped_unique,CHEMBL5653589,0.5054945054945055,moderate_similarity,339,L01XE08
+imatinib,CID100005291,5291,KTUFNOKKBVMGRW-UHFFFAOYSA-N,CHEMBL941,IMATINIB,Small molecule,4,2001,mapped_unique,CHEMBL3752910,0.40425531914893614,weak_or_partial_similarity,323,L01XE01
+alprazolam,CID100002118,2118,VREFGVBLTWBCJP-UHFFFAOYSA-N,CHEMBL661,ALPRAZOLAM,Small molecule,4,1981,mapped_unique,MOLIBRESIB,0.3333333333333333,weak_or_partial_similarity,199,N05BA12
+triazolam,CID100005556,5556,JOFWLTCLBGQGBO-UHFFFAOYSA-N,CHEMBL646,TRIAZOLAM,Small molecule,4,1978,mapped_unique,MOLIBRESIB,0.3116883116883117,weak_or_partial_similarity,90,N05CD05
+ponatinib,CID124826799,24826799,PHXJVRSECIGDHY-UHFFFAOYSA-N,CHEMBL1171837,PONATINIB,Small molecule,4,2012,mapped_unique,CHEMBL3752910,0.3113207547169811,weak_or_partial_similarity,179,
+temazepam,CID100005391,5391,SEQDDYPDSLOBDC-UHFFFAOYSA-N,CHEMBL967,TEMAZEPAM,Small molecule,4,1981,mapped_unique,MOLIBRESIB,0.3026315789473684,weak_or_partial_similarity,81,N05CD07

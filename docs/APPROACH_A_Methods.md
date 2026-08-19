@@ -1324,3 +1324,274 @@ The updated graph:
 ## Output
 
 results/eef1a_network_A13B_corrected.html
+
+# A16 Chemical-Structure Similarity Analysis 
+
+ ## Objective 
+
+ Compare the six network candidates with established eEF1A ligands and determine whether the candidates occupy related chemical-structure space. 
+
+ The analysis examined: 
+
+
+
+Whether CHEMBL1802814, CHEMBL1802815, and CHEMBL1802973 form a structural series
+Which established ligand is structurally nearest to each candidate
+Whether Molibresib occupies distinct chemical space
+Whether CHEMBL3752910 and CHEMBL5653589 are structurally related
+Whether any candidate represents a potentially distinct scaffold 
+
+ # A16A Reference-Structure Retrieval 
+
+ ## Input 
+
+ results/A11_candidate_molecule_annotations.csv 
+
+ ## Compounds 
+
+ Network candidates: 
+
+
+Molibresib, CHEMBL1232461
+CHEMBL1802814
+CHEMBL1802815
+CHEMBL1802973
+CHEMBL3752910
+CHEMBL5653589 
+
+ Reference ligands: 
+
+
+Plitidepsin
+Didemnin B
+Ternatin-4
+Nannocystin A 
+
+ ## Method 
+
+ Candidate structures were obtained from the A11 ChEMBL annotations. 
+
+ Reference structures were retrieved from PubChem using PUG REST. 
+
+ The retrieved information included: 
+
+
+PubChem CID
+Compound title
+IUPAC name
+Canonical and isomeric SMILES
+InChI and InChIKey
+Molecular formula
+Molecular weight 
+
+ Isomeric SMILES were used for reference compounds where available. Failed requests were retried, and the analysis was prevented from continuing if a required structure was missing. 
+
+ ## Outputs 
+
+ results/A16_reference_compounds.csv 
+
+ results/A16_structures_combined.csv 
+
+ results/A16_structure_retrieval_summary.csv 
+
+ ## Results 
+
+ Candidate compounds: 6 
+
+ Candidate structures available: 6 
+
+ Reference ligands requested: 4 
+
+ Reference structures retrieved: 4 
+
+ Combined structures available: 10 
+
+ Missing structures: 0 
+
+ # A16B Chemical-Similarity Analysis 
+
+ ## Input 
+
+ results/A16_structures_combined.csv 
+
+ ## Method
+
+
+
+ A16B was implemented in R using RDKit through the reticulate package and the resko-a16 Conda environment. 
+
+ All structures were parsed with RDKit before analysis. 
+
+ Morgan fingerprints were generated using: 
+
+
+
+Radius: 2
+Fingerprint size: 2,048 bits
+Chirality: enabled 
+
+ Pairwise structural similarity was calculated using the Tanimoto coefficient. 
+
+ Every candidate was compared with all four reference ligands. References were ranked by similarity, and the nearest reference was identified for each candidate.
+
+
+
+ Structural clustering used: 
+
+
+
+Tanimoto distance
+Average linkage
+Cluster cut height: 0.60 
+
+ A two-dimensional chemical-space projection was produced using classical multidimensional scaling. 
+
+ RDKit was also used to calculate: 
+
+
+Molecular weight
+Calculated logP
+Topological polar surface area 
+
+ ## Outputs 
+
+ results/A16_pairwise_tanimoto.csv 
+
+ results/A16_candidate_reference_similarity.csv 
+
+ results/A16_structural_clusters.csv 
+
+ results/A16_similarity_heatmap.png 
+
+ results/A16_chemical_space.png
+
+
+
+ results/A16_structure_grid.png 
+
+ results/A16_similarity_summary.csv 
+
+ results/A16_chemical_similarity_report.html 
+
+ ## Results 
+
+ Compounds analysed: 10 
+
+ Pairwise comparisons: 45 
+
+ Candidate-reference comparisons: 24 
+
+ Structural clusters identified: 6 
+
+ Structures successfully parsed: 10 
+
+ Required outputs created: 8 of 8 
+
+ ## Interpretation 
+
+ The six network candidates and four reference ligands occupied heterogeneous chemical-structure space and were separated into six clusters under the selected analysis settings. 
+
+ The result indicates that the compounds do not represent a single uniform structural group. 
+
+ Candidate-specific relationships, including nearest reference ligands and similarities among the direct EEF1A1 binders, are retained in the A16 output tables. 
+
+ A candidate with low similarity to the four reference ligands may represent a distinct scaffold within this comparison set. A broader database search is required before claiming global scaffold novelty. 
+
+ ## Limitations 
+
+ The analysis included only ten compounds and used one fingerprint representation. 
+
+ Similarity values depend on molecular standardisation, fingerprint settings, stereochemistry, molecular size, and the selected reference set. 
+
+ The analysis did not compare protonation states, tautomers, three-dimensional conformations, pharmacophores, or protein-binding poses. 
+
+ Chemical similarity does not establish: 
+
+
+
+Shared binding to EEF1A
+A shared binding site
+A shared mechanism
+Functional inhibition
+Comparable selectivity
+Comparable efficacy or toxicity 
+
+ ## Status 
+
+ A16A structure retrieval: Complete 
+
+ A16B chemical-similarity analysis: Complete 
+
+ Large-scale database expansion: Not started 
+
+ SIDER remapping: Not started 
+
+ HPC-scale analysis: Not started
+Main improvements
+Reduced length: Removed implementation details that are not essential to the main Methods record.
+Tighter structure: Combined related validation and methodological points.
+Scientific precision: Retained fingerprint settings, validated counts, provenance, and the principal interpretation limits.
+
+# A17A Preparation of the SIDER Reference Library 
+
+ ## Objective 
+
+ Prepare a validated local copy of SIDER 4.1 for candidate mapping and later side-effect similarity analysis. 
+
+ ## Method 
+
+ Seven official SIDER 4.1 source files were downloaded and preserved in: 
+
+ results/A17A_sider_4.1_raw/ 
+
+ The files contained drug names, ATC codes, MedDRA side effects, side-effect frequencies, indications, and MedDRA mappings. 
+
+ Side effects and indications were restricted to MedDRA preferred terms to reduce duplication from lower-level terms. 
+
+ Drug identifiers were retained as STITCH flat and stereo identifiers. Source URLs, release information, file sizes, checksums, and retrieval status were recorded in a data manifest. 
+
+ ## Outputs 
+
+ results/A17A_sider_drugs.csv 
+
+ results/A17A_sider_side_effects_pt.csv 
+
+ results/A17A_sider_frequencies.csv 
+
+ results/A17A_sider_indications_pt.csv 
+
+ results/A17A_sider_data_manifest.csv 
+
+ results/A17A_sider_summary.csv 
+
+ ## Results 
+
+ SIDER drugs: 1,430 
+
+ Stereo-specific drug-side-effect relationships: 152,759 
+
+ Unique flat-drug/preferred-term pairs: 145,321 
+
+ Unique stereo-drug/preferred-term pairs: 152,759 
+
+ Unique MedDRA preferred terms: 4,251 
+
+ Preferred-term frequency records: 154,507 
+
+ Preferred-term indication records: 15,560 
+
+ Source files preserved: 7 
+
+ Processed outputs validated: 6 
+
+ ## Interpretation 
+
+ A complete SIDER 4.1 reference library was prepared successfully. 
+
+ The flat-drug/preferred-term representation will be used for primary side-effect similarity calculations. Stereo-specific records will be retained for identifier provenance and compound-form review. 
+
+ Absence from SIDER will be interpreted as not represented in SIDER 4.1, not as evidence that a compound has no side effects. 
+
+ ## Limitations 
+
+ SIDER 4.1 is a historical resource released in 2015 and primarily represents marketed medicines. Side-effect frequency information is incomplete, and STITCH identifiers require careful reconciliation with PubChem, ChEMBL, salts, stereoisomers, and parent structures.

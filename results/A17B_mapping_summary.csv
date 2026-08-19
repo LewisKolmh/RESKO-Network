@@ -1,0 +1,11 @@
+metric,value
+sider_drug_count,1430
+sider_pubchem_records_retrieved,1430
+sider_structures_available,1430
+current_compound_count,10
+current_compounds_high_confidence_mapped,0
+current_compounds_connectivity_mapped,0
+current_compounds_name_only_mapped,0
+current_compounds_ambiguous_or_review_required,0
+current_compounds_not_represented,10
+mapping_rows,10

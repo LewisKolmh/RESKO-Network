@@ -1,0 +1,13 @@
+metric,value
+candidate_count,6
+chembl_mapped_candidate_count,6
+activity_record_count,12292
+unique_chembl_target_count,1594
+candidate_side_effect_record_count,1211
+candidate_frequency_record_count,3808
+candidate_indication_record_count,95
+side_effect_pairwise_comparison_count,15
+direct_eef1a_candidate_count,0
+eef1_complex_candidate_count,0
+translation_network_candidate_count,3
+chemical_only_candidate_count,3

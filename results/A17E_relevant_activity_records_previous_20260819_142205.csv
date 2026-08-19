@@ -1,0 +1,4 @@
+candidate_name,molecule_chembl_id,activity_id,target_chembl_id,target_pref_name,target_organism,assay_chembl_id,document_chembl_id,standard_type,standard_relation,standard_value,standard_units,pchembl_value,data_validity_comment,potential_duplicate,matched_network_proteins,target_evidence_class,original_network_match,original_evidence_class,classification_changed
+imatinib,CHEMBL941,17934862,CHEMBL1741190,GTP-binding nuclear protein Ran,Homo sapiens,CHEMBL3991866,CHEMBL3991601,Kd,>,30000,nM,,,FALSE,,other_target,RAN,translation_network,TRUE
+nilotinib,CHEMBL255863,17934802,CHEMBL1741190,GTP-binding nuclear protein Ran,Homo sapiens,CHEMBL3991866,CHEMBL3991601,Kd,>,30000,nM,,,FALSE,,other_target,RAN,translation_network,TRUE
+ponatinib,CHEMBL1171837,17934971,CHEMBL1741190,GTP-binding nuclear protein Ran,Homo sapiens,CHEMBL3991866,CHEMBL3991601,Kd,>,30000,nM,,,FALSE,,other_target,RAN,translation_network,TRUE

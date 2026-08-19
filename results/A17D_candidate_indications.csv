@@ -1,0 +1,96 @@
+stitch_flat_id,label_umls_id,detection_method,label_concept_name,meddra_concept_type,meddra_umls_id,indication_name,sider_version,candidate_name
+CID100002118,C0235295,text_mention,Abdominal distress,PT,C0232487,Abdominal discomfort,4.1,alprazolam
+CID100002118,C0001807,NLP_precondition,Aggressive behavior,PT,C0001807,Aggression,4.1,alprazolam
+CID100002118,C0085631,text_mention,Agitation,PT,C0085631,Agitation,4.1,alprazolam
+CID100002118,C0001818,NLP_indication,Agoraphobia,PT,C0001818,Agoraphobia,4.1,alprazolam
+CID100002118,C0003467,NLP_indication,Anxiety,PT,C0003467,Anxiety,4.1,alprazolam
+CID100002118,C0003469,NLP_indication,Anxiety Disorders,PT,C0003469,Anxiety disorder,4.1,alprazolam
+CID100002118,C0015672,text_mention,Fatigue,PT,C0004093,Asthenia,4.1,alprazolam
+CID100002118,C0006012,NLP_precondition,Borderline Personality Disorder,PT,C0006012,Borderline personality disorder,4.1,alprazolam
+CID100002118,C0008031,text_mention,Chest Pain,PT,C0008031,Chest pain,4.1,alprazolam
+CID100002118,C0085593,text_mention,Chills,PT,C0085593,Chills,4.1,alprazolam
+CID100002118,C0008301,text_mention,Choking,PT,C0008301,Choking,4.1,alprazolam
+CID100002118,C0546947,text_mention,Choking sensation,PT,C0546947,Choking sensation,4.1,alprazolam
+CID100002118,C0038661,text_mention,Suicide,PT,C0852733,Completed suicide,4.1,alprazolam
+CID100002118,C0424091,text_mention,Decreased interest,PT,C0424091,Decreased interest,4.1,alprazolam
+CID100002118,C0011551,text_mention,Depersonalization,PT,C0011551,Depersonalisation,4.1,alprazolam
+CID100002118,C0344315,text_mention,Depressed mood,PT,C0344315,Depressed mood,4.1,alprazolam
+CID100002118,C0011579,text_mention,Reactive depression,PT,C0011570,Depression,4.1,alprazolam
+CID100002118,C0086132,NLP_indication,Depressive Symptoms,PT,C0086132,Depressive symptom,4.1,alprazolam
+CID100002118,C0233754,text_mention,Derealization,PT,C0233754,Derealisation,4.1,alprazolam
+CID100002118,C0011991,text_mention,Diarrhea,PT,C0011991,Diarrhoea,4.1,alprazolam
+CID100002118,C0231170,text_mention,Disability,PT,C0231170,Disability,4.1,alprazolam
+CID100002118,C0234215,text_mention,Sensory Discomfort,PT,C0234215,Discomfort,4.1,alprazolam
+CID100002118,C0235198,text_mention,Unable to concentrate,PT,C0233414,Disturbance in attention,4.1,alprazolam
+CID100002118,C0012833,text_mention,Dizziness,PT,C0012833,Dizziness,4.1,alprazolam
+CID100002118,C0043352,text_mention,Xerostomia,PT,C0043352,Dry mouth,4.1,alprazolam
+CID100002118,C0013404,text_mention,Dyspnea,PT,C0013404,Dyspnoea,4.1,alprazolam
+CID100002118,C0282126,text_mention,"Depression, Neurotic",PT,C0013415,Dysthymic disorder,4.1,alprazolam
+CID100002118,C1740801,text_mention,Exaggerated startle response,PT,C1740801,Exaggerated startle response,4.1,alprazolam
+CID100002118,C0015672,text_mention,Fatigue,PT,C0015672,Fatigue,4.1,alprazolam
+CID100002118,C0522179,text_mention,Fear of death,PT,C0522179,Fear of death,4.1,alprazolam
+CID100002118,C0016382,text_mention,Flushing,PT,C0016382,Flushing,4.1,alprazolam
+CID100002118,C0270549,NLP_indication,Generalized Anxiety Disorder,PT,C0270549,Generalised anxiety disorder,4.1,alprazolam
+CID100002118,C0600142,text_mention,Hot flushes,PT,C0600142,Hot flush,4.1,alprazolam
+CID100002118,C0038990,text_mention,Sweating,PT,C0020458,Hyperhidrosis,4.1,alprazolam
+CID100002118,C0424295,text_mention,Hyperactive behavior,PT,C0424295,Hyperkinesia,4.1,alprazolam
+CID100002118,C0020550,text_mention,Hyperthyroidism,PT,C0020550,Hyperthyroidism,4.1,alprazolam
+CID100002118,C0028643,text_mention,Numbness,PT,C0020580,Hypoaesthesia,4.1,alprazolam
+CID100002118,C0917801,text_mention,Sleeplessness,PT,C0917801,Insomnia,4.1,alprazolam
+CID100002118,C0022107,text_mention,Irritable Mood,PT,C0022107,Irritability,4.1,alprazolam
+CID100002118,C0039070,text_mention,Syncope,PT,C0041657,Loss of consciousness,4.1,alprazolam
+CID100002118,C0221423,text_mention,Illness (finding),PT,C0231218,Malaise,4.1,alprazolam
+CID100002118,C0577559,text_mention,Mass of body structure,PT,C0577559,Mass,4.1,alprazolam
+CID100002118,C0600142,text_mention,Hot flushes,PT,C0236075,Menopausal symptoms,4.1,alprazolam
+CID100002118,C0235198,text_mention,Unable to concentrate,PT,C1306341,Mental disability,4.1,alprazolam
+CID100002118,C0004936,text_mention,Mental disorders,PT,C0004936,Mental disorder,4.1,alprazolam
+CID100002118,C0231530,text_mention,Muscle twitch,PT,C0231530,Muscle twitching,4.1,alprazolam
+CID100002118,C0027497,text_mention,Nausea,PT,C0027497,Nausea,4.1,alprazolam
+CID100002118,C0563270,text_mention,Shaky feelings,PT,C0027769,Nervousness,4.1,alprazolam
+CID100002118,C0234238,text_mention,Ache,PT,C0030193,Pain,4.1,alprazolam
+CID100002118,C0030252,text_mention,Palpitations,PT,C0030252,Palpitations,4.1,alprazolam
+CID100002118,C0086769,NLP_indication,Panic Attacks,PT,C0086769,Panic attack,4.1,alprazolam
+CID100002118,C0030319,NLP_indication,Panic Disorder,PT,C0030319,Panic disorder,4.1,alprazolam
+CID100002118,C0030554,text_mention,Paresthesia,PT,C0030554,Paraesthesia,4.1,alprazolam
+CID100002118,C0349231,NLP_indication,Phobic anxiety disorder,PT,C0349231,Phobia,4.1,alprazolam
+CID100002118,C0564500,text_mention,Phobic avoidance,PT,C0564500,Phobic avoidance,4.1,alprazolam
+CID100002118,C0728899,text_mention,Intoxication,PT,C0032343,Poisoning,4.1,alprazolam
+CID100002118,C0042023,text_mention,Increased frequency of micturition,PT,C0042023,Pollakiuria,4.1,alprazolam
+CID100002118,C0038436,NLP_precondition,Post-Traumatic Stress Disorder,PT,C0038436,Post-traumatic stress disorder,4.1,alprazolam
+CID100002118,C0028643,text_mention,Numbness,PT,C0278134,Sensory loss,4.1,alprazolam
+CID100002118,C0039070,text_mention,Syncope,PT,C0036974,Shock,4.1,alprazolam
+CID100002118,C0031572,text_mention,"Phobia, Social",PT,C0031572,Social phobia,4.1,alprazolam
+CID100002118,C0740858,text_mention,Substance abuse problem,PT,C0740858,Substance abuse,4.1,alprazolam
+CID100002118,C0039070,text_mention,Syncope,PT,C0039070,Syncope,4.1,alprazolam
+CID100002118,C0039231,text_mention,Tachycardia,PT,C0039231,Tachycardia,4.1,alprazolam
+CID100002118,C0234233,text_mention,Sore to touch,PT,C0234233,Tenderness,4.1,alprazolam
+CID100002118,C0233494,text_mention,Tension,PT,C0233494,Tension,4.1,alprazolam
+CID100002118,C0234369,text_mention,Trembling,PT,C0040822,Tremor,4.1,alprazolam
+CID100005291,C0023449,NLP_indication,Acute lymphocytic leukemia,PT,C0023449,Acute lymphocytic leukaemia,4.1,imatinib
+CID100005291,C0005699,NLP_indication,Blast Phase,PT,C0005699,Blast cell crisis,4.1,imatinib
+CID100005291,C0018802,NLP_precondition,Congestive heart failure,PT,C0018802,Cardiac failure congestive,4.1,imatinib
+CID100005291,C0856536,NLP_indication,Philadelphia chromosome positive,PT,C0476431,Chromosome analysis abnormal,4.1,imatinib
+CID100005291,C0346421,text_mention,Chronic eosinophilic leukemia,PT,C0346421,Chronic eosinophilic leukaemia,4.1,imatinib
+CID100005291,C0023473,NLP_indication,"Myeloid Leukemia, Chronic",PT,C0023473,Chronic myeloid leukaemia,4.1,imatinib
+CID100005291,C0392784,NLP_indication,Dermatofibrosarcoma Protuberans,PT,C0392784,Dermatofibrosarcoma protuberans,4.1,imatinib
+CID100005291,C0238198,text_mention,Gastrointestinal Stromal Tumors,PT,C0238198,Gastrointestinal stromal tumour,4.1,imatinib
+CID100005291,C1540912,NLP_indication,Hypereosinophilic syndrome,PT,C1540912,Hypereosinophilic syndrome,4.1,imatinib
+CID100005291,C0009450,NLP_precondition,Communicable Diseases,PT,C0009450,Infection,4.1,imatinib
+CID100005291,C0023418,NLP_precondition,leukemia,PT,C0023418,Leukaemia,4.1,imatinib
+CID100005291,C0027947,NLP_precondition,Neutropenia,PT,C0027947,Neutropenia,4.1,imatinib
+CID100005291,C0032227,NLP_precondition,Pleural effusion disorder,PT,C0032227,Pleural effusion,4.1,imatinib
+CID100005291,C0035078,NLP_precondition,Kidney Failure,PT,C0035078,Renal failure,4.1,imatinib
+CID100005291,C0221013,NLP_indication,"Mastocytosis, Systemic",PT,C0221013,Systemic mastocytosis,4.1,imatinib
+CID100644241,C0856536,NLP_indication,Philadelphia chromosome positive,PT,C0476431,Chromosome analysis abnormal,4.1,nilotinib
+CID100644241,C0023473,NLP_indication,"Myeloid Leukemia, Chronic",PT,C0023473,Chronic myeloid leukaemia,4.1,nilotinib
+CID124826799,C0023449,NLP_indication,Acute lymphocytic leukemia,PT,C0023449,Acute lymphocytic leukaemia,4.1,ponatinib
+CID124826799,C0005699,NLP_indication,Blast Phase,PT,C0005699,Blast cell crisis,4.1,ponatinib
+CID124826799,C0856536,NLP_indication,Philadelphia chromosome positive,PT,C0476431,Chromosome analysis abnormal,4.1,ponatinib
+CID124826799,C0023473,NLP_indication,"Myeloid Leukemia, Chronic",PT,C0023473,Chronic myeloid leukaemia,4.1,ponatinib
+CID124826799,C0011849,NLP_precondition,Diabetes Mellitus,PT,C0011849,Diabetes mellitus,4.1,ponatinib
+CID124826799,C0020473,NLP_precondition,Hyperlipidemia,PT,C0020473,Hyperlipidaemia,4.1,ponatinib
+CID124826799,C0020538,NLP_precondition,Hypertensive disease,PT,C0020538,Hypertension,4.1,ponatinib
+CID124826799,C0022116,NLP_precondition,Ischemia,PT,C0022116,Ischaemia,4.1,ponatinib
+CID100005391,C0917801,NLP_indication,Sleeplessness,PT,C0917801,Insomnia,4.1,temazepam
+CID100005391,C0541798,text_mention,Early Awakening,PT,C0541798,Terminal insomnia,4.1,temazepam
+CID100005556,C0917801,NLP_indication,Sleeplessness,PT,C0917801,Insomnia,4.1,triazolam

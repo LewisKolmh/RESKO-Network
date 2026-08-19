@@ -1,0 +1,10 @@
+metric,value
+sider_version,4.1
+release_date,2015-10-21
+drug_count,1430
+pt_side_effect_relationship_count,152759
+unique_pt_side_effect_count,4251
+frequency_record_count,154507
+pt_indication_relationship_count,15560
+source_file_count,7
+missing_source_file_count,0
