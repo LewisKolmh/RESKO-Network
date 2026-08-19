@@ -1,0 +1,9 @@
+metric,value
+candidate_count,6
+candidate_structures_available,6
+reference_structures_requested,4
+reference_structures_retrieved,4
+combined_compound_count,10
+combined_structures_available,10
+missing_structure_count,0
+missing_structures,None

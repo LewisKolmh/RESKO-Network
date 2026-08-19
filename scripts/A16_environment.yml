@@ -1,0 +1,14 @@
+name: resko-a16
+channels:
+  - conda-forge
+channel_priority: strict
+dependencies:
+  - python=3.12
+  - rdkit>=2024.03
+  - pandas>=2.2
+  - numpy>=1.26
+  - matplotlib>=3.8
+  - scikit-learn>=1.4
+  - scipy>=1.12
+
+
