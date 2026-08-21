@@ -1,0 +1,15 @@
+metric,value
+compound_count,16
+a16_compound_count,10
+a17_comparator_count,6
+compounds_with_chembl_id,12
+compounds_with_pubchem_cid,10
+compounds_with_full_inchi_key,16
+compounds_with_parent_connectivity_key,16
+compounds_with_analysis_smiles,10
+compounds_represented_in_sider,6
+compounds_with_clinical_phase,6
+supplier_lookup_ready_count,16
+critical_identifier_review_count,0
+live_network_detail_ready_count,16
+supplier_checks_completed,0

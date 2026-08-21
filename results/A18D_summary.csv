@@ -1,0 +1,13 @@
+metric,value
+compound_detail_count,16
+alias_record_count,76
+commercial_product_record_count,11
+compounds_with_public_vendor_information,11
+compounds_requiring_manual_product_review,11
+compounds_with_exact_product_identity_confirmed,0
+compounds_with_sider_information,6
+compounds_with_side_effect_records,6
+compounds_with_indication_records,6
+compound_json_record_count,16
+product_json_record_count,11
+detail_panel_ready_count,16

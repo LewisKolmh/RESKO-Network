@@ -1,0 +1,9 @@
+validation_item,observed_value,validation_status
+ranked_compound_nodes,6,passed
+ranked_compounds_mapped,6,passed
+ranked_compounds_unmapped,0,passed
+compound_detail_records,16,passed
+commercial_product_records,11,passed
+detail_panel_present,TRUE,passed
+JSON_payload_serialised,TRUE,passed
+HTML_output_created,TRUE,passed

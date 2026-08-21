@@ -1,0 +1,13 @@
+metric,value
+compound_count,16
+commercial_product_record_count,11
+compound_count_with_public_vendor_information,11
+compound_count_requiring_manual_product_review,11
+exact_identity_confirmed_count,0
+public_listing_identity_review_count,11
+salt_form_review_count,0
+solvate_or_hydrate_review_count,0
+stereochemical_review_count,0
+mixture_or_formulation_count,0
+analytical_or_reference_standard_count,0
+isotopically_labelled_count,0

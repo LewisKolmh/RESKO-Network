@@ -1,0 +1,458 @@
+[
+  {
+    "compound_id": "CHEMBL1802814",
+    "alias": "CHEMBL1802814",
+    "normalised_alias": "chembl1802814",
+    "alias_type": "compound_id"
+  },
+  {
+    "compound_id": "CHEMBL1802814",
+    "alias": "CHEMBL1802814",
+    "normalised_alias": "chembl1802814",
+    "alias_type": "compound_name"
+  },
+  {
+    "compound_id": "CHEMBL1802814",
+    "alias": "CHEMBL1802814",
+    "normalised_alias": "chembl1802814",
+    "alias_type": "chembl_id"
+  },
+  {
+    "compound_id": "CHEMBL1802814",
+    "alias": "53362901",
+    "normalised_alias": "53362901",
+    "alias_type": "pubchem_cid"
+  },
+  {
+    "compound_id": "CHEMBL1802814",
+    "alias": "JEZQQOPCGJRMDS-IPBJYNAHSA-N",
+    "normalised_alias": "jezqqopcgjrmdsipbjynahsan",
+    "alias_type": "full_inchi_key"
+  },
+  {
+    "compound_id": "CHEMBL1802815",
+    "alias": "CHEMBL1802815",
+    "normalised_alias": "chembl1802815",
+    "alias_type": "compound_id"
+  },
+  {
+    "compound_id": "CHEMBL1802815",
+    "alias": "CHEMBL1802815",
+    "normalised_alias": "chembl1802815",
+    "alias_type": "compound_name"
+  },
+  {
+    "compound_id": "CHEMBL1802815",
+    "alias": "CHEMBL1802815",
+    "normalised_alias": "chembl1802815",
+    "alias_type": "chembl_id"
+  },
+  {
+    "compound_id": "CHEMBL1802815",
+    "alias": "56662893",
+    "normalised_alias": "56662893",
+    "alias_type": "pubchem_cid"
+  },
+  {
+    "compound_id": "CHEMBL1802815",
+    "alias": "XDQGSQOIWVSUFW-PMERELPUSA-N",
+    "normalised_alias": "xdqgsqoiwvsufwpmerelpusan",
+    "alias_type": "full_inchi_key"
+  },
+  {
+    "compound_id": "CHEMBL1802973",
+    "alias": "CHEMBL1802973",
+    "normalised_alias": "chembl1802973",
+    "alias_type": "compound_id"
+  },
+  {
+    "compound_id": "CHEMBL1802973",
+    "alias": "CHEMBL1802973",
+    "normalised_alias": "chembl1802973",
+    "alias_type": "compound_name"
+  },
+  {
+    "compound_id": "CHEMBL1802973",
+    "alias": "CHEMBL1802973",
+    "normalised_alias": "chembl1802973",
+    "alias_type": "chembl_id"
+  },
+  {
+    "compound_id": "CHEMBL1802973",
+    "alias": "53361218",
+    "normalised_alias": "53361218",
+    "alias_type": "pubchem_cid"
+  },
+  {
+    "compound_id": "CHEMBL1802973",
+    "alias": "OYKRHXHJPJWNMX-KOSHJBKYSA-N",
+    "normalised_alias": "oykrhxhjpjwnmxkoshjbkysan",
+    "alias_type": "full_inchi_key"
+  },
+  {
+    "compound_id": "CHEMBL3752910",
+    "alias": "CHEMBL3752910",
+    "normalised_alias": "chembl3752910",
+    "alias_type": "compound_id"
+  },
+  {
+    "compound_id": "CHEMBL3752910",
+    "alias": "CHEMBL3752910",
+    "normalised_alias": "chembl3752910",
+    "alias_type": "compound_name"
+  },
+  {
+    "compound_id": "CHEMBL3752910",
+    "alias": "CHEMBL3752910",
+    "normalised_alias": "chembl3752910",
+    "alias_type": "chembl_id"
+  },
+  {
+    "compound_id": "CHEMBL3752910",
+    "alias": "16747388",
+    "normalised_alias": "16747388",
+    "alias_type": "pubchem_cid"
+  },
+  {
+    "compound_id": "CHEMBL3752910",
+    "alias": "ZCCPLJOKGAACRT-UHFFFAOYSA-N",
+    "normalised_alias": "zccpljokgaacrtuhfffaoysan",
+    "alias_type": "full_inchi_key"
+  },
+  {
+    "compound_id": "CHEMBL5653589",
+    "alias": "CHEMBL5653589",
+    "normalised_alias": "chembl5653589",
+    "alias_type": "compound_id"
+  },
+  {
+    "compound_id": "CHEMBL5653589",
+    "alias": "CHEMBL5653589",
+    "normalised_alias": "chembl5653589",
+    "alias_type": "compound_name"
+  },
+  {
+    "compound_id": "CHEMBL5653589",
+    "alias": "CHEMBL5653589",
+    "normalised_alias": "chembl5653589",
+    "alias_type": "chembl_id"
+  },
+  {
+    "compound_id": "CHEMBL5653589",
+    "alias": "117602383",
+    "normalised_alias": "117602383",
+    "alias_type": "pubchem_cid"
+  },
+  {
+    "compound_id": "CHEMBL5653589",
+    "alias": "MWKSRKSEWLRPBL-UHFFFAOYSA-N",
+    "normalised_alias": "mwksrksewlrpbluhfffaoysan",
+    "alias_type": "full_inchi_key"
+  },
+  {
+    "compound_id": "REF_DIDEMNIN_B",
+    "alias": "REF_DIDEMNIN_B",
+    "normalised_alias": "refdidemninb",
+    "alias_type": "compound_id"
+  },
+  {
+    "compound_id": "REF_DIDEMNIN_B",
+    "alias": "Didemnin B",
+    "normalised_alias": "didemninb",
+    "alias_type": "compound_name"
+  },
+  {
+    "compound_id": "REF_DIDEMNIN_B",
+    "alias": "122651",
+    "normalised_alias": "122651",
+    "alias_type": "pubchem_cid"
+  },
+  {
+    "compound_id": "REF_DIDEMNIN_B",
+    "alias": "KYHUYMLIVQFXRI-SJPGYWQQSA-N",
+    "normalised_alias": "kyhuymlivqfxrisjpgywqqsan",
+    "alias_type": "full_inchi_key"
+  },
+  {
+    "compound_id": "CHEMBL1232461",
+    "alias": "CHEMBL1232461",
+    "normalised_alias": "chembl1232461",
+    "alias_type": "compound_id"
+  },
+  {
+    "compound_id": "CHEMBL1232461",
+    "alias": "MOLIBRESIB",
+    "normalised_alias": "molibresib",
+    "alias_type": "compound_name"
+  },
+  {
+    "compound_id": "CHEMBL1232461",
+    "alias": "CHEMBL1232461",
+    "normalised_alias": "chembl1232461",
+    "alias_type": "chembl_id"
+  },
+  {
+    "compound_id": "CHEMBL1232461",
+    "alias": "46943432",
+    "normalised_alias": "46943432",
+    "alias_type": "pubchem_cid"
+  },
+  {
+    "compound_id": "CHEMBL1232461",
+    "alias": "AAAQFGUYHFJNHI-SFHVURJKSA-N",
+    "normalised_alias": "aaaqfguyhfjnhisfhvurjksan",
+    "alias_type": "full_inchi_key"
+  },
+  {
+    "compound_id": "REF_NANNOCYSTIN_A",
+    "alias": "REF_NANNOCYSTIN_A",
+    "normalised_alias": "refnannocystina",
+    "alias_type": "compound_id"
+  },
+  {
+    "compound_id": "REF_NANNOCYSTIN_A",
+    "alias": "Nannocystin A",
+    "normalised_alias": "nannocystina",
+    "alias_type": "compound_name"
+  },
+  {
+    "compound_id": "REF_NANNOCYSTIN_A",
+    "alias": "132087316",
+    "normalised_alias": "132087316",
+    "alias_type": "pubchem_cid"
+  },
+  {
+    "compound_id": "REF_NANNOCYSTIN_A",
+    "alias": "PEOAVEOEVIQCMT-XWDGXJISSA-N",
+    "normalised_alias": "peoaveoeviqcmtxwdgxjissan",
+    "alias_type": "full_inchi_key"
+  },
+  {
+    "compound_id": "REF_PLITIDEPSIN",
+    "alias": "REF_PLITIDEPSIN",
+    "normalised_alias": "refplitidepsin",
+    "alias_type": "compound_id"
+  },
+  {
+    "compound_id": "REF_PLITIDEPSIN",
+    "alias": "Plitidepsin",
+    "normalised_alias": "plitidepsin",
+    "alias_type": "compound_name"
+  },
+  {
+    "compound_id": "REF_PLITIDEPSIN",
+    "alias": "9812534",
+    "normalised_alias": "9812534",
+    "alias_type": "pubchem_cid"
+  },
+  {
+    "compound_id": "REF_PLITIDEPSIN",
+    "alias": "UUSZLLQJYRSZIS-LXNNNBEUSA-N",
+    "normalised_alias": "uuszllqjyrszislxnnnbeusan",
+    "alias_type": "full_inchi_key"
+  },
+  {
+    "compound_id": "REF_TERNATIN_4",
+    "alias": "REF_TERNATIN_4",
+    "normalised_alias": "refternatin4",
+    "alias_type": "compound_id"
+  },
+  {
+    "compound_id": "REF_TERNATIN_4",
+    "alias": "Ternatin-4",
+    "normalised_alias": "ternatin4",
+    "alias_type": "compound_name"
+  },
+  {
+    "compound_id": "REF_TERNATIN_4",
+    "alias": "165362916",
+    "normalised_alias": "165362916",
+    "alias_type": "pubchem_cid"
+  },
+  {
+    "compound_id": "REF_TERNATIN_4",
+    "alias": "DWMRBCXTWRBFJC-UQQOESNSSA-N",
+    "normalised_alias": "dwmrbcxtwrbfjcuqqoesnssan",
+    "alias_type": "full_inchi_key"
+  },
+  {
+    "compound_id": "A17_ALPRAZOLAM",
+    "alias": "A17_ALPRAZOLAM",
+    "normalised_alias": "a17alprazolam",
+    "alias_type": "compound_id"
+  },
+  {
+    "compound_id": "A17_ALPRAZOLAM",
+    "alias": "alprazolam",
+    "normalised_alias": "alprazolam",
+    "alias_type": "compound_name"
+  },
+  {
+    "compound_id": "A17_ALPRAZOLAM",
+    "alias": "CHEMBL661",
+    "normalised_alias": "chembl661",
+    "alias_type": "chembl_id"
+  },
+  {
+    "compound_id": "A17_ALPRAZOLAM",
+    "alias": "2118",
+    "normalised_alias": "2118",
+    "alias_type": "pubchem_cid"
+  },
+  {
+    "compound_id": "A17_ALPRAZOLAM",
+    "alias": "VREFGVBLTWBCJP-UHFFFAOYSA-N",
+    "normalised_alias": "vrefgvbltwbcjpuhfffaoysan",
+    "alias_type": "full_inchi_key"
+  },
+  {
+    "compound_id": "A17_IMATINIB",
+    "alias": "A17_IMATINIB",
+    "normalised_alias": "a17imatinib",
+    "alias_type": "compound_id"
+  },
+  {
+    "compound_id": "A17_IMATINIB",
+    "alias": "imatinib",
+    "normalised_alias": "imatinib",
+    "alias_type": "compound_name"
+  },
+  {
+    "compound_id": "A17_IMATINIB",
+    "alias": "CHEMBL941",
+    "normalised_alias": "chembl941",
+    "alias_type": "chembl_id"
+  },
+  {
+    "compound_id": "A17_IMATINIB",
+    "alias": "5291",
+    "normalised_alias": "5291",
+    "alias_type": "pubchem_cid"
+  },
+  {
+    "compound_id": "A17_IMATINIB",
+    "alias": "KTUFNOKKBVMGRW-UHFFFAOYSA-N",
+    "normalised_alias": "ktufnokkbvmgrwuhfffaoysan",
+    "alias_type": "full_inchi_key"
+  },
+  {
+    "compound_id": "A17_NILOTINIB",
+    "alias": "A17_NILOTINIB",
+    "normalised_alias": "a17nilotinib",
+    "alias_type": "compound_id"
+  },
+  {
+    "compound_id": "A17_NILOTINIB",
+    "alias": "nilotinib",
+    "normalised_alias": "nilotinib",
+    "alias_type": "compound_name"
+  },
+  {
+    "compound_id": "A17_NILOTINIB",
+    "alias": "CHEMBL255863",
+    "normalised_alias": "chembl255863",
+    "alias_type": "chembl_id"
+  },
+  {
+    "compound_id": "A17_NILOTINIB",
+    "alias": "644241",
+    "normalised_alias": "644241",
+    "alias_type": "pubchem_cid"
+  },
+  {
+    "compound_id": "A17_NILOTINIB",
+    "alias": "HHZIURLSWUIHRB-UHFFFAOYSA-N",
+    "normalised_alias": "hhziurlswuihrbuhfffaoysan",
+    "alias_type": "full_inchi_key"
+  },
+  {
+    "compound_id": "A17_PONATINIB",
+    "alias": "A17_PONATINIB",
+    "normalised_alias": "a17ponatinib",
+    "alias_type": "compound_id"
+  },
+  {
+    "compound_id": "A17_PONATINIB",
+    "alias": "ponatinib",
+    "normalised_alias": "ponatinib",
+    "alias_type": "compound_name"
+  },
+  {
+    "compound_id": "A17_PONATINIB",
+    "alias": "CHEMBL1171837",
+    "normalised_alias": "chembl1171837",
+    "alias_type": "chembl_id"
+  },
+  {
+    "compound_id": "A17_PONATINIB",
+    "alias": "24826799",
+    "normalised_alias": "24826799",
+    "alias_type": "pubchem_cid"
+  },
+  {
+    "compound_id": "A17_PONATINIB",
+    "alias": "PHXJVRSECIGDHY-UHFFFAOYSA-N",
+    "normalised_alias": "phxjvrsecigdhyuhfffaoysan",
+    "alias_type": "full_inchi_key"
+  },
+  {
+    "compound_id": "A17_TEMAZEPAM",
+    "alias": "A17_TEMAZEPAM",
+    "normalised_alias": "a17temazepam",
+    "alias_type": "compound_id"
+  },
+  {
+    "compound_id": "A17_TEMAZEPAM",
+    "alias": "temazepam",
+    "normalised_alias": "temazepam",
+    "alias_type": "compound_name"
+  },
+  {
+    "compound_id": "A17_TEMAZEPAM",
+    "alias": "CHEMBL967",
+    "normalised_alias": "chembl967",
+    "alias_type": "chembl_id"
+  },
+  {
+    "compound_id": "A17_TEMAZEPAM",
+    "alias": "5391",
+    "normalised_alias": "5391",
+    "alias_type": "pubchem_cid"
+  },
+  {
+    "compound_id": "A17_TEMAZEPAM",
+    "alias": "SEQDDYPDSLOBDC-UHFFFAOYSA-N",
+    "normalised_alias": "seqddypdslobdcuhfffaoysan",
+    "alias_type": "full_inchi_key"
+  },
+  {
+    "compound_id": "A17_TRIAZOLAM",
+    "alias": "A17_TRIAZOLAM",
+    "normalised_alias": "a17triazolam",
+    "alias_type": "compound_id"
+  },
+  {
+    "compound_id": "A17_TRIAZOLAM",
+    "alias": "triazolam",
+    "normalised_alias": "triazolam",
+    "alias_type": "compound_name"
+  },
+  {
+    "compound_id": "A17_TRIAZOLAM",
+    "alias": "CHEMBL646",
+    "normalised_alias": "chembl646",
+    "alias_type": "chembl_id"
+  },
+  {
+    "compound_id": "A17_TRIAZOLAM",
+    "alias": "5556",
+    "normalised_alias": "5556",
+    "alias_type": "pubchem_cid"
+  },
+  {
+    "compound_id": "A17_TRIAZOLAM",
+    "alias": "JOFWLTCLBGQGBO-UHFFFAOYSA-N",
+    "normalised_alias": "jofwltclbgqgbouhfffaoysan",
+    "alias_type": "full_inchi_key"
+  }
+]

@@ -1,0 +1,9 @@
+metric,value
+compound_count,16
+pubchem_cid_resolved_count,16
+compound_count_with_supplier_names,0
+compound_count_without_supplier_names,16
+commercial_product_record_count,0
+unique_supplier_count,0
+manual_identity_review_required_count,0
+manual_identity_reviews_completed,0

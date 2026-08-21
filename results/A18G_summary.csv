@@ -1,0 +1,8 @@
+metric,value
+compound_count,16
+supplier_product_record_count,0
+compounds_with_supplier_results,0
+unique_supplier_count,0
+exact_products_manually_verified,0
+records_requiring_manual_identity_review,0
+compounds_requiring_external_supplier_search,16

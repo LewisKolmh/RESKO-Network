@@ -1,0 +1,17 @@
+compound_id,compound_name,compound_origin,has_chembl_id,has_pubchem_cid,has_full_inchi_key,has_parent_connectivity_key,has_canonical_smiles,has_analysis_smiles,has_biological_classification,has_similarity_information,has_sider_information,has_clinical_phase,supplier_lookup_ready,missing_critical_identifier,completeness_status
+CHEMBL1802814,CHEMBL1802814,A16_current_or_reference_compound,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,core_identity_complete
+CHEMBL1802815,CHEMBL1802815,A16_current_or_reference_compound,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,core_identity_complete
+CHEMBL1802973,CHEMBL1802973,A16_current_or_reference_compound,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,core_identity_complete
+CHEMBL3752910,CHEMBL3752910,A16_current_or_reference_compound,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,core_identity_complete
+CHEMBL5653589,CHEMBL5653589,A16_current_or_reference_compound,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,core_identity_complete
+REF_DIDEMNIN_B,Didemnin B,A16_current_or_reference_compound,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,chembl_mapping_optional_or_required
+CHEMBL1232461,MOLIBRESIB,A16_current_or_reference_compound,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,core_identity_complete
+REF_NANNOCYSTIN_A,Nannocystin A,A16_current_or_reference_compound,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,chembl_mapping_optional_or_required
+REF_PLITIDEPSIN,Plitidepsin,A16_current_or_reference_compound,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,chembl_mapping_optional_or_required
+REF_TERNATIN_4,Ternatin-4,A16_current_or_reference_compound,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,chembl_mapping_optional_or_required
+A17_ALPRAZOLAM,alprazolam,A17_SIDER_chemical_neighbour,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,core_identity_complete
+A17_IMATINIB,imatinib,A17_SIDER_chemical_neighbour,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,core_identity_complete
+A17_NILOTINIB,nilotinib,A17_SIDER_chemical_neighbour,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,core_identity_complete
+A17_PONATINIB,ponatinib,A17_SIDER_chemical_neighbour,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,core_identity_complete
+A17_TEMAZEPAM,temazepam,A17_SIDER_chemical_neighbour,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,core_identity_complete
+A17_TRIAZOLAM,triazolam,A17_SIDER_chemical_neighbour,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,core_identity_complete

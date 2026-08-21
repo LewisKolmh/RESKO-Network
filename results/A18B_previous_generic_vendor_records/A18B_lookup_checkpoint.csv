@@ -1,0 +1,17 @@
+compound_id,compound_name,resolved_pubchem_cid,lookup_status,record_count,checked_at
+CHEMBL1802814,CHEMBL1802814,53362901,no_public_vendor_section,0,2026-08-20 16:00:50
+CHEMBL1802815,CHEMBL1802815,56662893,no_public_vendor_section,0,2026-08-20 16:01:05
+CHEMBL1802973,CHEMBL1802973,53361218,no_public_vendor_section,0,2026-08-20 16:01:21
+CHEMBL3752910,CHEMBL3752910,16747388,vendor_information_retrieved,1,2026-08-20 16:01:21
+CHEMBL5653589,CHEMBL5653589,117602383,vendor_information_retrieved,1,2026-08-20 16:01:21
+REF_DIDEMNIN_B,Didemnin B,122651,vendor_information_retrieved,1,2026-08-20 16:01:21
+CHEMBL1232461,MOLIBRESIB,46943432,vendor_information_retrieved,1,2026-08-20 16:01:21
+REF_NANNOCYSTIN_A,Nannocystin A,132087316,no_public_vendor_section,0,2026-08-20 16:01:36
+REF_PLITIDEPSIN,Plitidepsin,9812534,vendor_information_retrieved,1,2026-08-20 16:01:36
+REF_TERNATIN_4,Ternatin-4,165362916,no_public_vendor_section,0,2026-08-20 16:01:51
+A17_ALPRAZOLAM,alprazolam,2118,vendor_information_retrieved,1,2026-08-20 16:01:51
+A17_IMATINIB,imatinib,5291,vendor_information_retrieved,1,2026-08-20 16:01:51
+A17_NILOTINIB,nilotinib,644241,vendor_information_retrieved,1,2026-08-20 16:01:51
+A17_PONATINIB,ponatinib,24826799,vendor_information_retrieved,1,2026-08-20 16:01:51
+A17_TEMAZEPAM,temazepam,5391,vendor_information_retrieved,1,2026-08-20 16:01:51
+A17_TRIAZOLAM,triazolam,5556,vendor_information_retrieved,1,2026-08-20 16:01:51

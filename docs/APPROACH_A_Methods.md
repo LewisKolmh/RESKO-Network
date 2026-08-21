@@ -1595,3 +1595,557 @@ Scientific precision: Retained fingerprint settings, validated counts, provenanc
  ## Limitations 
 
  SIDER 4.1 is a historical resource released in 2015 and primarily represents marketed medicines. Side-effect frequency information is incomplete, and STITCH identifiers require careful reconciliation with PubChem, ChEMBL, salts, stereoisomers, and parent structures.
+
+ # A17E Provenance Correction of Expanded SIDER Candidates 
+
+ ## Objective 
+
+ Validate the provisional network relationships assigned to the six SIDER chemical-neighbour candidates during A17D. 
+
+ ## Method 
+
+ A17D target records were read using character-only column parsing to preserve ChEMBL identifiers and missing network annotations. 
+
+ Protein-network membership was recalculated using exact normalised protein names from the RESKO network input. 
+
+ ChEMBL assay and document metadata were retrieved using filtered API endpoints and stable identifiers. 
+
+ Evidence records were grouped by: 
+
+
+
+Candidate compound
+Target
+Activity type
+Activity value
+Activity units
+Assay identifier
+Document identifier 
+
+ Independent assays and documents were counted separately from raw activity records. 
+
+ ## Outputs 
+
+ results/A17E_relevant_activity_records.csv 
+
+ results/A17E_assay_metadata.csv 
+
+ results/A17E_document_metadata.csv 
+
+ results/A17E_provenance_corrected_evidence.csv 
+
+ results/A17E_candidate_classification_corrected.csv 
+
+ results/A17E_correction_summary.csv 
+
+ results/A17E_provenance_report.html 
+
+ ## Results 
+
+ Provisional network-related records reviewed: 3 
+
+ Provenance-corrected evidence relationships: 3 
+
+ Independent assays: 1 
+
+ Independent documents: 1
+
+
+
+ Candidate classifications corrected: 3 
+
+ Weak 30 micromolar relationships: 3 
+
+ Direct eEF1A candidates: 0 
+
+ eEF1-complex candidates: 0 
+
+ Translation-network candidates: 0 
+
+ Chemical and side-effect comparators: 6 
+
+ Assays with unavailable metadata: 0 
+
+ Documents with unavailable metadata: 0 
+
+ ## Interpretation 
+
+ Nilotinib, imatinib, and ponatinib each contained a 30,000 nM Kd annotation for GTP-binding nuclear protein Ran. 
+
+ The three records shared the same ChEMBL assay and source document and therefore represented one shared experimental provenance context rather than three independent pathway-level findings. 
+
+ Exact network matching established that RAN was not a member of the defined RESKO protein network. The provisional translation-network classifications were therefore removed. 
+
+ No direct EEF1A1, EEF1A2, eEF1-complex, or validated translation-network evidence remained for the six SIDER candidates. 
+
+ Nilotinib, imatinib, ponatinib, alprazolam, triazolam, and temazepam were retained as chemical and side-effect comparators only. 
+
+ ## Limitations 
+
+ The correction evaluated database provenance and exact membership in the current RESKO protein set. 
+
+ Absence from the defined network does not exclude broader biological relationships with translation or cellular stress pathways. 
+
+ The 30 micromolar RAN annotations represent weak binding and do not establish cellular target engagement, functional inhibition, selectivity, clinical efficacy, or a shared eEF1A mechanism.
+
+ # A18A Compound Detail and Supplier Manifest  
+
+  ## Objective  
+
+ Create a unified compound identity, scientific-evidence, clinical-annotation, and commercial-availability schema for the compounds currently represented in the RESKO workflow. 
+
+ Prepare the compound records required for supplier searches and future display within the interactive RESKO network. 
+
+  ## Method  
+
+ Ten A16 compounds and six A17 SIDER-derived chemical comparators were integrated into a unified compound-detail manifest. 
+
+ The ten A16 compounds consisted of six existing RESKO candidates and four established eEF1A reference ligands. 
+
+ The six A17 compounds consisted of nilotinib, imatinib, ponatinib, alprazolam, triazolam, and temazepam. 
+
+ Compound identities were reconciled using: 
+
+
+
+ RESKO compound identifier Preferred compound name Normalised compound name ChEMBL molecule identifier PubChem compound identifier SIDER STITCH identifier Full standard InChIKey Parent connectivity InChIKey Canonical SMILES Analysis SMILES 
+
+ Biological classifications and progression statuses were incorporated from the provenance-corrected A17E results. 
+
+ Chemical-similarity relationships, nearest RESKO query compounds, Tanimoto similarities, SIDER representation, side-effect counts, indications, maximum clinical phases, and first-approval years were retained where available. 
+
+ A supplier-lookup manifest was constructed using the following identifier priority: 
+
+
+
+ Full standard InChIKey Parent connectivity InChIKey PubChem CID Canonical SMILES Compound name 
+
+ Commercial-availability fields were created as placeholders and were kept separate from the biological and chemical evidence classifications. 
+
+  ## Outputs  
+
+ results/A18A_compound_detail_manifest.csv 
+
+ results/A18A_compound_identifiers.csv 
+
+ results/A18A_compound_evidence_summary.csv 
+
+ results/A18A_supplier_lookup_manifest.csv 
+
+ results/A18A_data_completeness_review.csv 
+
+ results/A18A_summary.csv 
+
+  ## Results  
+
+ Compounds integrated: 16 
+
+ A16 compounds: 10 
+
+ A17 chemical and side-effect comparators: 6 
+
+ Compounds with ChEMBL identifiers: 12 
+
+ Compounds with PubChem CIDs in the input files: 10 
+
+ Compounds with full standard InChIKeys: 16 
+
+ Compounds with parent connectivity InChIKeys: 16 
+
+ Compounds with analysis SMILES: 10 
+
+ Compounds represented in SIDER 4.1: 6 
+
+ Compounds with clinical-phase annotations: 6 
+
+ Compounds ready for supplier lookup: 16 
+
+ Compounds requiring critical identifier review: 0 
+
+ Compounds ready for live-network detail integration: 16 
+
+ Supplier checks completed during A18A: 0 
+
+  ## Interpretation  
+
+ A18A established a stable identity layer for the 16 compounds already present in the RESKO workflow. 
+
+ The complete InChIKey coverage allowed all compounds to proceed to structure-based supplier lookup without relying exclusively on compound names, synonyms, or development codes. 
+
+ The A18A compound count did not represent 16 newly discovered compounds. 
+
+ The manifest contained ten compounds from A16 and six chemical and side-effect comparators from A17. 
+
+ The six A17 comparators remained classified as chemical and side-effect comparators because A17E identified no validated direct eEF1A, eEF1-complex, or RESKO-network evidence. 
+
+ Commercial availability remained a separate experimental-feasibility layer and did not alter the scientific classifications. 
+
+  ## Limitations  
+
+ A18A did not perform supplier searches or verify commercial products. 
+
+ PubChem CIDs and clinical-phase annotations were incomplete in the source files for some compounds, although all compounds had sufficient structural identifiers for subsequent reconciliation. 
+
+ Parent connectivity matching may combine different stereoisomers, salts, protonation states, or related forms and therefore cannot independently establish exact commercial-product identity. 
+
+
+
+ # A18B PubChem Commercial-Availability Enrichment  
+
+  ## Objective  
+
+ Determine whether the 16 compounds in the A18A manifest had publicly accessible commercial-vendor information and create product-level records for subsequent identity reconciliation and live-network display. 
+
+  ## Method  
+
+ The 16 A18A compounds were mapped to PubChem using existing PubChem CIDs or full standard InChIKeys. 
+
+ PubChem Chemical Vendors records were retrieved using the resolved PubChem compound identifiers. 
+
+ Each compound was processed independently, and API responses were cached locally to support reproducibility and interrupted-run recovery. 
+
+ A checkpoint was written after every compound lookup. 
+
+ Public vendor information was converted into compound-level and product-level records containing: 
+
+
+
+ RESKO compound identifier Compound name PubChem CID Vendor-section heading Information label Public listing text Product URL PubChem section path Date checked Commercial-data source Manual-verification status 
+
+ Public vendor associations were classified as preliminary commercial-availability signals. 
+
+ Exact product identity, chemical form, stereochemistry, purity, pack size, price, stock status, and lead time were not treated as verified. 
+
+  ## Outputs  
+
+ results/A18B_compound_commercial_summary.csv 
+
+ results/A18B_commercial_products.csv 
+
+ results/A18B_supplier_directory.csv 
+
+ results/A18B_identity_review.csv 
+
+ results/A18B_summary.csv 
+
+ results/A18B_commercial_availability_report.html 
+
+ results/A18B_lookup_checkpoint.csv 
+
+ results/A18B_api_cache/ 
+
+  ## Results  
+
+ Compounds processed: 16 
+
+ PubChem CIDs resolved: 16 
+
+ Compounds with public vendor information: 11 
+
+ Compounds without public vendor information: 5 
+
+ Commercial product records: 11 
+
+ Supplier-directory records: 1 
+
+ Validated final outputs: 6 
+
+  ## Interpretation  
+
+ All 16 compounds were successfully reconciled to PubChem. 
+
+ Public commercial information was identified for 11 compounds. 
+
+ The five compounds without public vendor information remained structurally resolved and may therefore be investigated through specialist supplier databases, institutional procurement tools, or manual searches. 
+
+ The 11 commercial records represented public PubChem vendor associations rather than independently confirmed products. 
+
+ The supplier-directory count of one indicated that the parsed PubChem records shared a common section heading or grouping label. The count did not necessarily indicate that all products were offered by one verified supplier. 
+
+ Product-level supplier identity and exact chemical form therefore required further reconciliation during A18C. 
+
+  ## Limitations  
+
+ Public vendor information may change after the recorded lookup date. 
+
+ PubChem vendor associations do not independently confirm current stock, pricing, delivery time, purity, pack size, or suitability for biological experiments. 
+
+ Commercial listings may correspond to salts, hydrates, solvates, formulations, stereoisomers, mixtures, isotopically labelled materials, or analytical standards rather than the exact scientific parent compound. 
+
+ The vendor-section heading returned by PubChem may represent a database section or grouping label rather than the final supplier identity. 
+
+ Manual verification against individual product pages remains necessary before procurement.
+
+ # A18C Commercial Product Identity Reconciliation  
+
+  ## Objective  
+
+ Reconcile the public commercial listings identified during A18B with the scientific compound identities defined in A18A. 
+
+ Determine whether the public listings represented exact scientific compounds, alternative chemical forms, analytical materials, mixtures, or records requiring manual review. 
+
+  ## Method  
+
+ The 11 public commercial records identified during A18B were linked to the corresponding A18A compound identifiers. 
+
+ Product descriptions, information labels, PubChem section paths, and vendor-section headings were searched for terminology indicating different product forms. 
+
+ Commercial records were classified using the following identity categories: 
+
+
+
+ Public listing requiring identity review Salt form requiring review Solvate or hydrate requiring review Stereochemical identity requiring review Mixture or formulation Analytical or reference standard Isotopically labelled material 
+
+ Full standard InChIKeys, parent connectivity InChIKeys, and canonical SMILES from A18A were retained beside the commercial records to support subsequent manual comparison. 
+
+ No public listing was classified as an exact product match unless the exact structure and product form could be independently verified. 
+
+ Product availability was kept separate from biological, chemical-similarity, and clinical-development evidence. 
+
+  ## Outputs  
+
+ results/A18C_commercial_products_reconciled.csv 
+
+ results/A18C_commercial_identity_review.csv 
+
+ results/A18C_compound_commercial_summary_reconciled.csv 
+
+ results/A18C_summary.csv 
+
+ results/A18C_commercial_identity_report.html 
+
+  ## Results  
+
+ Compounds reviewed: 16 
+
+ Commercial product records classified: 11 
+
+ Compounds with public vendor information: 11 
+
+ Compounds requiring manual product review: 11 
+
+ Exact product identities confirmed automatically: 0 
+
+ Public listings requiring general identity review: 11 
+
+ Salt-form records identified automatically: 0 
+
+ Solvate or hydrate records identified automatically: 0 
+
+ Stereochemical-review records identified automatically: 0 
+
+ Mixture or formulation records identified automatically: 0 
+
+ Analytical or reference-standard records identified automatically: 0 
+
+ Isotopically labelled records identified automatically: 0 
+
+  ## Interpretation  
+
+ Public commercial information was available for 11 of the 16 compounds, but none of the associated records contained sufficient verified product-level information to establish an exact commercial identity automatically. 
+
+ All 11 public listings were therefore retained as preliminary availability signals requiring manual product-page review. 
+
+ The absence of automatically detected salt, solvate, stereochemical, mixture, reference-standard, or isotopically labelled records did not demonstrate that these alternative forms were absent. 
+
+ The available PubChem records did not provide sufficient detailed product descriptions for those form classifications. 
+
+ Commercial availability remained an experimental-feasibility annotation and did not alter the biological evidence or scientific priority of any compound. 
+
+  ## Limitations  
+
+ Product classifications were based on the text exposed through the public PubChem Chemical Vendors records. 
+
+ Supplier product pages may contain additional information not present in the PubChem record. 
+
+ Exact product identity, stereochemistry, chemical form, purity, pack size, stock, price, and lead time require manual verification before procurement. 
+
+ A public vendor association does not guarantee that a compound is currently available or suitable for biological testing.
+
+ # A18D Live-Network Compound Detail Data Preparation  
+
+  ## Objective  
+
+ Prepare unified compound, scientific-evidence, side-effect, indication, and commercial-availability records for display when a compound node is selected in the interactive RESKO network. 
+
+ Create stable compound aliases so live-network node identifiers, compound names, ChEMBL identifiers, PubChem identifiers, and InChIKeys could be mapped to the appropriate compound-detail record. 
+
+  ## Method  
+
+ Compound identities and baseline annotations were retrieved from the A18A compound-detail and evidence manifests. 
+
+ Commercial availability and product-identity classifications were retrieved from the provenance-corrected A18C outputs. 
+
+ Optional SIDER side-effect, indication, and side-effect-similarity records from A17D were summarised at compound level. 
+
+ The compound-detail records incorporated: 
+
+
+
+ RESKO compound identifier Node lookup identifier Preferred compound name Compound class Compound origin ChEMBL identifier PubChem CID Full standard InChIKey Parent connectivity InChIKey Canonical SMILES Analysis SMILES Nearest RESKO query compound Tanimoto similarity Biological classification Progression status Matched network proteins Independent assay count Independent document count Maximum clinical phase First-approval year SIDER representation Side-effect record count Indication record count Closest side-effect-profile neighbour Commercial-availability status Supplier count Commercial-product record count Commercial identity classification Procurement-readiness status 
+
+ Compound aliases were created using: 
+
+
+
+ RESKO compound identifier Preferred compound name ChEMBL identifier PubChem CID Full standard InChIKey 
+
+ Compound details, aliases, and commercial-product records were exported as CSV and JSON files for use by the live network. 
+
+ All outputs were read back and validated before completion was reported. 
+
+  ## Outputs  
+
+ results/A18D_live_compound_details.csv 
+
+ results/A18D_live_compound_details.json 
+
+ results/A18D_live_commercial_products.json 
+
+ results/A18D_live_compound_aliases.csv 
+
+ results/A18D_live_compound_aliases.json 
+
+ results/A18D_summary.csv 
+
+ results/A18D_live_network_data_report.html 
+
+  ## Results  
+
+ Compound-detail records: 16 
+
+ Compound-alias records: 76 
+
+ Commercial-product records: 11 
+
+ Compounds with public vendor information: 11 
+
+ Compounds requiring manual commercial-product review: 11 
+
+ Compounds ready for detail-panel display: 16 
+
+ Validated outputs: 7 
+
+  ## Interpretation  
+
+ A18D created the complete data layer required to display contextual information when one of the 16 current compound nodes is selected in the live RESKO network. 
+
+ The alias table allows network node identifiers to be reconciled with compound records even when the graph uses a ChEMBL identifier, compound name, PubChem CID, or RESKO identifier. 
+
+ Public vendor information can be displayed for 11 compounds, but all associated commercial records remain subject to manual identity review. 
+
+ Scientific evidence, side-effect information, clinical annotations, and commercial availability remain stored as distinct fields. 
+
+ Commercial availability therefore does not alter a compound’s biological classification or scientific priority. 
+
+  ## Limitations  
+
+ A18D prepared data for the interactive interface but did not itself alter the existing visNetwork HTML widget. 
+
+ Commercial-product records remain preliminary and do not establish exact chemical form, purity, stock, price, pack size, lead time, or suitability for biological experiments. 
+
+ Detailed side-effect and indication information is currently available primarily for the six A17 SIDER comparators. 
+
+ Compounds not represented in SIDER 4.1 must be displayed as not represented in that release rather than as having no side effects. 
+
+ Live-interface integration requires the existing visNetwork source script to be extended while preserving its current network construction, styling, filtering, and ranking behaviour.
+
+ # A19A HPC Structure and Fingerprint Pipeline Validation  
+
+  ## Objective  
+
+ Validate the RESKO molecular-structure and chemical-similarity workflow on the Comet high-performance computing system before screening a large external compound library. 
+
+ Confirm that the project-local RDKit environment could parse compound structures, generate chirality-aware molecular fingerprints, calculate Tanimoto similarities, write analysis outputs, and preserve computational provenance on a Comet compute node. 
+
+  ## Method  
+
+ The 16 compound-detail records prepared during A18D were read using character-preserving parsing. 
+
+ For each compound, analysis SMILES were selected where available. 
+
+ Canonical SMILES were used when analysis SMILES were unavailable. 
+
+ Compounds without either SMILES representation were retained in the identity-review output and were not used for fingerprint calculations. 
+
+ Structures were parsed using RDKit 2026.03.5 in a project-local Miniforge environment running Python 3.11.15. 
+
+ Parsed structures were converted into isomeric canonical SMILES. 
+
+ Full InChIKeys were recalculated from the parsed structures and compared with the full InChIKeys recorded during A18A. 
+
+ Molecular fingerprints were generated using: 
+
+
+
+ Morgan fingerprint Radius 2 2,048 bits Chirality enabled 
+
+ Tanimoto similarities were calculated for all unique compound pairs, including self-comparisons. 
+
+ Results were written in CSV and Parquet formats. 
+
+ Input and output SHA-256 checksums, software versions, compute-node identity, Slurm job identifier, CPU allocation, and fingerprint parameters were recorded in a computational-provenance file. 
+
+ The analysis was executed through Slurm using two CPU cores and 4 GB of requested memory on the Comet short_free partition. 
+
+  ## Outputs  
+
+ results/A19A_structure_validation.csv 
+
+ results/A19A_validated_structures.csv 
+
+ results/A19A_pairwise_tanimoto.csv 
+
+ results/A19A_pairwise_tanimoto.parquet 
+
+ results/A19A_identifier_review.csv 
+
+ results/A19A_summary.csv 
+
+ results/A19A_run_provenance.json 
+
+  ## Results  
+
+ Input compounds: 16 
+
+ Structures parsed successfully: 10 
+
+ Morgan fingerprints generated: 10 
+
+ Pairwise similarity records including self-comparisons: 55 
+
+ Non-self pairwise comparisons: 45 
+
+ Compounds requiring structure or identifier review: 6 
+
+ Validated outputs: 7 
+
+ Slurm job ID: 1946564 
+
+ Compute node: compute016.comet.hpc.ncl.ac.uk 
+
+ Error-log size: 0 bytes 
+
+  ## Interpretation  
+
+ The complete RDKit structure-processing and fingerprint workflow operated successfully on a Comet compute node. 
+
+ All compounds with an available analysis or canonical SMILES representation were parsed and fingerprinted. 
+
+ The 55 pairwise records represented all unique comparisons among the ten fingerprinted structures, including ten self-comparisons and 45 non-self comparisons. 
+
+ The six compounds requiring review were not automatically considered invalid. 
+
+ These compounds retained full InChIKeys but required enrichment of their SMILES representations or reconciliation of any detected identifier differences before inclusion in the large-scale chemical-similarity screen. 
+
+ The successful CSV and Parquet exports confirmed that the output format required for larger HPC datasets was operational. 
+
+  ## Limitations  
+
+ Only ten of the 16 current compounds had a SMILES representation available to the A19A input. 
+
+ Compound records without SMILES could not be fingerprinted even when a full InChIKey was available. 
+
+ Morgan fingerprint similarity measures local molecular environments and does not directly establish shared target binding, mechanism, potency, selectivity, cellular activity, or clinical efficacy. 
+
+ Large and structurally complex natural products may receive lower fingerprint similarities despite retaining biologically relevant pharmacophoric relationships.
