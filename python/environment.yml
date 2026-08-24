@@ -1,0 +1,21 @@
+name: resko-network
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - rdkit
+  - pandas
+  - numpy
+  - scipy
+  - networkx
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - pyarrow
+  - requests
+  - typer
+  - pytest
+  - pytest-cov
+  - ruff
+  - mypy
+  - pip
