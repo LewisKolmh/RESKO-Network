@@ -11,8 +11,9 @@ data/temp/
 # --- added by the Python port branch ---
 # API response caches are regenerable inputs, not artefacts
 **/*_api_cache/
-# timestamped snapshot copies
+# timestamped snapshot copies (files and directories)
 *_previous_*.csv
+*_previous_*/
 # Python
 python/**/__pycache__/
 python/**/*.egg-info/
