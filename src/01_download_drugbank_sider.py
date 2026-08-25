@@ -106,5 +106,37 @@ For RESKO Faithful, you need:
 The code will parse these in step 02_extract_seed_sideeffects.py
 """)
 
+# ===== DRUGBANK ADR FALLBACK =====
+# Several seed compounds (didemnin B, metarrestin, ternatin-4, narciclasine,
+# nannocystin Ax, BE-43547A2, plitidepsin) are investigational or were
+# approved after SIDER4's ~2015 curation date, so SIDER4 has no entry for
+# them. 02_extract_seed_sideeffects.py needs a second side-effect source for
+# these — DrugBank's own adverse-reaction / clinical-trial-AE fields.
+#
+# This is manual-download, same as the indications/targets files above:
+# DrugBank's structured ADR field is only exposed via the full XML database
+# release (requires a DrugBank academic license), not the open CSV files.
+print("\n[EXTRA] DrugBank ADR fallback data (for seeds absent from SIDER4)")
+print("-" * 70)
+print("""
+MANUAL STEP REQUIRED — DrugBank ADR / adverse-event data is only in the full
+XML release (drugbank_all_full_database.xml.zip), gated behind a DrugBank
+academic license (https://go.drugbank.com/releases/latest).
+
+1. Download + unzip the full database release.
+2. Parse <drug><adverse-reactions> (or, if unavailable for an investigational
+   compound, extract reported adverse events from its clinical-trial results
+   / FDA orange-book entry, and record the source in seed_compounds.py).
+3. Build a long-format table with columns [drugbank_id, side_effect_name]
+   and save it to data/raw/drugbank_adr.parquet — 02_extract_seed_sideeffects.py
+   reads this file directly and will proceed with SIDER4-only data (skipping
+   the fallback) if it is absent, printing a warning per seed affected.
+
+Until this file is populated, run 02_extract_seed_sideeffects.py anyway —
+it will report per-seed coverage (data/processed/seed_coverage.csv) so you
+can see exactly which seeds have no side-effect data at all rather than
+silently proceeding on a false assumption.
+""")
+
 print("\n✓ Data download phase complete")
 print("  Next: Run 02_extract_seed_sideeffects.py")

@@ -9,7 +9,11 @@ McGarry filter: Only keep drugs sharing >25% of common seed side-effects
 
 import pandas as pd
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from seed_compounds import SEED_COMPOUNDS
 
 DATA_DIR = Path("data/raw")
 PROCESSED_DIR = Path("data/processed")
@@ -23,10 +27,17 @@ print("\n[1/3] Loading seed side-effects")
 with open(PROCESSED_DIR / "seed_sideeffects.json") as f:
     seed_data = json.load(f)
 common_ses = set(seed_data["common_sideeffects"])
-seed_drugs = set(seed_data["seed_drugs"])
+final_seed_ids = set(seed_data["seed_drugs"])  # seed_compounds.py keys, e.g. "Didemnin_B"
+
+# Exclude candidates by DrugBank ID, not by seed_compounds key — SIDER4/ADR
+# tables are keyed on drugbank_id, and several seeds share no drugbank_id at
+# all (None), so only real, non-null ids need to be excluded from the scan.
+seed_drugbank_ids = {SEED_COMPOUNDS[cid]["drugbank_id"] for cid in final_seed_ids
+                     if cid in SEED_COMPOUNDS and SEED_COMPOUNDS[cid]["drugbank_id"] is not None}
 
 print(f"  Common side-effects: {len(common_ses)}")
-print(f"  Seed drugs: {len(seed_drugs)}")
+print(f"  Seed drugs (post-pruning): {len(final_seed_ids)} -> {sorted(final_seed_ids)}")
+print(f"  Seed DrugBank IDs excluded from candidate scan: {sorted(seed_drugbank_ids)}")
 
 # Load SIDER data
 print("\n[2/3] Scanning SIDER4 for candidate drugs")
@@ -35,7 +46,7 @@ sider_df = pd.read_parquet(DATA_DIR / "sider_all_se.parquet")
 # Group by drug, count side-effects
 candidates = []
 for drug_id, group in sider_df.groupby('drugbank_id'):
-    if drug_id in seed_drugs:
+    if drug_id in seed_drugbank_ids:
         continue  # Skip seed drugs
     
     drug_ses = set(group['side_effect_name'].unique())

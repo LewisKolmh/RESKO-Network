@@ -95,19 +95,53 @@ Builds interactive 3D network graph:
 - `results/resko_faithful_network_3d.html` — Interactive 3D network visualization
 - `data/processed/seed_sideeffects.csv` — Common side-effects for seed drugs
 
-## Seed Drugs (eEF1A Inhibitors + HIV-1 Modulators)
+## Seed Compounds (Direct eEF1A Binders Only)
 
-1. **CHEMBL1802814** — Diphtheria toxin derivative (eEF1A2 binder)
-2. **CHEMBL1802815** — Translation inhibitor (eEF1A1 binder)
-3. **CHEMBL5653589** — EEF1G targeting (elongation factor complex)
-4. **CHEMBL1802973** — eEF1A2 specific inhibitor
-5. **CHEMBL1232461** — Molibresib (HSF1 inhibitor, proteomics-confirmed eEF1A1 binding)
-6. **CHEMBL1221911** — Lactimidomycin (known translation elongation inhibitor)
+Full registry with evidence type and DrugBank ID (where known) lives in
+`src/seed_compounds.py` — treat that file as the source of truth; this table
+is a summary of it.
+
+**Tier 1 — ChEMBL-verified** (quantitative IC50/Kd/ED50 binding record against
+an eEF1A-family target, from the eEF1A-centred hetnet interactome pull):
+
+1. **CHEMBL1802814**
+2. **CHEMBL1802815**
+3. **CHEMBL5653589** — EEF1G-complex targeting
+4. **CHEMBL1802973**
+5. **CHEMBL3752910**
+6. **CHEMBL1232461** — Molibresib
+
+**Tier 2 — literature-confirmed direct binders** (crystal structure /
+biochemical trapping of an eEF1A conformational state):
+
+7. **Plitidepsin (Aplidin)** — approved (Australia, 2018); antiviral activity
+   (incl. SARS-CoV-2) attributed to direct eEF1A inhibition
+8. **Didemnin B** — binds eEF1A between domains I/III, trapping the GTP-bound
+   conformation; no evidence of direct HIV-1 protein binding
+9. **Metarrestin** — eEF1A2-selective, Phase I clinical trial
+10. **Ternatin-4** — occupies the same eEF1A site as didemnin B
+11. **Narciclasine** — in vivo validated
+12. **Nannocystin Ax** — shares the didemnin-B/ternatin-4 binding site
+13. **BE-43547A2** — in vivo validated
+
+**Excluded** (reasons kept in `src/seed_compounds.py:EXCLUDED_COMPOUNDS`):
+Lactimidomycin (binds the ribosomal E-site during the translocation step
+eEF1A drives, not eEF1A itself), efavirenz (HIV-1 RT inhibitor, no direct
+eEF1A binding), cycloheximide, anisomycin, aminoglycosides (all off-target
+ribosomal mechanisms).
 
 ## Data Sources
 
 - **DrugBank 4.0+**: Drug indications, protein targets, adverse reactions
-- **SIDER4**: Drug side-effect associations (FDA pharmacovigilance database)
+- **SIDER4**: Drug side-effect associations (FDA pharmacovigilance database,
+  curated ~2015 from marketed-drug package inserts)
+- **DrugBank ADR (fallback)**: for seeds that are investigational or were
+  approved after SIDER4's curation date and therefore have no SIDER4 entry
+  (this applies to most Tier-2 seeds above). **This is a deliberate deviation
+  from McGarry's SIDER4-only method** — disclose it in any methods write-up.
+  Per-seed coverage (which source supplied data, or whether neither did) is
+  written to `data/processed/seed_coverage.csv` by
+  `02_extract_seed_sideeffects.py`.
 - **ChEMBL**: Compound chemical structures and bioactivity data
 
 ## Requirements
