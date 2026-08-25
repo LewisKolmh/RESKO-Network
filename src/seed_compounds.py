@@ -9,14 +9,30 @@ structure, biochemical trapping of an eEF1A conformational state, etc.).
 Side-effect data source is two-tier per McGarry's original SE-similarity step:
   1. SIDER4 (drug package-insert side effects) — used when the compound was a
      marketed drug at SIDER4's curation date (~2015).
-  2. DrugBank ADR / clinical-trial adverse-event fields — fallback for
-     compounds that are investigational or were approved after 2015, so they
-     have no SIDER4 entry. This is a deliberate deviation from McGarry's
-     SIDER4-only approach — flag it in any methods write-up.
+  2. openFDA/FAERS (FDA Adverse Event Reporting System, via the free, public
+     openFDA API) — fallback for compounds investigational or approved after
+     2015, so absent from SIDER4. NOTE: this replaces an earlier plan to use
+     DrugBank's own ADR field as the fallback — DrugBank's academic full-XML
+     downloads (the only export carrying ADR data) are platform-wide paused
+     as of this writing, so openFDA/FAERS is used instead. FAERS is
+     voluntary-report data (reporting bias skews toward serious/unexpected
+     events, not incidence), a different bias profile than SIDER4's
+     package-insert extraction — disclose both the substitution and the bias
+     difference in any methods write-up.
 
-`sider4_expected=False` marks compounds expected to need the DrugBank ADR
-fallback; `01_download_drugbank_sider.py` / `02_extract_seed_sideeffects.py`
-verify this empirically rather than assuming it.
+`sider4_expected=False` marks compounds expected to need the FAERS fallback;
+`01_download_drugbank_sider.py` / `02_extract_seed_sideeffects.py` verify
+this empirically rather than assuming it.
+
+`has_human_exposure=False` marks compounds that have NEVER been dosed in a
+human (preclinical-only) — no side-effect source (SIDER4, FAERS, or DrugBank
+ADR) can ever have data for these, as a structural fact about the compound,
+not a data-access gap. These seeds are retained in the registry as
+binding-evidence-only seeds: they contribute to the seed set's mechanistic/
+structural justification and to network diagrams, but
+`02_extract_seed_sideeffects.py` excludes them from the SIDER4/FAERS
+side-effect intersection step entirely (rather than letting a real zero-SE
+row silently corrupt the intersection).
 """
 
 SEED_COMPOUNDS = {
@@ -28,6 +44,7 @@ SEED_COMPOUNDS = {
         "evidence": "chembl_binding",
         "notes": "IC50/Kd records against EEF1A1/EEF1G",
         "sider4_expected": False,  # investigational (BET inhibitor, Phase 2)
+        "has_human_exposure": True,  # reached Phase 2 clinical trial
     },
     "CHEMBL1802814": {
         "name": None,
@@ -35,6 +52,7 @@ SEED_COMPOUNDS = {
         "evidence": "chembl_binding",
         "notes": "Quantitative activity record vs eEF1A-family target",
         "sider4_expected": False,
+        "has_human_exposure": None,  # clinical status not yet established
     },
     "CHEMBL1802815": {
         "name": None,
@@ -42,6 +60,7 @@ SEED_COMPOUNDS = {
         "evidence": "chembl_binding",
         "notes": "Quantitative activity record vs eEF1A-family target",
         "sider4_expected": False,
+        "has_human_exposure": None,
     },
     "CHEMBL1802973": {
         "name": None,
@@ -49,6 +68,7 @@ SEED_COMPOUNDS = {
         "evidence": "chembl_binding",
         "notes": "Quantitative activity record vs eEF1A-family target",
         "sider4_expected": False,
+        "has_human_exposure": None,
     },
     "CHEMBL3752910": {
         "name": None,
@@ -56,6 +76,7 @@ SEED_COMPOUNDS = {
         "evidence": "chembl_binding",
         "notes": "Quantitative activity record vs eEF1A-family target",
         "sider4_expected": False,
+        "has_human_exposure": None,
     },
     "CHEMBL5653589": {
         "name": None,
@@ -63,6 +84,7 @@ SEED_COMPOUNDS = {
         "evidence": "chembl_binding",
         "notes": "EEF1G-complex targeting, quantitative record",
         "sider4_expected": False,
+        "has_human_exposure": None,
     },
 
     # ---- Tier 2: Literature-confirmed direct eEF1A binders ----
@@ -72,8 +94,10 @@ SEED_COMPOUNDS = {
         "evidence": "direct_binding_structural",
         "notes": "Approved (Australia, 2018); binds eEF1A directly; antiviral "
                  "activity (incl. SARS-CoV-2) attributed to eEF1A inhibition. "
-                 "Approved AFTER SIDER4 curation -> likely no SIDER4 entry.",
+                 "Approved AFTER SIDER4 curation -> likely no SIDER4 entry; "
+                 "try openFDA/FAERS fallback.",
         "sider4_expected": False,
+        "has_human_exposure": True,  # FDA-approved (Australia)
     },
     "Didemnin_B": {
         "name": "Didemnin B",
@@ -82,44 +106,63 @@ SEED_COMPOUNDS = {
         "notes": "Binds eEF1A between domains I/III, trapping GTP-bound "
                  "conformation; site shared with ternatin-4 and nannocystin A. "
                  "No evidence of direct HIV-1 protein binding -> eEF1A-specific. "
-                 "Never marketed -> no SIDER4 entry expected.",
+                 "Never marketed but reached clinical trials -> try openFDA/FAERS "
+                 "fallback; SIDER4 unlikely.",
         "sider4_expected": False,
+        "has_human_exposure": True,  # clinical trials (discontinued for toxicity)
     },
     "Metarrestin": {
         "name": "Metarrestin",
         "drugbank_id": None,
         "evidence": "direct_binding_functional",
-        "notes": "eEF1A2-selective; Phase I clinical trial, never marketed.",
+        "notes": "eEF1A2-selective; Phase I clinical trial, never marketed. "
+                 "Try openFDA/FAERS fallback; SIDER4 unlikely.",
         "sider4_expected": False,
+        "has_human_exposure": True,  # Phase I clinical trial
     },
     "Ternatin_4": {
         "name": "Ternatin-4",
         "drugbank_id": None,
         "evidence": "direct_binding_structural",
         "notes": "Synthetic analog; occupies same eEF1A site as didemnin B; "
-                 "traps aminoacyl-tRNA-accommodation intermediate. Preclinical only.",
+                 "traps aminoacyl-tRNA-accommodation intermediate. Preclinical "
+                 "only -- NEVER dosed in humans, so no side-effect source "
+                 "(SIDER4, FAERS, or DrugBank ADR) can ever have data for it. "
+                 "Retained as a binding-evidence-only seed: contributes to the "
+                 "seed set's structural justification and network diagrams, "
+                 "excluded from the SE-intersection step.",
         "sider4_expected": False,
+        "has_human_exposure": False,  # preclinical only -- structural, not a data gap
     },
     "Narciclasine": {
         "name": "Narciclasine",
         "drugbank_id": None,
         "evidence": "direct_binding_invivo",
-        "notes": "Natural product, in vivo validated eEF1A inhibitor. Preclinical only.",
+        "notes": "Natural product, in vivo validated eEF1A inhibitor. Preclinical "
+                 "only -- never dosed in humans; binding-evidence-only seed, "
+                 "excluded from the SE-intersection step.",
         "sider4_expected": False,
+        "has_human_exposure": False,
     },
     "Nannocystin_Ax": {
         "name": "Nannocystin Ax",
         "drugbank_id": None,
         "evidence": "direct_binding_invivo",
-        "notes": "Shares didemnin-B/ternatin-4 eEF1A binding site. Preclinical only.",
+        "notes": "Shares didemnin-B/ternatin-4 eEF1A binding site. Preclinical "
+                 "only -- never dosed in humans; binding-evidence-only seed, "
+                 "excluded from the SE-intersection step.",
         "sider4_expected": False,
+        "has_human_exposure": False,
     },
     "BE_43547A2": {
         "name": "BE-43547A2",
         "drugbank_id": None,
         "evidence": "direct_binding_invivo",
-        "notes": "In vivo validated direct eEF1A inhibitor. Preclinical only.",
+        "notes": "In vivo validated direct eEF1A inhibitor. Preclinical only -- "
+                 "never dosed in humans; binding-evidence-only seed, excluded "
+                 "from the SE-intersection step.",
         "sider4_expected": False,
+        "has_human_exposure": False,
     },
 }
 
@@ -140,10 +183,35 @@ EXCLUDED_COMPOUNDS = {
                         "eEF1A-specific.",
 }
 
+def se_eligible_seeds():
+    """Seeds that can participate in the SIDER4/FAERS side-effect intersection
+    step -- i.e. NOT flagged has_human_exposure=False. Compounds with
+    has_human_exposure=None (clinical status not yet established) are still
+    attempted; only a confirmed preclinical-only compound is excluded
+    outright."""
+    return {cid: meta for cid, meta in SEED_COMPOUNDS.items()
+            if meta.get("has_human_exposure") is not False}
+
+
+def binding_evidence_only_seeds():
+    """Seeds retained for structural/mechanistic justification and network
+    diagrams, but excluded from the SE-intersection step because they have
+    never been dosed in a human (no side-effect source can ever have data
+    for them)."""
+    return {cid: meta for cid, meta in SEED_COMPOUNDS.items()
+            if meta.get("has_human_exposure") is False}
+
+
 if __name__ == "__main__":
     print(f"Active seeds: {len(SEED_COMPOUNDS)}")
     for k, v in SEED_COMPOUNDS.items():
-        print(f"  {k:16s} evidence={v['evidence']:26s} sider4_expected={v['sider4_expected']}")
+        print(f"  {k:16s} evidence={v['evidence']:26s} "
+              f"sider4_expected={v['sider4_expected']} "
+              f"has_human_exposure={v.get('has_human_exposure')}")
+    print(f"\nSE-eligible (participate in SIDER4/FAERS intersection): "
+          f"{len(se_eligible_seeds())}")
+    print(f"Binding-evidence-only (never dosed in humans, no SE data possible): "
+          f"{len(binding_evidence_only_seeds())} -> {list(binding_evidence_only_seeds())}")
     print(f"\nExcluded: {len(EXCLUDED_COMPOUNDS)}")
     for k, v in EXCLUDED_COMPOUNDS.items():
         print(f"  {k}: {v}")

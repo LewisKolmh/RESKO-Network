@@ -106,36 +106,92 @@ For RESKO Faithful, you need:
 The code will parse these in step 02_extract_seed_sideeffects.py
 """)
 
-# ===== DRUGBANK ADR FALLBACK =====
-# Several seed compounds (didemnin B, metarrestin, ternatin-4, narciclasine,
-# nannocystin Ax, BE-43547A2, plitidepsin) are investigational or were
-# approved after SIDER4's ~2015 curation date, so SIDER4 has no entry for
-# them. 02_extract_seed_sideeffects.py needs a second side-effect source for
-# these — DrugBank's own adverse-reaction / clinical-trial-AE fields.
+# ===== openFDA/FAERS FALLBACK =====
+# Several seed compounds (didemnin B, metarrestin, plitidepsin, and the
+# 6 ChEMBL research compounds) are investigational or were approved after
+# SIDER4's ~2015 curation date, so SIDER4 has no entry for them.
+# 02_extract_seed_sideeffects.py needs a second side-effect source for these.
 #
-# This is manual-download, same as the indications/targets files above:
-# DrugBank's structured ADR field is only exposed via the full XML database
-# release (requires a DrugBank academic license), not the open CSV files.
-print("\n[EXTRA] DrugBank ADR fallback data (for seeds absent from SIDER4)")
+# DrugBank's own ADR field would be the McGarry-faithful fallback, but
+# DrugBank's academic full-XML downloads (the only export carrying ADR data)
+# are platform-wide paused as of this writing. openFDA/FAERS is used instead:
+# free, public, no license required, drawn from real-world adverse-event
+# reports. This is a deliberate deviation from McGarry's SIDER4-only method
+# -- and a further deviation from the DrugBank-ADR fallback originally
+# planned -- disclose both in any methods write-up. FAERS is voluntary-report
+# data (reporting bias skews toward serious/unexpected events, not true
+# incidence), a different bias profile than SIDER4's package-insert
+# extraction.
+#
+# NOTE: 4 seeds (Ternatin-4, Narciclasine, Nannocystin Ax, BE-43547A2) have
+# never been dosed in a human and so have zero FAERS records as a structural
+# fact, not a query failure -- see seed_compounds.binding_evidence_only_seeds().
+print("\n[EXTRA] openFDA/FAERS fallback data (for seeds absent from SIDER4)")
 print("-" * 70)
+
+import json
+import sys
+import time
+import urllib.error
+
+sys.path.insert(0, str(Path(__file__).parent))
+from seed_compounds import SEED_COMPOUNDS, se_eligible_seeds
+
+FAERS_ENDPOINT = "https://api.fda.gov/drug/event.json"
+
+def query_faers(drug_name, limit=1000):
+    """Query openFDA FAERS for adverse-event reaction terms mentioning
+    `drug_name` as a suspect medicinal product. Returns a list of MedDRA
+    PT (preferred term) reaction strings, or [] on no-match / error."""
+    q = f'patient.drug.medicinalproduct:"{drug_name}"'
+    url = (f"{FAERS_ENDPOINT}?search={urllib.parse.quote(q)}"
+           f"&count=patient.reaction.reactionmeddrapt.exact")
+    try:
+        with urllib.request.urlopen(url, timeout=30) as resp:
+            data = json.load(resp)
+        return [row["term"] for row in data.get("results", [])]
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return []  # openFDA returns 404 for zero-hit queries
+        print(f"    HTTP error for {drug_name}: {e.code}")
+        return []
+    except Exception as e:
+        print(f"    ERROR querying FAERS for {drug_name}: {e}")
+        return []
+
+import urllib.parse
+
+faers_rows = []
+eligible = se_eligible_seeds()
+# Only query FAERS for seeds not expected to already have SIDER4 coverage,
+# and only those with a queryable drug name.
+query_targets = {cid: meta for cid, meta in eligible.items()
+                  if not meta.get("sider4_expected", True) and meta.get("name")}
+
+print(f"  Querying FAERS for {len(query_targets)} seed(s) expected to lack "
+      f"SIDER4 coverage...")
+for cid, meta in query_targets.items():
+    name = meta["name"].split(" (")[0]  # strip parenthetical synonyms
+    print(f"  {cid} ({name})...", end=" ", flush=True)
+    terms = query_faers(name)
+    print(f"{len(terms)} reaction terms")
+    for t in terms:
+        faers_rows.append({"seed_id": cid, "drugbank_id": meta["drugbank_id"],
+                            "side_effect_name": t})
+    time.sleep(0.5)  # be polite to the shared public API
+
+faers_df = pd.DataFrame(faers_rows, columns=["seed_id", "drugbank_id", "side_effect_name"])
+faers_df.to_parquet(DATA_DIR / "faers_adr.parquet")
+print(f"  ✓ Saved {len(faers_df)} FAERS adverse-event terms to "
+      f"data/raw/faers_adr.parquet ({faers_df['seed_id'].nunique() if len(faers_df) else 0} seeds covered)")
+
 print("""
-MANUAL STEP REQUIRED — DrugBank ADR / adverse-event data is only in the full
-XML release (drugbank_all_full_database.xml.zip), gated behind a DrugBank
-academic license (https://go.drugbank.com/releases/latest).
-
-1. Download + unzip the full database release.
-2. Parse <drug><adverse-reactions> (or, if unavailable for an investigational
-   compound, extract reported adverse events from its clinical-trial results
-   / FDA orange-book entry, and record the source in seed_compounds.py).
-3. Build a long-format table with columns [drugbank_id, side_effect_name]
-   and save it to data/raw/drugbank_adr.parquet — 02_extract_seed_sideeffects.py
-   reads this file directly and will proceed with SIDER4-only data (skipping
-   the fallback) if it is absent, printing a warning per seed affected.
-
-Until this file is populated, run 02_extract_seed_sideeffects.py anyway —
-it will report per-seed coverage (data/processed/seed_coverage.csv) so you
-can see exactly which seeds have no side-effect data at all rather than
-silently proceeding on a false assumption.
+NOTE on CHEMBL-ID seeds and compounds with no queryable common name: FAERS
+is keyed on medicinal-product free text, not ChEMBL/DrugBank IDs, so the
+6 Tier-1 ChEMBL seeds (which currently have name=None in seed_compounds.py)
+were NOT queried above. Resolve each ChEMBL ID to its market/generic name
+(via ChEMBL's own drug_indication / molecule_synonyms tables) and add it to
+seed_compounds.py's "name" field to include them in a future FAERS run.
 """)
 
 print("\n✓ Data download phase complete")
