@@ -95,6 +95,24 @@ Builds interactive 3D network graph:
 - `results/resko_faithful_network_3d.html` — Interactive 3D network visualization
 - `data/processed/seed_sideeffects.csv` — Common side-effects for seed drugs
 
+## R Port
+
+**Everything above describes the original Python pipeline.** The `R/`
+directory contains a complete, independently-validated R port of the full
+pipeline (steps 01-06), run in parallel to the Python originals rather than
+replacing them. See `R/README.md` for the R-specific usage, environment
+setup, and per-step validation results (numerical/byte-identity checks
+against the Python outputs).
+
+**Important:** the Python `src/` pipeline described above and this `R/`
+port both target the *current* two-variant scoring design (Variant A / B,
+`composite_score_variantA` / `composite_score_variantB`), documented fully
+in `METHODS_DEVIATIONS.md` — not the single-`se_score` design shown in the
+"Pipeline Steps" and "Output Files" sections above, which predate that
+split and are kept here for historical context on the original McGarry
+adaptation. `METHODS_DEVIATIONS.md` is the current source of truth for
+what each score column means in both languages.
+
 ## Seed Compounds (Direct eEF1A Binders Only)
 
 Full registry with evidence type and DrugBank ID (where known) lives in
