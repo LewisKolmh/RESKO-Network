@@ -33,6 +33,18 @@ structural justification and to network diagrams, but
 `02_extract_seed_sideeffects.py` excludes them from the SIDER4/FAERS
 side-effect intersection step entirely (rather than letting a real zero-SE
 row silently corrupt the intersection).
+
+IMPORTANT: only 4 of the 13 registered seeds are SE-eligible --
+Molibresib, Plitidepsin, Didemnin_B, and Metarrestin. The 5 non-Molibresib
+ChEMBL Tier-1 seeds were checked directly against the live ChEMBL API
+(molecule endpoint): each returns pref_name=None, max_phase=None, and no
+synonyms, confirming they are pure research/binding-assay compounds that
+never entered clinical development. They join the 4 literature Tier-2
+compounds already known to be preclinical-only, so 9 of 13 seeds are
+binding-evidence-only. This is a real reduction in the statistical power
+of McGarry's side-effect-intersection step relative to his original
+(SIDER4-only, marketed-drug) seed sets, and should be disclosed as such in
+any methods write-up.
 """
 
 SEED_COMPOUNDS = {
@@ -50,41 +62,54 @@ SEED_COMPOUNDS = {
         "name": None,
         "drugbank_id": None,
         "evidence": "chembl_binding",
-        "notes": "Quantitative activity record vs eEF1A-family target",
+        "notes": "Quantitative activity record vs eEF1A-family target. ChEMBL API "
+                 "confirms no pref_name, no synonyms, no max_phase -- a pure "
+                 "research/binding-assay compound, never in clinical "
+                 "development. Structurally cannot appear in SIDER4 or FAERS "
+                 "(both require a marketed/trialed drug name/identity) and "
+                 "almost certainly has no DrugBank ID. Binding-evidence-only.",
         "sider4_expected": False,
-        "has_human_exposure": None,  # clinical status not yet established
+        "has_human_exposure": False,  # confirmed via ChEMBL: no clinical phase, no name
     },
     "CHEMBL1802815": {
         "name": None,
         "drugbank_id": None,
         "evidence": "chembl_binding",
-        "notes": "Quantitative activity record vs eEF1A-family target",
+        "notes": "Quantitative activity record vs eEF1A-family target. Same "
+                 "ChEMBL-confirmed profile as CHEMBL1802814: no pref_name, no "
+                 "synonyms, no max_phase -- research-only, binding-evidence-only.",
         "sider4_expected": False,
-        "has_human_exposure": None,
+        "has_human_exposure": False,
     },
     "CHEMBL1802973": {
         "name": None,
         "drugbank_id": None,
         "evidence": "chembl_binding",
-        "notes": "Quantitative activity record vs eEF1A-family target",
+        "notes": "Quantitative activity record vs eEF1A-family target. Same "
+                 "ChEMBL-confirmed profile: no pref_name, no synonyms, no "
+                 "max_phase -- research-only, binding-evidence-only.",
         "sider4_expected": False,
-        "has_human_exposure": None,
+        "has_human_exposure": False,
     },
     "CHEMBL3752910": {
         "name": None,
         "drugbank_id": None,
         "evidence": "chembl_binding",
-        "notes": "Quantitative activity record vs eEF1A-family target",
+        "notes": "Quantitative activity record vs eEF1A-family target. Same "
+                 "ChEMBL-confirmed profile: no pref_name, no synonyms, no "
+                 "max_phase -- research-only, binding-evidence-only.",
         "sider4_expected": False,
-        "has_human_exposure": None,
+        "has_human_exposure": False,
     },
     "CHEMBL5653589": {
         "name": None,
         "drugbank_id": None,
         "evidence": "chembl_binding",
-        "notes": "EEF1G-complex targeting, quantitative record",
+        "notes": "EEF1G-complex targeting, quantitative record. Same "
+                 "ChEMBL-confirmed profile: no pref_name, no synonyms, no "
+                 "max_phase -- research-only, binding-evidence-only.",
         "sider4_expected": False,
-        "has_human_exposure": None,
+        "has_human_exposure": False,
     },
 
     # ---- Tier 2: Literature-confirmed direct eEF1A binders ----

@@ -186,12 +186,14 @@ print(f"  ✓ Saved {len(faers_df)} FAERS adverse-event terms to "
       f"data/raw/faers_adr.parquet ({faers_df['seed_id'].nunique() if len(faers_df) else 0} seeds covered)")
 
 print("""
-NOTE on CHEMBL-ID seeds and compounds with no queryable common name: FAERS
-is keyed on medicinal-product free text, not ChEMBL/DrugBank IDs, so the
-6 Tier-1 ChEMBL seeds (which currently have name=None in seed_compounds.py)
-were NOT queried above. Resolve each ChEMBL ID to its market/generic name
-(via ChEMBL's own drug_indication / molecule_synonyms tables) and add it to
-seed_compounds.py's "name" field to include them in a future FAERS run.
+NOTE on the 5 unnamed ChEMBL Tier-1 seeds (name=None in seed_compounds.py):
+these were checked directly against the live ChEMBL API and confirmed to
+have no pref_name, no synonyms, and no max_phase -- i.e. they are pure
+research/binding-assay compounds that never entered clinical development,
+so they were correctly excluded from this FAERS run via
+has_human_exposure=False (not merely skipped for lacking a name). FAERS is
+keyed on medicinal-product free text, and no such text will ever exist for
+these compounds.
 """)
 
 print("\n✓ Data download phase complete")
