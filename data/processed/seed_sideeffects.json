@@ -1,8 +1,5 @@
 {
-  "seed_drugs": [
-    "CHEMBL1232461",
-    "Plitidepsin"
-  ],
+  "seed_drugs": ["CHEMBL1232461", "Plitidepsin"],
   "common_sideeffects": [],
   "n_common_se": 0,
   "n_seed_drugs": 2

@@ -1,14 +1,14 @@
 seed_id,drugbank_id,n_sider4,n_faers,n_pooled,source_used
-CHEMBL1232461,,0,5,5,FAERS_fallback
+CHEMBL1232461,NA,0,5,5,FAERS_fallback
 Plitidepsin,DB04977,0,18,18,FAERS_fallback
-Didemnin_B,,0,0,0,NONE — dropped from intersection
-Metarrestin,,0,0,0,NONE — dropped from intersection
-CHEMBL1802814,,0,0,0,N/A — binding-evidence-only (never dosed in humans)
-CHEMBL1802815,,0,0,0,N/A — binding-evidence-only (never dosed in humans)
-CHEMBL1802973,,0,0,0,N/A — binding-evidence-only (never dosed in humans)
-CHEMBL3752910,,0,0,0,N/A — binding-evidence-only (never dosed in humans)
-CHEMBL5653589,,0,0,0,N/A — binding-evidence-only (never dosed in humans)
-Ternatin_4,,0,0,0,N/A — binding-evidence-only (never dosed in humans)
-Narciclasine,,0,0,0,N/A — binding-evidence-only (never dosed in humans)
-Nannocystin_Ax,,0,0,0,N/A — binding-evidence-only (never dosed in humans)
-BE_43547A2,,0,0,0,N/A — binding-evidence-only (never dosed in humans)
+Didemnin_B,NA,0,0,0,NONE -- dropped from intersection
+Metarrestin,NA,0,0,0,NONE -- dropped from intersection
+CHEMBL1802814,NA,0,0,0,N/A -- binding-evidence-only (never dosed in humans)
+CHEMBL1802815,NA,0,0,0,N/A -- binding-evidence-only (never dosed in humans)
+CHEMBL1802973,NA,0,0,0,N/A -- binding-evidence-only (never dosed in humans)
+CHEMBL3752910,NA,0,0,0,N/A -- binding-evidence-only (never dosed in humans)
+CHEMBL5653589,NA,0,0,0,N/A -- binding-evidence-only (never dosed in humans)
+Ternatin_4,NA,0,0,0,N/A -- binding-evidence-only (never dosed in humans)
+Narciclasine,NA,0,0,0,N/A -- binding-evidence-only (never dosed in humans)
+Nannocystin_Ax,NA,0,0,0,N/A -- binding-evidence-only (never dosed in humans)
+BE_43547A2,NA,0,0,0,N/A -- binding-evidence-only (never dosed in humans)

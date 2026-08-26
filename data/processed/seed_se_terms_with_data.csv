@@ -1,0 +1,24 @@
+seed_id,drug_name,side_effect_name
+CHEMBL1232461,Molibresib,DRUG INTERACTION
+CHEMBL1232461,Molibresib,EPISTAXIS
+CHEMBL1232461,Molibresib,PLATELET TRANSFUSION
+CHEMBL1232461,Molibresib,TRANSFUSION
+CHEMBL1232461,Molibresib,TUMOUR HAEMORRHAGE
+Plitidepsin,Plitidepsin (Aplidin),ACUTE KIDNEY INJURY
+Plitidepsin,Plitidepsin (Aplidin),CHEST PAIN
+Plitidepsin,Plitidepsin (Aplidin),CONDITION AGGRAVATED
+Plitidepsin,Plitidepsin (Aplidin),COVID-19
+Plitidepsin,Plitidepsin (Aplidin),COVID-19 PNEUMONIA
+Plitidepsin,Plitidepsin (Aplidin),DEHYDRATION
+Plitidepsin,Plitidepsin (Aplidin),FATIGUE
+Plitidepsin,Plitidepsin (Aplidin),LIVER FUNCTION TEST ABNORMAL
+Plitidepsin,Plitidepsin (Aplidin),LYMPHOPENIA
+Plitidepsin,Plitidepsin (Aplidin),NAUSEA
+Plitidepsin,Plitidepsin (Aplidin),OFF LABEL USE
+Plitidepsin,Plitidepsin (Aplidin),PLASMA CELL MYELOMA
+Plitidepsin,Plitidepsin (Aplidin),PNEUMONIA
+Plitidepsin,Plitidepsin (Aplidin),REBOUND EFFECT
+Plitidepsin,Plitidepsin (Aplidin),RHABDOMYOLYSIS
+Plitidepsin,Plitidepsin (Aplidin),SQUAMOUS CELL CARCINOMA OF SKIN
+Plitidepsin,Plitidepsin (Aplidin),TRANSAMINASES INCREASED
+Plitidepsin,Plitidepsin (Aplidin),VOMITING
