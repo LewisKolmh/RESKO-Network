@@ -1,416 +1,416 @@
 drug_id,drug_name,drug_type,max_stage,n_interactome_targets_hit,targets_hit,moa,moa_n_targets,hits_first_shell,hits_eef1a_seed
-CHEMBL4297789,MT-3724,Unknown,PHASE_2,55,RPL10;RPL10A;RPL11;RPL12;RPL13;RPL13A;RPL14;RPL15;RPL17;RPL18;RPL18A;RPL19;RPL21;RPL23;RPL23A;RPL24;RPL26;RPL27;RPL27A;RPL28;RPL29;RPL3;RPL30;RPL31;RPL35;RPL35A;RPL37A;RPL38;RPL4;RPL5;RPL6;RPL7;RPL7A;RPL8;RPL9;RPLP0;RPLP1;RPS11;RPS13;RPS14;RPS15A;RPS16;RPS18;RPS2;RPS20;RPS23;RPS27;RPS3;RPS3A;RPS4X;RPS5;RPS6;RPS7;RPS8;RPS9,80S Ribosome inhibitor; B-lymphocyte antigen CD20 binding agent,79,True,False
-CHEMBL256997,ATALUREN,Small molecule,APPROVAL,55,RPL10;RPL10A;RPL11;RPL12;RPL13;RPL13A;RPL14;RPL15;RPL17;RPL18;RPL18A;RPL19;RPL21;RPL23;RPL23A;RPL24;RPL26;RPL27;RPL27A;RPL28;RPL29;RPL3;RPL30;RPL31;RPL35;RPL35A;RPL37A;RPL38;RPL4;RPL5;RPL6;RPL7;RPL7A;RPL8;RPL9;RPLP0;RPLP1;RPS11;RPS13;RPS14;RPS15A;RPS16;RPS18;RPS2;RPS20;RPS23;RPS27;RPS3;RPS3A;RPS4X;RPS5;RPS6;RPS7;RPS8;RPS9,80S Ribosome modulator,78,True,False
-CHEMBL2108785,ZOLIMOMAB ARITOX,Antibody drug conjugate,PHASE_2,55,RPL10;RPL10A;RPL11;RPL12;RPL13;RPL13A;RPL14;RPL15;RPL17;RPL18;RPL18A;RPL19;RPL21;RPL23;RPL23A;RPL24;RPL26;RPL27;RPL27A;RPL28;RPL29;RPL3;RPL30;RPL31;RPL35;RPL35A;RPL37A;RPL38;RPL4;RPL5;RPL6;RPL7;RPL7A;RPL8;RPL9;RPLP0;RPLP1;RPS11;RPS13;RPS14;RPS15A;RPS16;RPS18;RPS2;RPS20;RPS23;RPS27;RPS3;RPS3A;RPS4X;RPS5;RPS6;RPS7;RPS8;RPS9,80S Ribosome inhibitor; T-cell surface glycoprotein CD5 binding agent,79,True,False
-CHEMBL1743000,CITATUZUMAB BOGATOX,Antibody drug conjugate,PHASE_1,55,RPL10;RPL10A;RPL11;RPL12;RPL13;RPL13A;RPL14;RPL15;RPL17;RPL18;RPL18A;RPL19;RPL21;RPL23;RPL23A;RPL24;RPL26;RPL27;RPL27A;RPL28;RPL29;RPL3;RPL30;RPL31;RPL35;RPL35A;RPL37A;RPL38;RPL4;RPL5;RPL6;RPL7;RPL7A;RPL8;RPL9;RPLP0;RPLP1;RPS11;RPS13;RPS14;RPS15A;RPS16;RPS18;RPS2;RPS20;RPS23;RPS27;RPS3;RPS3A;RPS4X;RPS5;RPS6;RPS7;RPS8;RPS9,80S Ribosome inhibitor; Epithelial cell adhesion molecule binding agent,79,True,False
-CHEMBL4297744,ELX-02,Unknown,PHASE_2,55,RPL10;RPL10A;RPL11;RPL12;RPL13;RPL13A;RPL14;RPL15;RPL17;RPL18;RPL18A;RPL19;RPL21;RPL23;RPL23A;RPL24;RPL26;RPL27;RPL27A;RPL28;RPL29;RPL3;RPL30;RPL31;RPL35;RPL35A;RPL37A;RPL38;RPL4;RPL5;RPL6;RPL7;RPL7A;RPL8;RPL9;RPLP0;RPLP1;RPS11;RPS13;RPS14;RPS15A;RPS16;RPS18;RPS2;RPS20;RPS23;RPS27;RPS3;RPS3A;RPS4X;RPS5;RPS6;RPS7;RPS8;RPS9,80S Ribosome modulator,78,True,False
-CHEMBL2141296,IXAZOMIB,Small molecule,APPROVAL,3,PSMD11;PSMD2;PSMD3,26S proteasome inhibitor,38,True,False
-CHEMBL5315122,BORTEZOMIB D-MANNITOL,Small molecule,APPROVAL,3,PSMD11;PSMD2;PSMD3,26S proteasome inhibitor,38,True,False
-CHEMBL325041,BORTEZOMIB,Small molecule,APPROVAL,3,PSMD11;PSMD2;PSMD3,26S proteasome inhibitor,38,True,False
-CHEMBL3786673,EDASALONEXENT,Small molecule,PHASE_3,3,NFKB1;NFKB2;RELA,Nuclear factor NF-kappa-B complex inhibitor,3,True,False
-CHEMBL3545432,IXAZOMIB CITRATE,Small molecule,APPROVAL,3,PSMD11;PSMD2;PSMD3,26S proteasome inhibitor,38,True,False
-CHEMBL2103884,OPROZOMIB,Small molecule,PHASE_2,3,PSMD11;PSMD2;PSMD3,26S proteasome inhibitor,38,True,False
-CHEMBL451887,CARFILZOMIB,Protein,APPROVAL,3,PSMD11;PSMD2;PSMD3,26S proteasome inhibitor,38,True,False
-CHEMBL1614,DESLANOSIDE,Small molecule,APPROVAL,2,ATP1A1;ATP1A3,Sodium/potassium-transporting ATPase inhibitor,8,True,False
-CHEMBL2093999,ISTAROXIME,Small molecule,PHASE_2_3,2,ATP1A1;ATP1A3,Sarcoplasmic/endoplasmic reticulum calcium ATPase 2 activator; Sodium/potassium-transporting ATPase inhibitor,9,True,False
-CHEMBL4297240,ONASEMNOGENE ABEPARVOVEC,Gene,APPROVAL,2,SMN1;SMN2,Survival motor neuron protein exogenous gene,2,True,False
-CHEMBL506569,LANATOSIDE C,Small molecule,APPROVAL,2,ATP1A1;ATP1A3,Sodium/potassium-transporting ATPase inhibitor,8,True,False
-CHEMBL23293,SALIRASIB,Small molecule,PHASE_2,2,KRAS;NRAS,RAS inhibitor,3,True,False
-CHEMBL1751,DIGOXIN,Small molecule,APPROVAL,2,ATP1A1;ATP1A3,Sodium/potassium-transporting ATPase inhibitor,8,True,False
-CHEMBL3989927,IBERDOMIDE,Small molecule,PHASE_3,2,CUL4A;DDB1,CRL4(CRBN) E3 ubiquitin ligase modulator,4,True,False
-CHEMBL574737,UCN-01,Small molecule,PHASE_2,2,CDK2;PRKCD,3-phosphoinositide dependent protein kinase-1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 4 inhibitor; Cyclin-dependent kinase 6 inhibitor; Protein kinase C (PKC) inhibitor; Serine/threonine-protein kinase Chk1 inhibitor,16,True,False
-CHEMBL254219,DIGITOXIN,Small molecule,APPROVAL,2,ATP1A1;ATP1A3,Sodium/potassium-transporting ATPase inhibitor,8,True,False
-CHEMBL468,THALIDOMIDE,Small molecule,APPROVAL,2,CUL4A;DDB1,CRL4(CRBN) E3 ubiquitin ligase inhibitor,4,True,False
-CHEMBL43452,POMALIDOMIDE,Small molecule,APPROVAL,2,CUL4A;DDB1,CRL4(CRBN) E3 ubiquitin ligase inhibitor,4,True,False
-CHEMBL3545057,ACETYLDIGITOXIN,Small molecule,APPROVAL,2,ATP1A1;ATP1A3,Sodium/potassium-transporting ATPase inhibitor,8,True,False
-CHEMBL848,LENALIDOMIDE,Small molecule,APPROVAL,2,CUL4A;DDB1,CRL4(CRBN) E3 ubiquitin ligase inhibitor; CRL4(CRBN) E3 ubiquitin ligase modulator,4,True,False
-CHEMBL4298093,SEMORINEMAB,Antibody,PHASE_2,1,MAPT,Microtubule-associated protein tau inhibitor,1,True,False
-CHEMBL4297661,TARLOXOTINIB,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor inhibitor,4,True,False
-CHEMBL3577124,LY-3009120,Small molecule,PHASE_1,1,RAF1,Serine/threonine-protein kinase A-Raf inhibitor; Serine/threonine-protein kinase B-raf inhibitor; Serine/threonine-protein kinase RAF inhibitor,3,True,False
-CHEMBL4297777,LMB-100,Unknown,PHASE_2,1,EEF2,Elongation factor 2 disrupting agent; Mesothelin binding agent,2,True,False
-CHEMBL4297774,AMIVANTAMAB,Antibody,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Hepatocyte growth factor receptor inhibitor,2,True,False
-CHEMBL4297770,INOTERSEN,Oligonucleotide,APPROVAL,1,TTR,Transthyretin mRNA antisense inhibitor,1,True,False
-CHEMBL3581693,BRILANESTRANT,Small molecule,PHASE_2,1,ESR1,Estrogen receptor degrader,1,True,False
-CHEMBL4297723,CEMIPLIMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 inhibitor,1,True,False
-CHEMBL4297717,CD24FC,Unknown,PHASE_3,1,HSP90AB1,Heat shock 70 kDa protein 1A/1B inhibitor; Heat shock protein HSP90 inhibitor; High mobility group protein B1 inhibitor; Sialic acid-binding Ig-like lectin 10 modulator,6,True,False
-CHEMBL4297715,CAMRELIZUMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 antagonist,1,True,False
-CHEMBL4297599,ASPACYTARABINE,Small molecule,PHASE_2,1,POLE2,DNA polymerase (alpha/delta/epsilon) inhibitor,11,True,False
-CHEMBL4298088,CETUXIMAB SAROTALOCAN,Antibody drug conjugate,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 binding agent,1,True,False
-CHEMBL4297581,TOMINERSEN,Oligonucleotide,PHASE_3,1,HTT,Huntingtin mRNA antisense inhibitor,1,True,False
-CHEMBL4297573,TAGRAXOFUSP,Protein,APPROVAL,1,EEF2,Elongation factor 2 inhibitor; Interleukin-3 receptor subunit alpha binding agent,2,True,False
-CHEMBL4297571,PENPULIMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 inhibitor,1,True,False
-CHEMBL4297555,RESIMMUNE,Unknown,PHASE_2,1,EEF2,Elongation factor 2 inhibitor; T-cell surface glycoprotein CD3 epsilon chain binding agent,2,True,False
-CHEMBL4297537,INOTERSEN SODIUM,Oligonucleotide,APPROVAL,1,TTR,Transthyretin mRNA antisense inhibitor,1,True,False
-CHEMBL4297536,PATISIRAN SODIUM,Oligonucleotide,APPROVAL,1,TTR,Transthyretin mRNA RNAi inhibitor,1,True,False
-CHEMBL4297528,RISDIPLAM,Small molecule,APPROVAL,1,SMN2,SMN2 pre-mRNA positive modulator,1,True,False
-CHEMBL4297509,ELACESTRANT,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha degrader,1,True,False
-CHEMBL4297829,SINTILIMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 antagonist,1,True,False
-CHEMBL4297831,SPARTALIZUMAB,Antibody,PHASE_3,1,PDCD1,Programmed cell death protein 1 antagonist,1,True,False
-CHEMBL3707183,QUINIDINE SULFATE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL3545420,AG-24322,Small molecule,PHASE_1,1,CDK2,Cyclin-dependent kinase 1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 4 inhibitor,3,True,False
-CHEMBL4298077,PRASINEZUMAB,Antibody,PHASE_3,1,SNCA,Alpha-synuclein binding agent,1,True,False
-CHEMBL4298037,RETIFANLIMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 antagonist,1,True,False
-CHEMBL3545308,ROCILETINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL4298021,ZAGOTENEMAB,Antibody,PHASE_2,1,MAPT,Microtubule-associated protein tau inhibitor,1,True,False
-CHEMBL4298001,CETRELIMAB,Antibody,PHASE_3,1,PDCD1,Programmed cell death protein 1 inhibitor,1,True,False
-CHEMBL3545311,BRIGATINIB,Small molecule,APPROVAL,1,EGFR,ALK tyrosine kinase receptor inhibitor; Epidermal growth factor receptor erbB1 inhibitor,2,True,False
-CHEMBL3545355,CHF4227,Small molecule,PHASE_1,1,ESR1,Estrogen receptor modulator,2,True,False
-CHEMBL4297877,BALSTILIMAB,Antibody,PHASE_3,1,PDCD1,Programmed cell death protein 1 antagonist,1,True,False
-CHEMBL4297866,ABIVERTINIB MALEATE,Small molecule,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Tyrosine-protein kinase BTK inhibitor,2,True,False
-CHEMBL4297865,ABIVERTINIB,Small molecule,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Tyrosine-protein kinase BTK inhibitor,2,True,False
-CHEMBL4297860,TILAVONEMAB,Antibody,PHASE_2,1,MAPT,Microtubule-associated protein tau inhibitor,1,True,False
-CHEMBL3545396,BMS-690514,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor; Vascular endothelial growth factor receptor inhibitor,6,True,False
-CHEMBL4297858,BUDIGALIMAB,Antibody,PHASE_2_3,1,PDCD1,Programmed cell death protein 1 inhibitor,1,True,False
-CHEMBL4297856,ZIMBERELIMAB,Antibody,PHASE_3,1,PDCD1,Programmed cell death protein 1 inhibitor,1,True,False
-CHEMBL4297843,TORIPALIMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 antagonist,1,True,False
-CHEMBL4297842,TOMUZOTUXIMAB,Antibody,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL3545398,PG-760564,Unknown,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL4297840,TISLELIZUMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 inhibitor,1,True,False
-CHEMBL3678958,RUSERONTINIB,Small molecule,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Tyrosine-protein kinase ABL inhibitor; Tyrosine-protein kinase receptor FLT3 inhibitor,3,True,False
-CHEMBL4297436,SRT-2104,Small molecule,PHASE_2,1,SIRT1,NAD-dependent deacetylase sirtuin 1 activator,1,True,False
-CHEMBL3787344,NAZARTINIB,Small molecule,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Epidermal growth factor receptor inhibitor,1,True,False
-CHEMBL3940890,ACORAMIDIS,Small molecule,APPROVAL,1,TTR,Transthyretin stabiliser,1,True,False
-CHEMBL384304,RG-547,Small molecule,PHASE_1,1,CDK2,Cyclin-dependent kinase 1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 4 inhibitor,3,True,False
-CHEMBL383824,ALVESPIMYCIN,Small molecule,PHASE_2,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,True,False
-CHEMBL3647420,PYROTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,2,True,False
-CHEMBL3653256,SIREMADLIN,Small molecule,PHASE_2,1,MDM2,Tumour suppressor p53/oncoprotein Mdm2 inhibitor,2,True,False
-CHEMBL3663929,NAQUOTINIB,Small molecule,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL3833342,NUSINERSEN SODIUM,Oligonucleotide,APPROVAL,1,SMN2,SMN2 pre-mRNA positive modulator,1,True,False
-CHEMBL3833330,CINPANEMAB,Antibody,PHASE_2,1,SNCA,Alpha-synuclein inhibitor,1,True,False
-CHEMBL3678076,EVENAMIDE,Small molecule,PHASE_3,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL3989794,DAGLUTRIL,Small molecule,PHASE_2,1,MME,Endothelin-converting enzyme 1 inhibitor; Neprilysin inhibitor,2,True,False
-CHEMBL3786343,OLMUTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL3786098,PF-06459988,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL377559,RETASPIMYCIN HYDROCHLORIDE,Small molecule,PHASE_3,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,True,False
-CHEMBL370805,COCAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL3707294,DEPATUXIZUMAB,Antibody,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL3707277,DEPATUXIZUMAB MAFODOTIN,Antibody drug conjugate,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 binding agent; Tubulin inhibitor,16,True,False
-CHEMBL3707243,GLYCOPYRRONIUM TOSYLATE,Small molecule,APPROVAL,1,CHRM4,Muscarinic acetylcholine receptor inhibitor,5,True,False
-CHEMBL3707223,SOFPIRONIUM BROMIDE,Small molecule,APPROVAL,1,CHRM4,Muscarinic acetylcholine receptor inhibitor,5,True,False
-CHEMBL3977543,BELVARAFENIB,Small molecule,PHASE_2,1,RAF1,RAF serine/threonine protein kinase inhibitor,3,True,False
-CHEMBL3989921,NERATINIB MALEATE,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,True,False
-CHEMBL4297363,UCB-1184197,Small molecule,PHASE_2,1,ITGA4,Integrin alpha-4 inhibitor,1,True,False
-CHEMBL3991932,PEXMETINIB,Small molecule,PHASE_1_2,1,MAPK14,MAP kinase p38 alpha inhibitor; Tyrosine-protein kinase TIE-2 inhibitor,2,True,False
-CHEMBL4297300,LB-100,Small molecule,PHASE_2,1,PPP2CA,"Serine/threonine protein phosphatase 2A, catalytic subunit, alpha isoform inhibitor; Serine/threonine protein phosphatase 2A, catalytic subunit, beta isoform inhibitor; Serine/threonine-protein phosphatase 5 inhibitor",3,True,False
-CHEMBL4297258,FIRMONERTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL359164,TROXACITABINE,Small molecule,PHASE_2,1,POLE2,DNA polymerase (alpha/delta/epsilon) inhibitor,11,True,False
-CHEMBL428690,ALVOCIDIB,Small molecule,PHASE_3,1,CDK2,Cyclin-dependent kinase 1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 4 inhibitor; Cyclin-dependent kinase 6 inhibitor; Cyclin-dependent kinase 7 inhibitor; Cyclin-dependent kinase 9 inhibitor,6,True,False
-CHEMBL422872,AZD-4769,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL411,DIETHYLSTILBESTROL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,True,False
-CHEMBL3623290,AZD-3759,Small molecule,PHASE_2_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL4091801,ALRIZOMADLIN,Small molecule,PHASE_2,1,MDM2,Tumour suppressor p53/oncoprotein Mdm2 inhibitor,2,True,False
-CHEMBL4298124,DOSTARLIMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 antagonist,1,True,False
-CHEMBL363648,TAK-715,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL3990042,GOSURANEMAB,Antibody,PHASE_2,1,MAPT,Microtubule-associated protein tau inhibitor,1,True,False
-CHEMBL3989988,MODOTUXIMAB,Antibody,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 antagonist; Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL3989987,PATISIRAN,Oligonucleotide,APPROVAL,1,TTR,Transthyretin mRNA RNAi inhibitor,1,True,False
-CHEMBL3989978,PREXIGEBERSEN,Oligonucleotide,PHASE_2,1,GRB2,Growth factor receptor-bound protein 2 mRNA antisense inhibitor,1,True,False
-CHEMBL362558,LY-2090314,Small molecule,PHASE_2,1,GSK3B,Glycogen synthase kinase-3 alpha inhibitor; Glycogen synthase kinase-3 beta inhibitor,2,True,False
-CHEMBL363295,TERODILINE,Small molecule,APPROVAL,1,CHRM4,Muscarinic acetylcholine receptor antagonist; Voltage-gated calcium channel blocker,31,True,False
-CHEMBL3989970,MAVELERTINIB,Small molecule,PHASE_1_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL3989949,CENOBAMATE,Small molecule,APPROVAL,1,SCN1A,GABA-A receptor; anion channel positive allosteric modulator; Sodium channel alpha subunit inhibitor,26,True,False
-CHEMBL1018,DIENESTROL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,True,False
-CHEMBL4475463,AMCENESTRANT,Small molecule,PHASE_3,1,ESR1,Estrogen receptor alpha degrader,1,True,False
-CHEMBL4298191,SASANLIMAB,Antibody,PHASE_3,1,PDCD1,Programmed cell death protein 1 antagonist,1,True,False
-CHEMBL58323,LACOSAMIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL6069183,CEP-2563,Small molecule,PHASE_1,1,PRKCD,Neurotrophic tyrosine kinase receptor inhibitor; Platelet-derived growth factor receptor beta inhibitor; Protein kinase C (PKC) inhibitor; Tyrosine-protein kinase receptor FLT3 inhibitor; Tyrosine-protein kinase receptor RET inhibitor,17,True,False
-CHEMBL6068478,LAZERTINIB MESYLATE,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL6068423,ESTETROL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor agonist,2,True,False
-CHEMBL6067998,LASOFOXIFENE TARTRATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,True,False
-CHEMBL6067986,AV-412,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,2,True,False
-CHEMBL605,PROCAINAMIDE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL601719,CRIZOTINIB,Small molecule,APPROVAL,1,NPM1,ALK tyrosine kinase receptor inhibitor; EML4-ALK inhibitor; Hepatocyte growth factor receptor inhibitor; Macrophage-stimulating protein receptor inhibitor; NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor) inhibitor; Proto-oncogene tyrosine-protein kinase ROS inhibitor,6,True,False
-CHEMBL598797,CUDC-101,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Histone deacetylase inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,13,True,False
-CHEMBL587723,AEE-788,Small molecule,PHASE_1_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Vascular endothelial growth factor receptor 1 inhibitor; Vascular endothelial growth factor receptor 2 inhibitor,4,True,False
-CHEMBL585902,AMG-548,Small molecule,UNKNOWN,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL573352,TAS-106,Small molecule,PHASE_2,1,POLR1A,DNA-directed RNA polymerase I subunit RPA1 inhibitor; DNA-directed RNA polymerase II subunit RPB1 inhibitor; DNA-directed RNA polymerase III subunit RPC1 inhibitor,2,True,False
-CHEMBL5314397,ACUMAPIMOD,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL569,PROCAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL565612,SOTRASTAURIN,Small molecule,PHASE_2,1,PRKCD,Protein kinase C (PKC) inhibitor,11,True,False
-CHEMBL564829,MILCICLIB,Small molecule,PHASE_2,1,CDK2,Cyclin-dependent kinase 1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 4 inhibitor; Nerve growth factor receptor Trk-A inhibitor,4,True,False
-CHEMBL558,MEXILETINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL554,LAPATINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,2,True,False
-CHEMBL553,ERLOTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL545315,CANERTINIB DIHYDROCHLORIDE,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,True,False
-CHEMBL539770,TERODILINE HYDROCHLORIDE,Small molecule,APPROVAL,1,CHRM4,Muscarinic acetylcholine receptor antagonist; Voltage-gated calcium channel blocker,31,True,False
-CHEMBL5314411,EPITINIB,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL5314410,THELIATINIB,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL607707,PELITINIB,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL608533,MIDOSTAURIN,Small molecule,APPROVAL,1,PRKCD,Platelet-derived growth factor receptor inhibitor; Protein kinase C (PKC) inhibitor; Stem cell growth factor receptor inhibitor; Tyrosine-protein kinase receptor FLT3 inhibitor; Vascular endothelial growth factor receptor 2 inhibitor,16,True,False
-CHEMBL631,PROPAFENONE,Small molecule,APPROVAL,1,SCN1A,Beta-1 adrenergic receptor antagonist; Beta-2 adrenergic receptor antagonist; Sodium channel alpha subunit blocker,12,True,False
-CHEMBL6318,IDOXIFENE,Small molecule,PHASE_3,1,ESR1,Estrogen receptor modulator,2,True,False
-CHEMBL954,ENCLOMIPHENE,Small molecule,PHASE_2,1,ESR1,Estrogen receptor alpha modulator,1,True,False
-CHEMBL939,GEFITINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL919,FOSPHENYTOIN SODIUM,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL918,PHENACEMIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL900,ORPHENADRINE,Small molecule,APPROVAL,1,SCN1A,Glutamate [NMDA] receptor antagonist; Histamine H1 receptor antagonist; Norepinephrine transporter inhibitor; Sodium channel alpha subunit blocker,19,True,False
-CHEMBL888,GEMCITABINE,Small molecule,APPROVAL,1,POLE2,DNA polymerase (alpha/delta/epsilon) inhibitor; Ribonucleoside-diphosphate reductase RR1 inhibitor,14,True,False
-CHEMBL87992,ESLICARBAZEPINE ACETATE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL861,MEPHENYTOIN,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL856,PRIMIDONE,Small molecule,APPROVAL,1,SCN1A,GABA-A receptor; anion channel positive allosteric modulator; Sodium channel alpha subunit blocker,26,True,False
-CHEMBL83,TAMOXIFEN,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha modulator,1,True,False
-CHEMBL81,RALOXIFENE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor beta modulator; Estrogen receptor modulator,2,True,False
-CHEMBL803,CYTARABINE,Small molecule,APPROVAL,1,POLE2,DNA polymerase (alpha/delta/epsilon) inhibitor,11,True,False
-CHEMBL79,LIDOCAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL786,TAMOXIFEN CITRATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha modulator,1,True,False
-CHEMBL750,ZONISAMIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL744,RILUZOLE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL741,LAMOTRIGINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL698,TETRACAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL691,ETHINYL ESTRADIOL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,True,False
-CHEMBL68055,ACOLBIFENE,Small molecule,PHASE_3,1,ESR1,Estrogen receptor modulator,2,True,False
-CHEMBL640,PROCAINAMIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL5314407,ARQ-736,Small molecule,PHASE_1,1,RAF1,Serine/threonine-protein kinase B-raf inhibitor; Serine/threonine-protein kinase RAF inhibitor,2,True,False
-CHEMBL529437,COCAINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL4442620,RONICICLIB,Small molecule,PHASE_2,1,CDK2,Cyclin-dependent kinase inhibitor,20,True,False
-CHEMBL4594456,CADONILIMAB,Antibody,PHASE_3,1,PDCD1,Cytotoxic T-lymphocyte protein 4 inhibitor; Programmed cell death protein 1 inhibitor,2,True,False
-CHEMBL4594612,BEPRANEMAB,Antibody,PHASE_2,1,MAPT,Microtubule-associated protein tau inhibitor,1,True,False
-CHEMBL4594602,LOMVASTOMIG,Antibody,PHASE_2,1,PDCD1,Hepatitis A virus cellular receptor 2 inhibitor; Programmed cell death protein 1 inhibitor,2,True,False
-CHEMBL4594578,TEBOTELIMAB,Antibody,PHASE_2_3,1,PDCD1,Lymphocyte activation gene 3 protein inhibitor; Programmed cell death protein 1 inhibitor,2,True,False
-CHEMBL4594550,SERPLULIMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 antagonist,1,True,False
-CHEMBL4594549,PIMURUTAMAB,Antibody,PHASE_2_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL4594536,CS-1003,Unknown,PHASE_3,1,PDCD1,Programmed cell death protein 1 inhibitor,1,True,False
-CHEMBL4594515,LOSATUXIZUMAB VEDOTIN,Antibody drug conjugate,PHASE_1,1,EGFR,Epidermal growth factor receptor binding agent; Tubulin inhibitor,16,True,False
-CHEMBL4594511,VUTRISIRAN,Oligonucleotide,APPROVAL,1,TTR,Transthyretin mRNA rnai inhibitor,1,True,False
-CHEMBL4594492,REVUSIRAN,Oligonucleotide,PHASE_3,1,TTR,Transthyretin mRNA RNAi inhibitor,1,True,False
-CHEMBL4594472,BAFISONTAMAB,Antibody,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Hepatocyte growth factor receptor inhibitor,2,True,False
-CHEMBL4594355,APL-501,Unknown,PHASE_2,1,PDCD1,Programmed cell death protein 1 inhibitor,1,True,False
-CHEMBL517,DISOPYRAMIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL4594350,ADAGRASIB,Small molecule,APPROVAL,1,KRAS,GTPase KRas inhibitor,1,True,False
-CHEMBL4594335,EPLONTERSEN SODIUM,Oligonucleotide,APPROVAL,1,TTR,Transthyretin mRNA antisense inhibitor,1,True,False
-CHEMBL4594334,EPLONTERSEN,Oligonucleotide,APPROVAL,1,TTR,Transthyretin mRNA antisense inhibitor,1,True,False
-CHEMBL4594273,ELACESTRANT HYDROCHLORIDE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha degrader,1,True,False
-CHEMBL4583691,NAPORAFENIB,Small molecule,PHASE_3,1,RAF1,B-raf/RAF proto-oncogene serine/threonine-protein kinase inhibitor,2,True,False
-CHEMBL4558324,LAZERTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL4535757,SOTORASIB,Small molecule,APPROVAL,1,KRAS,GTPase KRas inhibitor,1,True,False
-CHEMBL3545235,SIMOTINIB,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL4466233,PEMRAMETOSTAT,Small molecule,PHASE_2,1,PRMT5,Protein arginine N-methyltransferase 5 inhibitor,1,True,False
-CHEMBL445813,AT-7519,Small molecule,PHASE_2,1,CDK2,Cyclin-dependent kinase inhibitor,20,True,False
-CHEMBL4650226,ACORAMIDIS HYDROCHLORIDE,Small molecule,APPROVAL,1,TTR,Transthyretin stabiliser,1,True,False
-CHEMBL4650279,TUXOBERTINIB,Small molecule,PHASE_1_2,1,EGFR,Epidermal growth factor receptor erbB1 negative allosteric modulator; Receptor protein-tyrosine kinase erbB-2 negative allosteric modulator,2,True,False
-CHEMBL4650281,CLN-081,Small molecule,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL4650289,KBP5209,Unknown,PHASE_1,1,EGFR,Epidermal growth factor receptor inhibitor,4,True,False
-CHEMBL514201,TALMAPIMOD,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL5095303,VUTRISIRAN SODIUM,Oligonucleotide,APPROVAL,1,TTR,Transthyretin mRNA rnai inhibitor,1,True,False
-CHEMBL494089,GSK-690693,Small molecule,PHASE_1,1,PRKCD,Protein kinase C (PKC) inhibitor; Serine/threonine-protein kinase AKT inhibitor; cAMP-dependent protein kinase (PKA) inhibitor,17,True,False
-CHEMBL492,ETIDOCAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL489,AFIMOXIFENE,Small molecule,PHASE_2,1,ESR1,Estrogen receptor modulator; Estrogen-related receptor gamma antagonist,3,True,False
-CHEMBL488436,AZD-5438,Small molecule,PHASE_1,1,CDK2,Cyclin-dependent kinase inhibitor,20,True,False
-CHEMBL487,DROLOXIFENE,Small molecule,PHASE_2,1,ESR1,Estrogen receptor modulator,2,True,False
-CHEMBL483465,ELRAGLUSIB,Small molecule,PHASE_2,1,GSK3B,Glycogen synthase kinase-3 beta inhibitor,1,True,False
-CHEMBL4802239,MOBOCERTINIB SUCCINATE,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL4802154,TILPISERTIB,Small molecule,PHASE_2,1,MAP3K8,Mitogen-activated protein kinase kinase kinase 8 inhibitor,1,True,False
-CHEMBL4761468,AUMOLERTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL46740,BAZEDOXIFENE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,True,False
-CHEMBL467399,BIIB021,Small molecule,PHASE_2,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,True,False
-CHEMBL4650516,FINOTONLIMAB,Antibody,PHASE_3,1,PDCD1,Programmed cell death protein 1 inhibitor,1,True,False
-CHEMBL4650482,PIMIVALIMAB,Antibody,PHASE_2,1,PDCD1,Programmed cell death protein 1 inhibitor,1,True,False
-CHEMBL4650472,PUCOTENLIMAB,Antibody,PHASE_3,1,PDCD1,Programmed cell death protein 1 inhibitor,1,True,False
-CHEMBL4650402,POSDINEMAB,Antibody,PHASE_2,1,MAPT,Microtubule-associated protein tau inhibitor,1,True,False
-CHEMBL4650365,CAMIZESTRANT,Small molecule,PREAPPROVAL,1,ESR1,Estrogen receptor alpha degrader,1,True,False
-CHEMBL4650319,MOBOCERTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL4650316,GIREDESTRANT,Small molecule,PHASE_3,1,ESR1,Estrogen receptor alpha degrader,1,True,False
-CHEMBL4650290,GC1118,Unknown,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL3545274,MK-6913,Small molecule,PHASE_2,1,ESR1,Estrogen receptor agonist,2,True,False
-CHEMBL3545157,TIDEGLUSIB,Small molecule,PHASE_2_3,1,GSK3B,Glycogen synthase kinase-3 beta inhibitor,1,True,False
-CHEMBL3545216,FX-005,Unknown,PHASE_2_3,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL1201550,DENILEUKIN DIFTITOX,Protein,APPROVAL,1,EEF2,Elongation factor 2 inhibitor; Interleukin-2 receptor binding agent,4,True,False
-CHEMBL1230314,ESTETROL ANHYDROUS,Small molecule,UNKNOWN,1,ESR1,Estrogen receptor agonist,2,True,False
-CHEMBL1230122,R-1487,Small molecule,PHASE_1,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL1230065,BMS-582949,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL1214827,ONALESPIB,Small molecule,PHASE_2,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,True,False
-CHEMBL1201827,PANITUMUMAB,Antibody,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL1201754,RUFINAMIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1201729,DRONEDARONE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Inward rectifier potassium channel 2 blocker; Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 4 blocker; Sodium channel alpha subunit blocker; Voltage-gated L-type calcium channel blocker,16,True,False
-CHEMBL1201649,"ESTROGENS, CONJUGATED",Unknown,APPROVAL,1,ESR1,Estrogen receptor agonist,2,True,False
-CHEMBL1201607,NATALIZUMAB,Antibody,APPROVAL,1,ITGA4,Integrin alpha-4/beta-1 inhibitor; Integrin alpha-4/beta-7 inhibitor,3,True,False
-CHEMBL1201577,CETUXIMAB,Antibody,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL1201505,"FIBRINOLYSIN, HUMAN",Unknown,APPROVAL,1,FGB,Fibrinogen inhibitor,3,True,False
-CHEMBL1762,TOCAINIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1201477,POLYESTRADIOL PHOSPHATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,True,False
-CHEMBL1201468,"ESTROGENS, ESTERIFIED",Unknown,APPROVAL,1,ESR1,Estrogen receptor agonist,2,True,False
-CHEMBL1201467,"SYNTHETIC CONJUGATED ESTROGENS, B",Unknown,APPROVAL,1,ESR1,Estrogen receptor agonist,2,True,False
-CHEMBL1201466,"ESTROGENS, CONJUGATED SYNTHETIC A",Unknown,APPROVAL,1,ESR1,Estrogen receptor agonist,2,True,False
-CHEMBL1201336,FOSPHENYTOIN,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1201335,GLYCOPYRRONIUM,Small molecule,APPROVAL,1,CHRM4,Muscarinic acetylcholine receptor M1 antagonist; Muscarinic acetylcholine receptor M3 antagonist; Muscarinic acetylcholine receptor inhibitor,5,True,False
-CHEMBL1201242,INDECAINIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1201217,DYCLONINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1201179,LAPATINIB DITOSYLATE,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,2,True,False
-CHEMBL1201165,QUINESTROL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor agonist,2,True,False
-CHEMBL1230607,PHA-793887,Small molecule,PHASE_1,1,CDK2,Cyclin-dependent kinase inhibitor,20,True,False
-CHEMBL1231160,PEVONEDISTAT,Small molecule,PHASE_3,1,NAE1,NEDD8 activating enzyme inhibitor,2,True,False
-CHEMBL1237023,DENOSUMAB,Antibody,APPROVAL,1,TNFSF11,Tumor necrosis factor ligand superfamily member 11 inhibitor,1,True,False
-CHEMBL1242,PHENAZOPYRIDINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1743087,VEDOLIZUMAB,Antibody,APPROVAL,1,ITGA4,Integrin alpha-4/beta-7 inhibitor,2,True,False
-CHEMBL1743052,OPORTUZUMAB MONATOX,Antibody drug conjugate,APPROVAL,1,EEF2,Elongation factor 2 inhibitor; Epithelial cell adhesion molecule binding agent,2,True,False
-CHEMBL1743047,NECITUMUMAB,Antibody,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL1743043,MOXETUMOMAB PASUDOTOX,Antibody drug conjugate,APPROVAL,1,EEF2,CD22 binding agent; Elongation factor 2 inhibitor,2,True,False
-CHEMBL1655,TOREMIFENE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,True,False
-CHEMBL1645462,AC-480,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,True,False
-CHEMBL1637,GEMCITABINE HYDROCHLORIDE,Small molecule,APPROVAL,1,POLE2,DNA polymerase (alpha/delta/epsilon) inhibitor; Ribonucleoside-diphosphate reductase RR1 inhibitor,14,True,False
-CHEMBL1614725,TAK-285,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,2,True,False
-CHEMBL1614702,SCIO-323,Small molecule,PRECLINICAL,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL1611,PHENYTOIN SODIUM,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL16,PHENYTOIN,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1511,ESTRADIOL VALERATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,True,False
-CHEMBL14762,SELICICLIB,Small molecule,PHASE_2,1,CDK2,Cyclin-dependent kinase 1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 5 inhibitor; Cyclin-dependent kinase 7 inhibitor; Cyclin-dependent kinase 9 inhibitor,5,True,False
-CHEMBL141305,CYCLOFENIL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,True,False
-CHEMBL1405,ESTRONE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,True,False
-CHEMBL1358,FULVESTRANT,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha antagonist; Estrogen receptor degrader,1,True,False
-CHEMBL135,ESTRADIOL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,True,False
-CHEMBL1336,SORAFENIB,Small molecule,APPROVAL,1,RAF1,Platelet-derived growth factor receptor beta inhibitor; Serine/threonine-protein kinase B-raf inhibitor; Serine/threonine-protein kinase RAF inhibitor; Stem cell growth factor receptor inhibitor; Tyrosine-protein kinase receptor FLT3 inhibitor; Tyrosine-protein kinase receptor RET inhibitor; Vascular endothelial growth factor receptor inhibitor,9,True,False
-CHEMBL1294,QUINIDINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1257015,PICOTAMIDE,Small molecule,APPROVAL,1,TBXAS1,Thromboxane A2 receptor inhibitor; Thromboxane-A synthase inhibitor,2,True,False
-CHEMBL1255654,TETRACAINE HYDROCHLORIDE,Small molecule,PHASE_3,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1201151,MESTRANOL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,True,False
-CHEMBL1201063,PROPAFENONE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Beta-1 adrenergic receptor antagonist; Beta-2 adrenergic receptor antagonist; Sodium channel alpha subunit blocker,12,True,False
-CHEMBL1201023,ORPHENADRINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Glutamate [NMDA] receptor antagonist; Histamine H1 receptor antagonist; Norepinephrine transporter inhibitor; Sodium channel alpha subunit blocker,19,True,False
-CHEMBL1195,PROPOXYCAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL119385,NEFLAMAPIMOD,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL1184904,RETASPIMYCIN,Small molecule,PHASE_2,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,True,False
-CHEMBL1179047,CHLOROPROCAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1173655,AFATINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,True,False
-CHEMBL11662,OZAGREL,Small molecule,APPROVAL,1,TBXAS1,Thromboxane-A synthase inhibitor,1,True,False
-CHEMBL1097999,E-6201,Small molecule,PHASE_2,1,MAP3K1,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor; Mitogen-activated protein kinase kinase kinase 1 inhibitor,2,True,False
-CHEMBL1096882,FLUDARABINE PHOSPHATE,Small molecule,APPROVAL,1,POLE2,DNA polymerase (alpha/delta/epsilon) inhibitor; Ribonucleoside-diphosphate reductase RR1 inhibitor,14,True,False
-CHEMBL1095,ETHOTOIN,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL109480,TANESPIMYCIN,Small molecule,PHASE_3,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,True,False
-CHEMBL1093,ARTICAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1090090,VX-702,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL1090089,PAMAPIMOD,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL1088752,LOSMAPIMOD,Small molecule,PHASE_3,1,MAPK14,MAP kinase p38 alpha inhibitor; MAP kinase p38 beta inhibitor,2,True,False
-CHEMBL1088751,PH-797804,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL1088750,ARRY-797,Small molecule,PHASE_3,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL1087,MEPIVACAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL108,CARBAMAZEPINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1079742,ERLOTINIB HYDROCHLORIDE,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL1077896,ROPIVACAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1075,MORICIZINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1068,OXCARBAZEPINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1194,PRILOCAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1195136,SNX 5422,Small molecule,PHASE_2,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,True,False
-CHEMBL1201020,DISOPYRAMIDE PHOSPHATE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1196,PROPARACAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1200980,ESTROPIPATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,True,False
-CHEMBL1200973,ESTRADIOL CYPIONATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,True,False
-CHEMBL1200841,PROCAINE HYDROCHLORIDE,Small molecule,PHASE_3,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1200826,LITHIUM CARBONATE,Small molecule,APPROVAL,1,GSK3B,Glycogen synthase kinase-3 inhibitor; Inositol-1(or 4)-monophosphatase 1 inhibitor,3,True,False
-CHEMBL1200819,ARTICAINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1200675,TOREMIFENE CITRATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,True,False
-CHEMBL1200654,BENOXINATE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1200606,MEXILETINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1200598,DIETHYLSTILBESTROL DIPHOSPHATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor agonist,2,True,False
-CHEMBL1200586,PRILOCAINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1200485,SORAFENIB TOSYLATE,Small molecule,APPROVAL,1,RAF1,Platelet-derived growth factor receptor beta inhibitor; Serine/threonine-protein kinase B-raf inhibitor; Serine/threonine-protein kinase RAF inhibitor; Stem cell growth factor receptor inhibitor; Tyrosine-protein kinase receptor FLT3 inhibitor; Tyrosine-protein kinase receptor RET inhibitor; Vascular endothelial growth factor receptor inhibitor,9,True,False
-CHEMBL1200478,DYCLONINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1200464,PROPARACAINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1200440,MEPIVACAINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1200437,QUINIDINE GLUCONATE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1200430,ESTRADIOL ACETATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,True,False
-CHEMBL1200409,LIDOCAINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1200395,ORPHENADRINE CITRATE,Small molecule,APPROVAL,1,SCN1A,Glutamate [NMDA] receptor antagonist; Histamine H1 receptor antagonist; Norepinephrine transporter inhibitor; Sodium channel alpha subunit blocker,19,True,False
-CHEMBL1200334,MORICIZINE HYDROCHLORIDE,Small molecule,PHASE_2,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1200,BENOXINATE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1197,HEXYLCAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL1750,CLOFARABINE,Small molecule,APPROVAL,1,POLE2,DNA polymerase (alpha/delta/epsilon) inhibitor; Ribonucleoside-diphosphate reductase RR1 inhibitor,14,True,False
-CHEMBL180022,NERATINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,True,False
-CHEMBL3545210,TAS-108,Small molecule,PHASE_2,1,ESR1,Estrogen receptor alpha antagonist,1,True,False
-CHEMBL2403108,CERITINIB,Small molecule,APPROVAL,1,NPM1,ALK tyrosine kinase receptor inhibitor; EML4-ALK inhibitor; NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor) inhibitor,3,True,False
-CHEMBL3137343,PEMBROLIZUMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 inhibitor,1,True,False
-CHEMBL3137301,SACUBITRIL,Small molecule,APPROVAL,1,MME,Neprilysin inhibitor,1,True,False
-CHEMBL3125702,NAVTEMADLIN,Small molecule,PHASE_3,1,MDM2,Tumour suppressor p53/oncoprotein Mdm2 inhibitor,2,True,False
-CHEMBL3109738,JNJ-26483327,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor; Tyrosine-protein kinase FYN inhibitor; Tyrosine-protein kinase LCK inhibitor; Tyrosine-protein kinase Lyn inhibitor; Tyrosine-protein kinase SRC inhibitor; Tyrosine-protein kinase YES inhibitor; Vascular endothelial growth factor receptor 3 inhibitor,9,True,False
-CHEMBL296468,BMS-387032,Small molecule,PHASE_1,1,CDK2,Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 7 inhibitor; Cyclin-dependent kinase 9 inhibitor,3,True,False
-CHEMBL281398,TERBOGREL,Small molecule,PHASE_2,1,TBXAS1,Thromboxane A2 receptor antagonist; Thromboxane-A synthase inhibitor,2,True,False
-CHEMBL258940,FALNIDAMOL,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL252164,LUMINESPIB,Small molecule,PHASE_2,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,True,False
-CHEMBL24828,VANDETANIB,Small molecule,APPROVAL,1,EGFR,Ephrin receptor inhibitor; Epidermal growth factor receptor inhibitor; Tyrosine-protein kinase BRK inhibitor; Tyrosine-protein kinase SRC inhibitor; Tyrosine-protein kinase TIE-2 inhibitor; Tyrosine-protein kinase receptor RET inhibitor; Vascular endothelial growth factor receptor inhibitor,24,True,False
-CHEMBL2408045,SAPITINIB,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor tyrosine-protein kinase erbB-3 inhibitor,3,True,False
-CHEMBL2402737,IDASANUTLIN,Small molecule,PHASE_3,1,MDM2,Tumour suppressor p53/oncoprotein Mdm2 inhibitor,2,True,False
-CHEMBL184412,DRONEDARONE,Small molecule,APPROVAL,1,SCN1A,Inward rectifier potassium channel 2 blocker; Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 4 blocker; Sodium channel alpha subunit blocker; Voltage-gated L-type calcium channel blocker,16,True,False
-CHEMBL2365940,DAROTROPIUM,Small molecule,PHASE_2,1,CHRM4,Muscarinic acetylcholine receptor antagonist,5,True,False
-CHEMBL2364626,RALIMETINIB,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL2355051,CLOMIPHENE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha modulator,1,True,False
-CHEMBL2336050,XANOMELINE TARTRATE,Small molecule,PHASE_3,1,CHRM4,Muscarinic acetylcholine receptor M1 agonist; Muscarinic acetylcholine receptor M4 agonist,2,True,False
-CHEMBL2308782,DAROTROPIUM BROMIDE,Small molecule,PHASE_2,1,CHRM4,Muscarinic acetylcholine receptor antagonist,5,True,False
-CHEMBL226267,ARZOXIFENE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,True,False
-CHEMBL220492,TOPIRAMATE,Small molecule,APPROVAL,1,SCN1A,Carbonic anhydrase II inhibitor; Carbonic anhydrase IV inhibitor; GABA-A receptor; anion channel positive modulator; Glutamate receptor ionotropic AMPA antagonist; Glutamate receptor ionotropic kainate antagonist; Sodium channel alpha subunit blocker,37,True,False
-CHEMBL21536,XANOMELINE,Small molecule,APPROVAL,1,CHRM4,Muscarinic acetylcholine receptor M1 agonist; Muscarinic acetylcholine receptor M4 agonist,2,True,False
-CHEMBL2110732,DACOMITINIB ANHYDROUS,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,True,False
-CHEMBL2109503,LMB-9,Unknown,PHASE_1,1,EEF2,Elongation factor 2 inhibitor,1,True,False
-CHEMBL3137345,DULIGOTUZUMAB,Antibody,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor tyrosine-protein kinase erbB-3 inhibitor,2,True,False
-CHEMBL3137351,ABRILUMAB,Antibody,PHASE_2,1,ITGA4,Integrin alpha-4/beta-7 inhibitor,2,True,False
-CHEMBL315838,ENCAINIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL315985,ESLICARBAZEPINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL3545209,NKTR-171,Unknown,IND,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL3545201,TA-5493,Unknown,PHASE_1,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL3545200,S-222611,Unknown,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,2,True,False
-CHEMBL3545165,AFACIFENACIN,Small molecule,PHASE_2,1,CHRM4,Muscarinic acetylcholine receptor antagonist; Sodium channel protein type X alpha subunit blocker; Sodium channel protein type XI alpha subunit blocker,7,True,False
-CHEMBL103667,DORAMAPIMOD,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL3545154,POZIOTINIB,Small molecule,PHASE_3,1,EGFR,Epidermal growth factor receptor inhibitor,4,True,False
-CHEMBL3545117,AVE-9940,Unknown,PHASE_1,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL3545083,RGB-286638,Small molecule,PHASE_1,1,CDK2,Cyclin-dependent kinase 1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 4 inhibitor; Cyclin-dependent kinase 5 inhibitor; Cyclin-dependent kinase 7 inhibitor; Cyclin-dependent kinase 9 inhibitor,6,True,False
-CHEMBL3545063,OSIMERTINIB MESYLATE,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL3545027,XL-281,Small molecule,PHASE_1_2,1,RAF1,Serine/threonine-protein kinase B-raf inhibitor; Serine/threonine-protein kinase RAF inhibitor,2,True,False
-CHEMBL3545017,GTX-758,Small molecule,PHASE_2,1,ESR1,Estrogen receptor alpha agonist,1,True,False
-CHEMBL3544998,LY-3007113,Unknown,PHASE_1,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL3544983,TESEVATINIB,Small molecule,PHASE_3,1,EGFR,Ephrin type-B receptor 4 inhibitor; Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,3,True,False
-CHEMBL3402567,ITX-5061,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL3353410,OSIMERTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL3348923,TOVORAFENIB,Small molecule,APPROVAL,1,RAF1,RAF serine/threonine protein kinase inhibitor,3,True,False
-CHEMBL3301572,NUSINERSEN,Oligonucleotide,APPROVAL,1,SMN2,SMN2 pre-mRNA positive modulator,1,True,False
-CHEMBL328190,LASOFOXIFENE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,True,False
-CHEMBL31965,CANERTINIB,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,True,False
-CHEMBL3187812,ILEPATRIL,Small molecule,PHASE_2_3,1,MME,Angiotensin-converting enzyme inhibitor; Neprilysin inhibitor,2,True,False
-CHEMBL3185958,CLOMIPHENE CITRATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha modulator,1,True,False
-CHEMBL2109391,MDX-447,Unknown,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 cross-linking agent; High affinity immunoglobulin gamma Fc receptor I cross-linking agent,2,True,False
-CHEMBL2109390,MAB-425,Unknown,UNKNOWN,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL2109389,IMGATUZUMAB,Antibody,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 antagonist; Epidermal growth factor receptor erbB1 inhibitor; Low affinity immunoglobulin gamma Fc region receptor III-A cross-linking agent,2,True,False
-CHEMBL2105395,OSPEMIFENE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,True,False
-CHEMBL2103879,GANETESPIB,Small molecule,PHASE_3,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,True,False
-CHEMBL2103842,VARLITINIB,Small molecule,PHASE_2_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,2,True,False
-CHEMBL2103840,DINACICLIB,Small molecule,PHASE_3,1,CDK2,Cyclin-dependent kinase 1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 5 inhibitor; Cyclin-dependent kinase 9 inhibitor,4,True,False
-CHEMBL2103838,DILMAPIMOD,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL2103837,TAFAMIDIS,Small molecule,APPROVAL,1,TTR,Transthyretin stabiliser,1,True,False
-CHEMBL2103772,RACECADOTRIL,Small molecule,APPROVAL,1,MME,Neprilysin inhibitor,1,True,False
-CHEMBL2103738,LITHIUM CITRATE,Small molecule,APPROVAL,1,GSK3B,Glycogen synthase kinase-3 inhibitor; Inositol-1(or 4)-monophosphatase 1 inhibitor,3,True,False
-CHEMBL2095222,OCRIPLASMIN,Protein,APPROVAL,1,LAMA4,Collagen hydrolytic enzyme; Fibronectin proteolytic enzyme; Laminin hydrolytic enzyme,38,True,False
-CHEMBL2087361,ICOTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL2031465,AZD-6703,Small molecule,PHASE_1,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL2029988,CEP-32496,Small molecule,PHASE_1_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Serine/threonine-protein kinase B-raf inhibitor; Tyrosine-protein kinase receptor RET inhibitor,3,True,False
-CHEMBL197672,EMRICASAN,Small molecule,PHASE_2,1,CASP2,Caspase inhibitor,12,True,False
-CHEMBL1969664,AZD-1080,Small molecule,PHASE_1,1,GSK3B,Glycogen synthase kinase-3 inhibitor,2,True,False
-CHEMBL1963502,PKI-166,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL1947204,ALLITINIB,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,2,True,False
-CHEMBL1946170,REGORAFENIB,Small molecule,APPROVAL,1,RAF1,Discoidin domain-containing receptor 2 inhibitor; Ephrin type-A receptor 2 inhibitor; Fibroblast growth factor receptor 1 inhibitor; Fibroblast growth factor receptor 2 inhibitor; MAP kinase p38 beta inhibitor; Nerve growth factor receptor Trk-A inhibitor; Platelet-derived growth factor receptor inhibitor; Serine/threonine-protein kinase B-raf inhibitor; Serine/threonine-protein kinase RAF inhibitor; Stem cell growth factor receptor inhibitor; Tyrosine-protein kinase ABL inhibitor; Tyrosine-protein kinase FRK inhibitor; Tyrosine-protein kinase TIE-2 inhibitor; Tyrosine-protein kinase receptor RET inhibitor; Vascular endothelial growth factor receptor inhibitor,18,True,False
-CHEMBL1944698,ZOTIRACICLIB,Small molecule,PHASE_1_2,1,CDK2,Cyclin-dependent kinase 1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 7 inhibitor; Cyclin-dependent kinase 9 inhibitor; Tyrosine-protein kinase JAK2 inhibitor; Tyrosine-protein kinase receptor FLT3 inhibitor,6,True,False
-CHEMBL1938400,PF-03715455,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL193482,ESTRIOL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,True,False
-CHEMBL190333,RWJ-67657,Small molecule,PHASE_1,1,MAPK14,MAP kinase p38 alpha inhibitor; MAP kinase p38 beta inhibitor,2,True,False
-CHEMBL1889140,ROPIVACAINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL2104967,FIRATEGRAST,Small molecule,PHASE_2,1,ITGA4,Integrin alpha-4/beta-1 antagonist; Integrin alpha-4/beta-7 antagonist,3,True,False
-CHEMBL2105675,TAFAMIDIS MEGLUMINE,Small molecule,APPROVAL,1,TTR,Transthyretin stabiliser,1,True,False
-CHEMBL2109388,FUTUXIMAB,Antibody,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 antagonist,1,True,False
-CHEMBL2105712,AFATINIB DIMALEATE,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,True,False
-CHEMBL2109367,LMB-2,Unknown,PHASE_2,1,EEF2,Elongation factor 2 inhibitor; Interleukin-2 receptor alpha chain binding agent,2,True,False
-CHEMBL2109307,LMB-7,Unknown,PHASE_1,1,EEF2,Elongation factor 2 inhibitor,1,True,False
-CHEMBL2109072,"FIBRINOGEN, HUMAN",Unknown,APPROVAL,1,FGB,Fibrinogen exogenous protein,3,True,False
-CHEMBL2108893,ALFIMEPRASE,Enzyme,PHASE_3,1,FGB,Fibrinogen hydrolytic enzyme,3,True,False
-CHEMBL2108738,NIVOLUMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 inhibitor,1,True,False
-CHEMBL2108680,PIDILIZUMAB,Antibody,PHASE_2,1,PDCD1,Programmed cell death protein 1 inhibitor,1,True,False
-CHEMBL2108583,CINTREDEKIN BESUDOTOX,Protein,PHASE_3,1,EEF2,Elongation factor 2 inhibitor; Interleukin 13 receptor binding agent; Interleukin-13 receptor subunit alpha-2 binding agent,4,True,False
-CHEMBL2108481,ANCROD,Unknown,APPROVAL,1,FGB,Fibrinogen hydrolytic enzyme,3,True,False
-CHEMBL2108359,NIMOTUZUMAB,Antibody,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL2108131,PLASMINOGEN,Unknown,PHASE_3,1,FGB,Fibrinogen hydrolytic enzyme,3,True,False
-CHEMBL2108038,MATUZUMAB,Antibody,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,True,False
-CHEMBL2107872,DELCASERTIB,Unknown,PHASE_2,1,PRKCD,Protein kinase C delta inhibitor,1,True,False
-CHEMBL2107863,RINDOPEPIMUT,Unknown,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 vaccine antigen,1,True,False
-CHEMBL2107861,ZALUTUMUMAB,Antibody,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 antagonist,1,True,False
-CHEMBL2107779,SEMAPIMOD,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
-CHEMBL2107771,RALFINAMIDE,Small molecule,PHASE_3,1,SCN1A,Glutamate [NMDA] receptor antagonist; Monoamine oxidase B inhibitor; Sodium channel alpha subunit blocker; Voltage-gated N-type calcium channel alpha-1B subunit blocker,19,True,False
-CHEMBL2107762,NERISPIRDINE,Small molecule,PHASE_2,1,SCN1A,Sodium channel alpha subunit blocker; Voltage-gated potassium channel blocker,50,True,False
-CHEMBL2107341,FISPEMIFENE,Small molecule,PHASE_2,1,ESR1,Estrogen receptor modulator,2,True,False
-CHEMBL2106615,BAZEDOXIFENE ACETATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,True,False
-CHEMBL2106155,ENCAINIDE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,True,False
-CHEMBL2105719,DACOMITINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,True,False
-CHEMBL9960,AZD-7624,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,True,False
+CHEMBL1743000,CITATUZUMAB BOGATOX,Antibody drug conjugate,PHASE_1,55,RPL10;RPL10A;RPL11;RPL12;RPL13;RPL13A;RPL14;RPL15;RPL17;RPL18;RPL18A;RPL19;RPL21;RPL23;RPL23A;RPL24;RPL26;RPL27;RPL27A;RPL28;RPL29;RPL3;RPL30;RPL31;RPL35;RPL35A;RPL37A;RPL38;RPL4;RPL5;RPL6;RPL7;RPL7A;RPL8;RPL9;RPLP0;RPLP1;RPS11;RPS13;RPS14;RPS15A;RPS16;RPS18;RPS2;RPS20;RPS23;RPS27;RPS3;RPS3A;RPS4X;RPS5;RPS6;RPS7;RPS8;RPS9,80S Ribosome inhibitor; Epithelial cell adhesion molecule binding agent,79,TRUE,FALSE
+CHEMBL2108785,ZOLIMOMAB ARITOX,Antibody drug conjugate,PHASE_2,55,RPL10;RPL10A;RPL11;RPL12;RPL13;RPL13A;RPL14;RPL15;RPL17;RPL18;RPL18A;RPL19;RPL21;RPL23;RPL23A;RPL24;RPL26;RPL27;RPL27A;RPL28;RPL29;RPL3;RPL30;RPL31;RPL35;RPL35A;RPL37A;RPL38;RPL4;RPL5;RPL6;RPL7;RPL7A;RPL8;RPL9;RPLP0;RPLP1;RPS11;RPS13;RPS14;RPS15A;RPS16;RPS18;RPS2;RPS20;RPS23;RPS27;RPS3;RPS3A;RPS4X;RPS5;RPS6;RPS7;RPS8;RPS9,80S Ribosome inhibitor; T-cell surface glycoprotein CD5 binding agent,79,TRUE,FALSE
+CHEMBL256997,ATALUREN,Small molecule,APPROVAL,55,RPL10;RPL10A;RPL11;RPL12;RPL13;RPL13A;RPL14;RPL15;RPL17;RPL18;RPL18A;RPL19;RPL21;RPL23;RPL23A;RPL24;RPL26;RPL27;RPL27A;RPL28;RPL29;RPL3;RPL30;RPL31;RPL35;RPL35A;RPL37A;RPL38;RPL4;RPL5;RPL6;RPL7;RPL7A;RPL8;RPL9;RPLP0;RPLP1;RPS11;RPS13;RPS14;RPS15A;RPS16;RPS18;RPS2;RPS20;RPS23;RPS27;RPS3;RPS3A;RPS4X;RPS5;RPS6;RPS7;RPS8;RPS9,80S Ribosome modulator,78,TRUE,FALSE
+CHEMBL4297744,ELX-02,Unknown,PHASE_2,55,RPL10;RPL10A;RPL11;RPL12;RPL13;RPL13A;RPL14;RPL15;RPL17;RPL18;RPL18A;RPL19;RPL21;RPL23;RPL23A;RPL24;RPL26;RPL27;RPL27A;RPL28;RPL29;RPL3;RPL30;RPL31;RPL35;RPL35A;RPL37A;RPL38;RPL4;RPL5;RPL6;RPL7;RPL7A;RPL8;RPL9;RPLP0;RPLP1;RPS11;RPS13;RPS14;RPS15A;RPS16;RPS18;RPS2;RPS20;RPS23;RPS27;RPS3;RPS3A;RPS4X;RPS5;RPS6;RPS7;RPS8;RPS9,80S Ribosome modulator,78,TRUE,FALSE
+CHEMBL4297789,MT-3724,Unknown,PHASE_2,55,RPL10;RPL10A;RPL11;RPL12;RPL13;RPL13A;RPL14;RPL15;RPL17;RPL18;RPL18A;RPL19;RPL21;RPL23;RPL23A;RPL24;RPL26;RPL27;RPL27A;RPL28;RPL29;RPL3;RPL30;RPL31;RPL35;RPL35A;RPL37A;RPL38;RPL4;RPL5;RPL6;RPL7;RPL7A;RPL8;RPL9;RPLP0;RPLP1;RPS11;RPS13;RPS14;RPS15A;RPS16;RPS18;RPS2;RPS20;RPS23;RPS27;RPS3;RPS3A;RPS4X;RPS5;RPS6;RPS7;RPS8;RPS9,80S Ribosome inhibitor; B-lymphocyte antigen CD20 binding agent,79,TRUE,FALSE
+CHEMBL2103884,OPROZOMIB,Small molecule,PHASE_2,3,PSMD11;PSMD2;PSMD3,26S proteasome inhibitor,38,TRUE,FALSE
+CHEMBL2141296,IXAZOMIB,Small molecule,APPROVAL,3,PSMD11;PSMD2;PSMD3,26S proteasome inhibitor,38,TRUE,FALSE
+CHEMBL325041,BORTEZOMIB,Small molecule,APPROVAL,3,PSMD11;PSMD2;PSMD3,26S proteasome inhibitor,38,TRUE,FALSE
+CHEMBL3545432,IXAZOMIB CITRATE,Small molecule,APPROVAL,3,PSMD11;PSMD2;PSMD3,26S proteasome inhibitor,38,TRUE,FALSE
+CHEMBL3786673,EDASALONEXENT,Small molecule,PHASE_3,3,NFKB1;NFKB2;RELA,Nuclear factor NF-kappa-B complex inhibitor,3,TRUE,FALSE
+CHEMBL451887,CARFILZOMIB,Protein,APPROVAL,3,PSMD11;PSMD2;PSMD3,26S proteasome inhibitor,38,TRUE,FALSE
+CHEMBL5315122,BORTEZOMIB D-MANNITOL,Small molecule,APPROVAL,3,PSMD11;PSMD2;PSMD3,26S proteasome inhibitor,38,TRUE,FALSE
+CHEMBL1614,DESLANOSIDE,Small molecule,APPROVAL,2,ATP1A1;ATP1A3,Sodium/potassium-transporting ATPase inhibitor,8,TRUE,FALSE
+CHEMBL1751,DIGOXIN,Small molecule,APPROVAL,2,ATP1A1;ATP1A3,Sodium/potassium-transporting ATPase inhibitor,8,TRUE,FALSE
+CHEMBL2093999,ISTAROXIME,Small molecule,PHASE_2_3,2,ATP1A1;ATP1A3,Sarcoplasmic/endoplasmic reticulum calcium ATPase 2 activator; Sodium/potassium-transporting ATPase inhibitor,9,TRUE,FALSE
+CHEMBL23293,SALIRASIB,Small molecule,PHASE_2,2,KRAS;NRAS,RAS inhibitor,3,TRUE,FALSE
+CHEMBL254219,DIGITOXIN,Small molecule,APPROVAL,2,ATP1A1;ATP1A3,Sodium/potassium-transporting ATPase inhibitor,8,TRUE,FALSE
+CHEMBL3545057,ACETYLDIGITOXIN,Small molecule,APPROVAL,2,ATP1A1;ATP1A3,Sodium/potassium-transporting ATPase inhibitor,8,TRUE,FALSE
+CHEMBL3989927,IBERDOMIDE,Small molecule,PHASE_3,2,CUL4A;DDB1,CRL4(CRBN) E3 ubiquitin ligase modulator,4,TRUE,FALSE
+CHEMBL4297240,ONASEMNOGENE ABEPARVOVEC,Gene,APPROVAL,2,SMN1;SMN2,Survival motor neuron protein exogenous gene,2,TRUE,FALSE
+CHEMBL43452,POMALIDOMIDE,Small molecule,APPROVAL,2,CUL4A;DDB1,CRL4(CRBN) E3 ubiquitin ligase inhibitor,4,TRUE,FALSE
+CHEMBL468,THALIDOMIDE,Small molecule,APPROVAL,2,CUL4A;DDB1,CRL4(CRBN) E3 ubiquitin ligase inhibitor,4,TRUE,FALSE
+CHEMBL506569,LANATOSIDE C,Small molecule,APPROVAL,2,ATP1A1;ATP1A3,Sodium/potassium-transporting ATPase inhibitor,8,TRUE,FALSE
+CHEMBL574737,UCN-01,Small molecule,PHASE_2,2,CDK2;PRKCD,3-phosphoinositide dependent protein kinase-1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 4 inhibitor; Cyclin-dependent kinase 6 inhibitor; Protein kinase C (PKC) inhibitor; Serine/threonine-protein kinase Chk1 inhibitor,16,TRUE,FALSE
+CHEMBL848,LENALIDOMIDE,Small molecule,APPROVAL,2,CUL4A;DDB1,CRL4(CRBN) E3 ubiquitin ligase inhibitor; CRL4(CRBN) E3 ubiquitin ligase modulator,4,TRUE,FALSE
+CHEMBL1018,DIENESTROL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,TRUE,FALSE
+CHEMBL103667,DORAMAPIMOD,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL1068,OXCARBAZEPINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1075,MORICIZINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1077896,ROPIVACAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1079742,ERLOTINIB HYDROCHLORIDE,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL108,CARBAMAZEPINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1087,MEPIVACAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1088750,ARRY-797,Small molecule,PHASE_3,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL1088751,PH-797804,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL1088752,LOSMAPIMOD,Small molecule,PHASE_3,1,MAPK14,MAP kinase p38 alpha inhibitor; MAP kinase p38 beta inhibitor,2,TRUE,FALSE
+CHEMBL1090089,PAMAPIMOD,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL1090090,VX-702,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL1093,ARTICAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL109480,TANESPIMYCIN,Small molecule,PHASE_3,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,TRUE,FALSE
+CHEMBL1095,ETHOTOIN,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1096882,FLUDARABINE PHOSPHATE,Small molecule,APPROVAL,1,POLE2,DNA polymerase (alpha/delta/epsilon) inhibitor; Ribonucleoside-diphosphate reductase RR1 inhibitor,14,TRUE,FALSE
+CHEMBL1097999,E-6201,Small molecule,PHASE_2,1,MAP3K1,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor; Mitogen-activated protein kinase kinase kinase 1 inhibitor,2,TRUE,FALSE
+CHEMBL11662,OZAGREL,Small molecule,APPROVAL,1,TBXAS1,Thromboxane-A synthase inhibitor,1,TRUE,FALSE
+CHEMBL1173655,AFATINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,TRUE,FALSE
+CHEMBL1179047,CHLOROPROCAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1184904,RETASPIMYCIN,Small molecule,PHASE_2,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,TRUE,FALSE
+CHEMBL119385,NEFLAMAPIMOD,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL1194,PRILOCAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1195,PROPOXYCAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1195136,SNX 5422,Small molecule,PHASE_2,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,TRUE,FALSE
+CHEMBL1196,PROPARACAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1197,HEXYLCAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1200,BENOXINATE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1200334,MORICIZINE HYDROCHLORIDE,Small molecule,PHASE_2,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1200395,ORPHENADRINE CITRATE,Small molecule,APPROVAL,1,SCN1A,Glutamate [NMDA] receptor antagonist; Histamine H1 receptor antagonist; Norepinephrine transporter inhibitor; Sodium channel alpha subunit blocker,19,TRUE,FALSE
+CHEMBL1200409,LIDOCAINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1200430,ESTRADIOL ACETATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,TRUE,FALSE
+CHEMBL1200437,QUINIDINE GLUCONATE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1200440,MEPIVACAINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1200464,PROPARACAINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1200478,DYCLONINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1200485,SORAFENIB TOSYLATE,Small molecule,APPROVAL,1,RAF1,Platelet-derived growth factor receptor beta inhibitor; Serine/threonine-protein kinase B-raf inhibitor; Serine/threonine-protein kinase RAF inhibitor; Stem cell growth factor receptor inhibitor; Tyrosine-protein kinase receptor FLT3 inhibitor; Tyrosine-protein kinase receptor RET inhibitor; Vascular endothelial growth factor receptor inhibitor,9,TRUE,FALSE
+CHEMBL1200586,PRILOCAINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1200598,DIETHYLSTILBESTROL DIPHOSPHATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor agonist,2,TRUE,FALSE
+CHEMBL1200606,MEXILETINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1200654,BENOXINATE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1200675,TOREMIFENE CITRATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,TRUE,FALSE
+CHEMBL1200819,ARTICAINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1200826,LITHIUM CARBONATE,Small molecule,APPROVAL,1,GSK3B,Glycogen synthase kinase-3 inhibitor; Inositol-1(or 4)-monophosphatase 1 inhibitor,3,TRUE,FALSE
+CHEMBL1200841,PROCAINE HYDROCHLORIDE,Small molecule,PHASE_3,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1200973,ESTRADIOL CYPIONATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,TRUE,FALSE
+CHEMBL1200980,ESTROPIPATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,TRUE,FALSE
+CHEMBL1201020,DISOPYRAMIDE PHOSPHATE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1201023,ORPHENADRINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Glutamate [NMDA] receptor antagonist; Histamine H1 receptor antagonist; Norepinephrine transporter inhibitor; Sodium channel alpha subunit blocker,19,TRUE,FALSE
+CHEMBL1201063,PROPAFENONE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Beta-1 adrenergic receptor antagonist; Beta-2 adrenergic receptor antagonist; Sodium channel alpha subunit blocker,12,TRUE,FALSE
+CHEMBL1201151,MESTRANOL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,TRUE,FALSE
+CHEMBL1201165,QUINESTROL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor agonist,2,TRUE,FALSE
+CHEMBL1201179,LAPATINIB DITOSYLATE,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,2,TRUE,FALSE
+CHEMBL1201217,DYCLONINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1201242,INDECAINIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1201335,GLYCOPYRRONIUM,Small molecule,APPROVAL,1,CHRM4,Muscarinic acetylcholine receptor M1 antagonist; Muscarinic acetylcholine receptor M3 antagonist; Muscarinic acetylcholine receptor inhibitor,5,TRUE,FALSE
+CHEMBL1201336,FOSPHENYTOIN,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1201466,"ESTROGENS, CONJUGATED SYNTHETIC A",Unknown,APPROVAL,1,ESR1,Estrogen receptor agonist,2,TRUE,FALSE
+CHEMBL1201467,"SYNTHETIC CONJUGATED ESTROGENS, B",Unknown,APPROVAL,1,ESR1,Estrogen receptor agonist,2,TRUE,FALSE
+CHEMBL1201468,"ESTROGENS, ESTERIFIED",Unknown,APPROVAL,1,ESR1,Estrogen receptor agonist,2,TRUE,FALSE
+CHEMBL1201477,POLYESTRADIOL PHOSPHATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,TRUE,FALSE
+CHEMBL1201505,"FIBRINOLYSIN, HUMAN",Unknown,APPROVAL,1,FGB,Fibrinogen inhibitor,3,TRUE,FALSE
+CHEMBL1201550,DENILEUKIN DIFTITOX,Protein,APPROVAL,1,EEF2,Elongation factor 2 inhibitor; Interleukin-2 receptor binding agent,4,TRUE,FALSE
+CHEMBL1201577,CETUXIMAB,Antibody,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL1201607,NATALIZUMAB,Antibody,APPROVAL,1,ITGA4,Integrin alpha-4/beta-1 inhibitor; Integrin alpha-4/beta-7 inhibitor,3,TRUE,FALSE
+CHEMBL1201649,"ESTROGENS, CONJUGATED",Unknown,APPROVAL,1,ESR1,Estrogen receptor agonist,2,TRUE,FALSE
+CHEMBL1201729,DRONEDARONE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Inward rectifier potassium channel 2 blocker; Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 4 blocker; Sodium channel alpha subunit blocker; Voltage-gated L-type calcium channel blocker,16,TRUE,FALSE
+CHEMBL1201754,RUFINAMIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1201827,PANITUMUMAB,Antibody,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL1214827,ONALESPIB,Small molecule,PHASE_2,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,TRUE,FALSE
+CHEMBL1230065,BMS-582949,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL1230122,R-1487,Small molecule,PHASE_1,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL1230314,ESTETROL ANHYDROUS,Small molecule,UNKNOWN,1,ESR1,Estrogen receptor agonist,2,TRUE,FALSE
+CHEMBL1230607,PHA-793887,Small molecule,PHASE_1,1,CDK2,Cyclin-dependent kinase inhibitor,20,TRUE,FALSE
+CHEMBL1231160,PEVONEDISTAT,Small molecule,PHASE_3,1,NAE1,NEDD8 activating enzyme inhibitor,2,TRUE,FALSE
+CHEMBL1237023,DENOSUMAB,Antibody,APPROVAL,1,TNFSF11,Tumor necrosis factor ligand superfamily member 11 inhibitor,1,TRUE,FALSE
+CHEMBL1242,PHENAZOPYRIDINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1255654,TETRACAINE HYDROCHLORIDE,Small molecule,PHASE_3,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1257015,PICOTAMIDE,Small molecule,APPROVAL,1,TBXAS1,Thromboxane A2 receptor inhibitor; Thromboxane-A synthase inhibitor,2,TRUE,FALSE
+CHEMBL1294,QUINIDINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1336,SORAFENIB,Small molecule,APPROVAL,1,RAF1,Platelet-derived growth factor receptor beta inhibitor; Serine/threonine-protein kinase B-raf inhibitor; Serine/threonine-protein kinase RAF inhibitor; Stem cell growth factor receptor inhibitor; Tyrosine-protein kinase receptor FLT3 inhibitor; Tyrosine-protein kinase receptor RET inhibitor; Vascular endothelial growth factor receptor inhibitor,9,TRUE,FALSE
+CHEMBL135,ESTRADIOL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,TRUE,FALSE
+CHEMBL1358,FULVESTRANT,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha antagonist; Estrogen receptor degrader,1,TRUE,FALSE
+CHEMBL1405,ESTRONE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,TRUE,FALSE
+CHEMBL141305,CYCLOFENIL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,TRUE,FALSE
+CHEMBL14762,SELICICLIB,Small molecule,PHASE_2,1,CDK2,Cyclin-dependent kinase 1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 5 inhibitor; Cyclin-dependent kinase 7 inhibitor; Cyclin-dependent kinase 9 inhibitor,5,TRUE,FALSE
+CHEMBL1511,ESTRADIOL VALERATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,TRUE,FALSE
+CHEMBL16,PHENYTOIN,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1611,PHENYTOIN SODIUM,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL1614702,SCIO-323,Small molecule,PRECLINICAL,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL1614725,TAK-285,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,2,TRUE,FALSE
+CHEMBL1637,GEMCITABINE HYDROCHLORIDE,Small molecule,APPROVAL,1,POLE2,DNA polymerase (alpha/delta/epsilon) inhibitor; Ribonucleoside-diphosphate reductase RR1 inhibitor,14,TRUE,FALSE
+CHEMBL1645462,AC-480,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,TRUE,FALSE
+CHEMBL1655,TOREMIFENE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,TRUE,FALSE
+CHEMBL1743043,MOXETUMOMAB PASUDOTOX,Antibody drug conjugate,APPROVAL,1,EEF2,CD22 binding agent; Elongation factor 2 inhibitor,2,TRUE,FALSE
+CHEMBL1743047,NECITUMUMAB,Antibody,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL1743052,OPORTUZUMAB MONATOX,Antibody drug conjugate,APPROVAL,1,EEF2,Elongation factor 2 inhibitor; Epithelial cell adhesion molecule binding agent,2,TRUE,FALSE
+CHEMBL1743087,VEDOLIZUMAB,Antibody,APPROVAL,1,ITGA4,Integrin alpha-4/beta-7 inhibitor,2,TRUE,FALSE
+CHEMBL1750,CLOFARABINE,Small molecule,APPROVAL,1,POLE2,DNA polymerase (alpha/delta/epsilon) inhibitor; Ribonucleoside-diphosphate reductase RR1 inhibitor,14,TRUE,FALSE
+CHEMBL1762,TOCAINIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL180022,NERATINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,TRUE,FALSE
+CHEMBL184412,DRONEDARONE,Small molecule,APPROVAL,1,SCN1A,Inward rectifier potassium channel 2 blocker; Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 4 blocker; Sodium channel alpha subunit blocker; Voltage-gated L-type calcium channel blocker,16,TRUE,FALSE
+CHEMBL1889140,ROPIVACAINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL190333,RWJ-67657,Small molecule,PHASE_1,1,MAPK14,MAP kinase p38 alpha inhibitor; MAP kinase p38 beta inhibitor,2,TRUE,FALSE
+CHEMBL193482,ESTRIOL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,TRUE,FALSE
+CHEMBL1938400,PF-03715455,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL1944698,ZOTIRACICLIB,Small molecule,PHASE_1_2,1,CDK2,Cyclin-dependent kinase 1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 7 inhibitor; Cyclin-dependent kinase 9 inhibitor; Tyrosine-protein kinase JAK2 inhibitor; Tyrosine-protein kinase receptor FLT3 inhibitor,6,TRUE,FALSE
+CHEMBL1946170,REGORAFENIB,Small molecule,APPROVAL,1,RAF1,Discoidin domain-containing receptor 2 inhibitor; Ephrin type-A receptor 2 inhibitor; Fibroblast growth factor receptor 1 inhibitor; Fibroblast growth factor receptor 2 inhibitor; MAP kinase p38 beta inhibitor; Nerve growth factor receptor Trk-A inhibitor; Platelet-derived growth factor receptor inhibitor; Serine/threonine-protein kinase B-raf inhibitor; Serine/threonine-protein kinase RAF inhibitor; Stem cell growth factor receptor inhibitor; Tyrosine-protein kinase ABL inhibitor; Tyrosine-protein kinase FRK inhibitor; Tyrosine-protein kinase TIE-2 inhibitor; Tyrosine-protein kinase receptor RET inhibitor; Vascular endothelial growth factor receptor inhibitor,18,TRUE,FALSE
+CHEMBL1947204,ALLITINIB,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,2,TRUE,FALSE
+CHEMBL1963502,PKI-166,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL1969664,AZD-1080,Small molecule,PHASE_1,1,GSK3B,Glycogen synthase kinase-3 inhibitor,2,TRUE,FALSE
+CHEMBL197672,EMRICASAN,Small molecule,PHASE_2,1,CASP2,Caspase inhibitor,12,TRUE,FALSE
+CHEMBL2029988,CEP-32496,Small molecule,PHASE_1_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Serine/threonine-protein kinase B-raf inhibitor; Tyrosine-protein kinase receptor RET inhibitor,3,TRUE,FALSE
+CHEMBL2031465,AZD-6703,Small molecule,PHASE_1,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL2087361,ICOTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL2095222,OCRIPLASMIN,Protein,APPROVAL,1,LAMA4,Collagen hydrolytic enzyme; Fibronectin proteolytic enzyme; Laminin hydrolytic enzyme,38,TRUE,FALSE
+CHEMBL2103738,LITHIUM CITRATE,Small molecule,APPROVAL,1,GSK3B,Glycogen synthase kinase-3 inhibitor; Inositol-1(or 4)-monophosphatase 1 inhibitor,3,TRUE,FALSE
+CHEMBL2103772,RACECADOTRIL,Small molecule,APPROVAL,1,MME,Neprilysin inhibitor,1,TRUE,FALSE
+CHEMBL2103837,TAFAMIDIS,Small molecule,APPROVAL,1,TTR,Transthyretin stabiliser,1,TRUE,FALSE
+CHEMBL2103838,DILMAPIMOD,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL2103840,DINACICLIB,Small molecule,PHASE_3,1,CDK2,Cyclin-dependent kinase 1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 5 inhibitor; Cyclin-dependent kinase 9 inhibitor,4,TRUE,FALSE
+CHEMBL2103842,VARLITINIB,Small molecule,PHASE_2_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,2,TRUE,FALSE
+CHEMBL2103879,GANETESPIB,Small molecule,PHASE_3,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,TRUE,FALSE
+CHEMBL2104967,FIRATEGRAST,Small molecule,PHASE_2,1,ITGA4,Integrin alpha-4/beta-1 antagonist; Integrin alpha-4/beta-7 antagonist,3,TRUE,FALSE
+CHEMBL2105395,OSPEMIFENE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,TRUE,FALSE
+CHEMBL2105675,TAFAMIDIS MEGLUMINE,Small molecule,APPROVAL,1,TTR,Transthyretin stabiliser,1,TRUE,FALSE
+CHEMBL2105712,AFATINIB DIMALEATE,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,TRUE,FALSE
+CHEMBL2105719,DACOMITINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,TRUE,FALSE
+CHEMBL2106155,ENCAINIDE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL2106615,BAZEDOXIFENE ACETATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,TRUE,FALSE
+CHEMBL2107341,FISPEMIFENE,Small molecule,PHASE_2,1,ESR1,Estrogen receptor modulator,2,TRUE,FALSE
+CHEMBL2107762,NERISPIRDINE,Small molecule,PHASE_2,1,SCN1A,Sodium channel alpha subunit blocker; Voltage-gated potassium channel blocker,50,TRUE,FALSE
+CHEMBL2107771,RALFINAMIDE,Small molecule,PHASE_3,1,SCN1A,Glutamate [NMDA] receptor antagonist; Monoamine oxidase B inhibitor; Sodium channel alpha subunit blocker; Voltage-gated N-type calcium channel alpha-1B subunit blocker,19,TRUE,FALSE
+CHEMBL2107779,SEMAPIMOD,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL2107861,ZALUTUMUMAB,Antibody,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 antagonist,1,TRUE,FALSE
+CHEMBL2107863,RINDOPEPIMUT,Unknown,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 vaccine antigen,1,TRUE,FALSE
+CHEMBL2107872,DELCASERTIB,Unknown,PHASE_2,1,PRKCD,Protein kinase C delta inhibitor,1,TRUE,FALSE
+CHEMBL2108038,MATUZUMAB,Antibody,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL2108131,PLASMINOGEN,Unknown,PHASE_3,1,FGB,Fibrinogen hydrolytic enzyme,3,TRUE,FALSE
+CHEMBL2108359,NIMOTUZUMAB,Antibody,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL2108481,ANCROD,Unknown,APPROVAL,1,FGB,Fibrinogen hydrolytic enzyme,3,TRUE,FALSE
+CHEMBL2108583,CINTREDEKIN BESUDOTOX,Protein,PHASE_3,1,EEF2,Elongation factor 2 inhibitor; Interleukin 13 receptor binding agent; Interleukin-13 receptor subunit alpha-2 binding agent,4,TRUE,FALSE
+CHEMBL2108680,PIDILIZUMAB,Antibody,PHASE_2,1,PDCD1,Programmed cell death protein 1 inhibitor,1,TRUE,FALSE
+CHEMBL2108738,NIVOLUMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 inhibitor,1,TRUE,FALSE
+CHEMBL2108893,ALFIMEPRASE,Enzyme,PHASE_3,1,FGB,Fibrinogen hydrolytic enzyme,3,TRUE,FALSE
+CHEMBL2109072,"FIBRINOGEN, HUMAN",Unknown,APPROVAL,1,FGB,Fibrinogen exogenous protein,3,TRUE,FALSE
+CHEMBL2109307,LMB-7,Unknown,PHASE_1,1,EEF2,Elongation factor 2 inhibitor,1,TRUE,FALSE
+CHEMBL2109367,LMB-2,Unknown,PHASE_2,1,EEF2,Elongation factor 2 inhibitor; Interleukin-2 receptor alpha chain binding agent,2,TRUE,FALSE
+CHEMBL2109388,FUTUXIMAB,Antibody,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 antagonist,1,TRUE,FALSE
+CHEMBL2109389,IMGATUZUMAB,Antibody,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 antagonist; Epidermal growth factor receptor erbB1 inhibitor; Low affinity immunoglobulin gamma Fc region receptor III-A cross-linking agent,2,TRUE,FALSE
+CHEMBL2109390,MAB-425,Unknown,UNKNOWN,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL2109391,MDX-447,Unknown,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 cross-linking agent; High affinity immunoglobulin gamma Fc receptor I cross-linking agent,2,TRUE,FALSE
+CHEMBL2109503,LMB-9,Unknown,PHASE_1,1,EEF2,Elongation factor 2 inhibitor,1,TRUE,FALSE
+CHEMBL2110732,DACOMITINIB ANHYDROUS,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,TRUE,FALSE
+CHEMBL21536,XANOMELINE,Small molecule,APPROVAL,1,CHRM4,Muscarinic acetylcholine receptor M1 agonist; Muscarinic acetylcholine receptor M4 agonist,2,TRUE,FALSE
+CHEMBL220492,TOPIRAMATE,Small molecule,APPROVAL,1,SCN1A,Carbonic anhydrase II inhibitor; Carbonic anhydrase IV inhibitor; GABA-A receptor; anion channel positive modulator; Glutamate receptor ionotropic AMPA antagonist; Glutamate receptor ionotropic kainate antagonist; Sodium channel alpha subunit blocker,37,TRUE,FALSE
+CHEMBL226267,ARZOXIFENE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,TRUE,FALSE
+CHEMBL2308782,DAROTROPIUM BROMIDE,Small molecule,PHASE_2,1,CHRM4,Muscarinic acetylcholine receptor antagonist,5,TRUE,FALSE
+CHEMBL2336050,XANOMELINE TARTRATE,Small molecule,PHASE_3,1,CHRM4,Muscarinic acetylcholine receptor M1 agonist; Muscarinic acetylcholine receptor M4 agonist,2,TRUE,FALSE
+CHEMBL2355051,CLOMIPHENE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha modulator,1,TRUE,FALSE
+CHEMBL2364626,RALIMETINIB,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL2365940,DAROTROPIUM,Small molecule,PHASE_2,1,CHRM4,Muscarinic acetylcholine receptor antagonist,5,TRUE,FALSE
+CHEMBL2402737,IDASANUTLIN,Small molecule,PHASE_3,1,MDM2,Tumour suppressor p53/oncoprotein Mdm2 inhibitor,2,TRUE,FALSE
+CHEMBL2403108,CERITINIB,Small molecule,APPROVAL,1,NPM1,ALK tyrosine kinase receptor inhibitor; EML4-ALK inhibitor; NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor) inhibitor,3,TRUE,FALSE
+CHEMBL2408045,SAPITINIB,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor tyrosine-protein kinase erbB-3 inhibitor,3,TRUE,FALSE
+CHEMBL24828,VANDETANIB,Small molecule,APPROVAL,1,EGFR,Ephrin receptor inhibitor; Epidermal growth factor receptor inhibitor; Tyrosine-protein kinase BRK inhibitor; Tyrosine-protein kinase SRC inhibitor; Tyrosine-protein kinase TIE-2 inhibitor; Tyrosine-protein kinase receptor RET inhibitor; Vascular endothelial growth factor receptor inhibitor,24,TRUE,FALSE
+CHEMBL252164,LUMINESPIB,Small molecule,PHASE_2,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,TRUE,FALSE
+CHEMBL258940,FALNIDAMOL,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL281398,TERBOGREL,Small molecule,PHASE_2,1,TBXAS1,Thromboxane A2 receptor antagonist; Thromboxane-A synthase inhibitor,2,TRUE,FALSE
+CHEMBL296468,BMS-387032,Small molecule,PHASE_1,1,CDK2,Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 7 inhibitor; Cyclin-dependent kinase 9 inhibitor,3,TRUE,FALSE
+CHEMBL3109738,JNJ-26483327,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor; Tyrosine-protein kinase FYN inhibitor; Tyrosine-protein kinase LCK inhibitor; Tyrosine-protein kinase Lyn inhibitor; Tyrosine-protein kinase SRC inhibitor; Tyrosine-protein kinase YES inhibitor; Vascular endothelial growth factor receptor 3 inhibitor,9,TRUE,FALSE
+CHEMBL3125702,NAVTEMADLIN,Small molecule,PHASE_3,1,MDM2,Tumour suppressor p53/oncoprotein Mdm2 inhibitor,2,TRUE,FALSE
+CHEMBL3137301,SACUBITRIL,Small molecule,APPROVAL,1,MME,Neprilysin inhibitor,1,TRUE,FALSE
+CHEMBL3137343,PEMBROLIZUMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 inhibitor,1,TRUE,FALSE
+CHEMBL3137345,DULIGOTUZUMAB,Antibody,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor tyrosine-protein kinase erbB-3 inhibitor,2,TRUE,FALSE
+CHEMBL3137351,ABRILUMAB,Antibody,PHASE_2,1,ITGA4,Integrin alpha-4/beta-7 inhibitor,2,TRUE,FALSE
+CHEMBL315838,ENCAINIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL315985,ESLICARBAZEPINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL3185958,CLOMIPHENE CITRATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha modulator,1,TRUE,FALSE
+CHEMBL3187812,ILEPATRIL,Small molecule,PHASE_2_3,1,MME,Angiotensin-converting enzyme inhibitor; Neprilysin inhibitor,2,TRUE,FALSE
+CHEMBL31965,CANERTINIB,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,TRUE,FALSE
+CHEMBL328190,LASOFOXIFENE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,TRUE,FALSE
+CHEMBL3301572,NUSINERSEN,Oligonucleotide,APPROVAL,1,SMN2,SMN2 pre-mRNA positive modulator,1,TRUE,FALSE
+CHEMBL3348923,TOVORAFENIB,Small molecule,APPROVAL,1,RAF1,RAF serine/threonine protein kinase inhibitor,3,TRUE,FALSE
+CHEMBL3353410,OSIMERTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL3402567,ITX-5061,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL3544983,TESEVATINIB,Small molecule,PHASE_3,1,EGFR,Ephrin type-B receptor 4 inhibitor; Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,3,TRUE,FALSE
+CHEMBL3544998,LY-3007113,Unknown,PHASE_1,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL3545017,GTX-758,Small molecule,PHASE_2,1,ESR1,Estrogen receptor alpha agonist,1,TRUE,FALSE
+CHEMBL3545027,XL-281,Small molecule,PHASE_1_2,1,RAF1,Serine/threonine-protein kinase B-raf inhibitor; Serine/threonine-protein kinase RAF inhibitor,2,TRUE,FALSE
+CHEMBL3545063,OSIMERTINIB MESYLATE,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL3545083,RGB-286638,Small molecule,PHASE_1,1,CDK2,Cyclin-dependent kinase 1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 4 inhibitor; Cyclin-dependent kinase 5 inhibitor; Cyclin-dependent kinase 7 inhibitor; Cyclin-dependent kinase 9 inhibitor,6,TRUE,FALSE
+CHEMBL3545117,AVE-9940,Unknown,PHASE_1,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL3545154,POZIOTINIB,Small molecule,PHASE_3,1,EGFR,Epidermal growth factor receptor inhibitor,4,TRUE,FALSE
+CHEMBL3545157,TIDEGLUSIB,Small molecule,PHASE_2_3,1,GSK3B,Glycogen synthase kinase-3 beta inhibitor,1,TRUE,FALSE
+CHEMBL3545165,AFACIFENACIN,Small molecule,PHASE_2,1,CHRM4,Muscarinic acetylcholine receptor antagonist; Sodium channel protein type X alpha subunit blocker; Sodium channel protein type XI alpha subunit blocker,7,TRUE,FALSE
+CHEMBL3545200,S-222611,Unknown,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,2,TRUE,FALSE
+CHEMBL3545201,TA-5493,Unknown,PHASE_1,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL3545209,NKTR-171,Unknown,IND,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL3545210,TAS-108,Small molecule,PHASE_2,1,ESR1,Estrogen receptor alpha antagonist,1,TRUE,FALSE
+CHEMBL3545216,FX-005,Unknown,PHASE_2_3,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL3545235,SIMOTINIB,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL3545274,MK-6913,Small molecule,PHASE_2,1,ESR1,Estrogen receptor agonist,2,TRUE,FALSE
+CHEMBL3545308,ROCILETINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL3545311,BRIGATINIB,Small molecule,APPROVAL,1,EGFR,ALK tyrosine kinase receptor inhibitor; Epidermal growth factor receptor erbB1 inhibitor,2,TRUE,FALSE
+CHEMBL3545355,CHF4227,Small molecule,PHASE_1,1,ESR1,Estrogen receptor modulator,2,TRUE,FALSE
+CHEMBL3545396,BMS-690514,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor; Vascular endothelial growth factor receptor inhibitor,6,TRUE,FALSE
+CHEMBL3545398,PG-760564,Unknown,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL3545420,AG-24322,Small molecule,PHASE_1,1,CDK2,Cyclin-dependent kinase 1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 4 inhibitor,3,TRUE,FALSE
+CHEMBL3577124,LY-3009120,Small molecule,PHASE_1,1,RAF1,Serine/threonine-protein kinase A-Raf inhibitor; Serine/threonine-protein kinase B-raf inhibitor; Serine/threonine-protein kinase RAF inhibitor,3,TRUE,FALSE
+CHEMBL3581693,BRILANESTRANT,Small molecule,PHASE_2,1,ESR1,Estrogen receptor degrader,1,TRUE,FALSE
+CHEMBL359164,TROXACITABINE,Small molecule,PHASE_2,1,POLE2,DNA polymerase (alpha/delta/epsilon) inhibitor,11,TRUE,FALSE
+CHEMBL3623290,AZD-3759,Small molecule,PHASE_2_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL362558,LY-2090314,Small molecule,PHASE_2,1,GSK3B,Glycogen synthase kinase-3 alpha inhibitor; Glycogen synthase kinase-3 beta inhibitor,2,TRUE,FALSE
+CHEMBL363295,TERODILINE,Small molecule,APPROVAL,1,CHRM4,Muscarinic acetylcholine receptor antagonist; Voltage-gated calcium channel blocker,31,TRUE,FALSE
+CHEMBL363648,TAK-715,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL3647420,PYROTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,2,TRUE,FALSE
+CHEMBL3653256,SIREMADLIN,Small molecule,PHASE_2,1,MDM2,Tumour suppressor p53/oncoprotein Mdm2 inhibitor,2,TRUE,FALSE
+CHEMBL3663929,NAQUOTINIB,Small molecule,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL3678076,EVENAMIDE,Small molecule,PHASE_3,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL3678958,RUSERONTINIB,Small molecule,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Tyrosine-protein kinase ABL inhibitor; Tyrosine-protein kinase receptor FLT3 inhibitor,3,TRUE,FALSE
+CHEMBL3707183,QUINIDINE SULFATE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL3707223,SOFPIRONIUM BROMIDE,Small molecule,APPROVAL,1,CHRM4,Muscarinic acetylcholine receptor inhibitor,5,TRUE,FALSE
+CHEMBL3707243,GLYCOPYRRONIUM TOSYLATE,Small molecule,APPROVAL,1,CHRM4,Muscarinic acetylcholine receptor inhibitor,5,TRUE,FALSE
+CHEMBL3707277,DEPATUXIZUMAB MAFODOTIN,Antibody drug conjugate,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 binding agent; Tubulin inhibitor,16,TRUE,FALSE
+CHEMBL3707294,DEPATUXIZUMAB,Antibody,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL370805,COCAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL377559,RETASPIMYCIN HYDROCHLORIDE,Small molecule,PHASE_3,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,TRUE,FALSE
+CHEMBL3786098,PF-06459988,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL3786343,OLMUTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL3787344,NAZARTINIB,Small molecule,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Epidermal growth factor receptor inhibitor,1,TRUE,FALSE
+CHEMBL3833330,CINPANEMAB,Antibody,PHASE_2,1,SNCA,Alpha-synuclein inhibitor,1,TRUE,FALSE
+CHEMBL3833342,NUSINERSEN SODIUM,Oligonucleotide,APPROVAL,1,SMN2,SMN2 pre-mRNA positive modulator,1,TRUE,FALSE
+CHEMBL383824,ALVESPIMYCIN,Small molecule,PHASE_2,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,TRUE,FALSE
+CHEMBL384304,RG-547,Small molecule,PHASE_1,1,CDK2,Cyclin-dependent kinase 1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 4 inhibitor,3,TRUE,FALSE
+CHEMBL3940890,ACORAMIDIS,Small molecule,APPROVAL,1,TTR,Transthyretin stabiliser,1,TRUE,FALSE
+CHEMBL3977543,BELVARAFENIB,Small molecule,PHASE_2,1,RAF1,RAF serine/threonine protein kinase inhibitor,3,TRUE,FALSE
+CHEMBL3989794,DAGLUTRIL,Small molecule,PHASE_2,1,MME,Endothelin-converting enzyme 1 inhibitor; Neprilysin inhibitor,2,TRUE,FALSE
+CHEMBL3989921,NERATINIB MALEATE,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,TRUE,FALSE
+CHEMBL3989949,CENOBAMATE,Small molecule,APPROVAL,1,SCN1A,GABA-A receptor; anion channel positive allosteric modulator; Sodium channel alpha subunit inhibitor,26,TRUE,FALSE
+CHEMBL3989970,MAVELERTINIB,Small molecule,PHASE_1_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL3989978,PREXIGEBERSEN,Oligonucleotide,PHASE_2,1,GRB2,Growth factor receptor-bound protein 2 mRNA antisense inhibitor,1,TRUE,FALSE
+CHEMBL3989987,PATISIRAN,Oligonucleotide,APPROVAL,1,TTR,Transthyretin mRNA RNAi inhibitor,1,TRUE,FALSE
+CHEMBL3989988,MODOTUXIMAB,Antibody,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 antagonist; Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL3990042,GOSURANEMAB,Antibody,PHASE_2,1,MAPT,Microtubule-associated protein tau inhibitor,1,TRUE,FALSE
+CHEMBL3991932,PEXMETINIB,Small molecule,PHASE_1_2,1,MAPK14,MAP kinase p38 alpha inhibitor; Tyrosine-protein kinase TIE-2 inhibitor,2,TRUE,FALSE
+CHEMBL4091801,ALRIZOMADLIN,Small molecule,PHASE_2,1,MDM2,Tumour suppressor p53/oncoprotein Mdm2 inhibitor,2,TRUE,FALSE
+CHEMBL411,DIETHYLSTILBESTROL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,TRUE,FALSE
+CHEMBL422872,AZD-4769,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL428690,ALVOCIDIB,Small molecule,PHASE_3,1,CDK2,Cyclin-dependent kinase 1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 4 inhibitor; Cyclin-dependent kinase 6 inhibitor; Cyclin-dependent kinase 7 inhibitor; Cyclin-dependent kinase 9 inhibitor,6,TRUE,FALSE
+CHEMBL4297258,FIRMONERTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL4297300,LB-100,Small molecule,PHASE_2,1,PPP2CA,"Serine/threonine protein phosphatase 2A, catalytic subunit, alpha isoform inhibitor; Serine/threonine protein phosphatase 2A, catalytic subunit, beta isoform inhibitor; Serine/threonine-protein phosphatase 5 inhibitor",3,TRUE,FALSE
+CHEMBL4297363,UCB-1184197,Small molecule,PHASE_2,1,ITGA4,Integrin alpha-4 inhibitor,1,TRUE,FALSE
+CHEMBL4297436,SRT-2104,Small molecule,PHASE_2,1,SIRT1,NAD-dependent deacetylase sirtuin 1 activator,1,TRUE,FALSE
+CHEMBL4297509,ELACESTRANT,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha degrader,1,TRUE,FALSE
+CHEMBL4297528,RISDIPLAM,Small molecule,APPROVAL,1,SMN2,SMN2 pre-mRNA positive modulator,1,TRUE,FALSE
+CHEMBL4297536,PATISIRAN SODIUM,Oligonucleotide,APPROVAL,1,TTR,Transthyretin mRNA RNAi inhibitor,1,TRUE,FALSE
+CHEMBL4297537,INOTERSEN SODIUM,Oligonucleotide,APPROVAL,1,TTR,Transthyretin mRNA antisense inhibitor,1,TRUE,FALSE
+CHEMBL4297555,RESIMMUNE,Unknown,PHASE_2,1,EEF2,Elongation factor 2 inhibitor; T-cell surface glycoprotein CD3 epsilon chain binding agent,2,TRUE,FALSE
+CHEMBL4297571,PENPULIMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 inhibitor,1,TRUE,FALSE
+CHEMBL4297573,TAGRAXOFUSP,Protein,APPROVAL,1,EEF2,Elongation factor 2 inhibitor; Interleukin-3 receptor subunit alpha binding agent,2,TRUE,FALSE
+CHEMBL4297581,TOMINERSEN,Oligonucleotide,PHASE_3,1,HTT,Huntingtin mRNA antisense inhibitor,1,TRUE,FALSE
+CHEMBL4297599,ASPACYTARABINE,Small molecule,PHASE_2,1,POLE2,DNA polymerase (alpha/delta/epsilon) inhibitor,11,TRUE,FALSE
+CHEMBL4297661,TARLOXOTINIB,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor inhibitor,4,TRUE,FALSE
+CHEMBL4297715,CAMRELIZUMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 antagonist,1,TRUE,FALSE
+CHEMBL4297717,CD24FC,Unknown,PHASE_3,1,HSP90AB1,Heat shock 70 kDa protein 1A/1B inhibitor; Heat shock protein HSP90 inhibitor; High mobility group protein B1 inhibitor; Sialic acid-binding Ig-like lectin 10 modulator,6,TRUE,FALSE
+CHEMBL4297723,CEMIPLIMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 inhibitor,1,TRUE,FALSE
+CHEMBL4297770,INOTERSEN,Oligonucleotide,APPROVAL,1,TTR,Transthyretin mRNA antisense inhibitor,1,TRUE,FALSE
+CHEMBL4297774,AMIVANTAMAB,Antibody,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Hepatocyte growth factor receptor inhibitor,2,TRUE,FALSE
+CHEMBL4297777,LMB-100,Unknown,PHASE_2,1,EEF2,Elongation factor 2 disrupting agent; Mesothelin binding agent,2,TRUE,FALSE
+CHEMBL4297829,SINTILIMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 antagonist,1,TRUE,FALSE
+CHEMBL4297831,SPARTALIZUMAB,Antibody,PHASE_3,1,PDCD1,Programmed cell death protein 1 antagonist,1,TRUE,FALSE
+CHEMBL4297840,TISLELIZUMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 inhibitor,1,TRUE,FALSE
+CHEMBL4297842,TOMUZOTUXIMAB,Antibody,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL4297843,TORIPALIMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 antagonist,1,TRUE,FALSE
+CHEMBL4297856,ZIMBERELIMAB,Antibody,PHASE_3,1,PDCD1,Programmed cell death protein 1 inhibitor,1,TRUE,FALSE
+CHEMBL4297858,BUDIGALIMAB,Antibody,PHASE_2_3,1,PDCD1,Programmed cell death protein 1 inhibitor,1,TRUE,FALSE
+CHEMBL4297860,TILAVONEMAB,Antibody,PHASE_2,1,MAPT,Microtubule-associated protein tau inhibitor,1,TRUE,FALSE
+CHEMBL4297865,ABIVERTINIB,Small molecule,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Tyrosine-protein kinase BTK inhibitor,2,TRUE,FALSE
+CHEMBL4297866,ABIVERTINIB MALEATE,Small molecule,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Tyrosine-protein kinase BTK inhibitor,2,TRUE,FALSE
+CHEMBL4297877,BALSTILIMAB,Antibody,PHASE_3,1,PDCD1,Programmed cell death protein 1 antagonist,1,TRUE,FALSE
+CHEMBL4298001,CETRELIMAB,Antibody,PHASE_3,1,PDCD1,Programmed cell death protein 1 inhibitor,1,TRUE,FALSE
+CHEMBL4298021,ZAGOTENEMAB,Antibody,PHASE_2,1,MAPT,Microtubule-associated protein tau inhibitor,1,TRUE,FALSE
+CHEMBL4298037,RETIFANLIMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 antagonist,1,TRUE,FALSE
+CHEMBL4298077,PRASINEZUMAB,Antibody,PHASE_3,1,SNCA,Alpha-synuclein binding agent,1,TRUE,FALSE
+CHEMBL4298088,CETUXIMAB SAROTALOCAN,Antibody drug conjugate,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 binding agent,1,TRUE,FALSE
+CHEMBL4298093,SEMORINEMAB,Antibody,PHASE_2,1,MAPT,Microtubule-associated protein tau inhibitor,1,TRUE,FALSE
+CHEMBL4298124,DOSTARLIMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 antagonist,1,TRUE,FALSE
+CHEMBL4298191,SASANLIMAB,Antibody,PHASE_3,1,PDCD1,Programmed cell death protein 1 antagonist,1,TRUE,FALSE
+CHEMBL4442620,RONICICLIB,Small molecule,PHASE_2,1,CDK2,Cyclin-dependent kinase inhibitor,20,TRUE,FALSE
+CHEMBL445813,AT-7519,Small molecule,PHASE_2,1,CDK2,Cyclin-dependent kinase inhibitor,20,TRUE,FALSE
+CHEMBL4466233,PEMRAMETOSTAT,Small molecule,PHASE_2,1,PRMT5,Protein arginine N-methyltransferase 5 inhibitor,1,TRUE,FALSE
+CHEMBL4475463,AMCENESTRANT,Small molecule,PHASE_3,1,ESR1,Estrogen receptor alpha degrader,1,TRUE,FALSE
+CHEMBL4535757,SOTORASIB,Small molecule,APPROVAL,1,KRAS,GTPase KRas inhibitor,1,TRUE,FALSE
+CHEMBL4558324,LAZERTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL4583691,NAPORAFENIB,Small molecule,PHASE_3,1,RAF1,B-raf/RAF proto-oncogene serine/threonine-protein kinase inhibitor,2,TRUE,FALSE
+CHEMBL4594273,ELACESTRANT HYDROCHLORIDE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha degrader,1,TRUE,FALSE
+CHEMBL4594334,EPLONTERSEN,Oligonucleotide,APPROVAL,1,TTR,Transthyretin mRNA antisense inhibitor,1,TRUE,FALSE
+CHEMBL4594335,EPLONTERSEN SODIUM,Oligonucleotide,APPROVAL,1,TTR,Transthyretin mRNA antisense inhibitor,1,TRUE,FALSE
+CHEMBL4594350,ADAGRASIB,Small molecule,APPROVAL,1,KRAS,GTPase KRas inhibitor,1,TRUE,FALSE
+CHEMBL4594355,APL-501,Unknown,PHASE_2,1,PDCD1,Programmed cell death protein 1 inhibitor,1,TRUE,FALSE
+CHEMBL4594456,CADONILIMAB,Antibody,PHASE_3,1,PDCD1,Cytotoxic T-lymphocyte protein 4 inhibitor; Programmed cell death protein 1 inhibitor,2,TRUE,FALSE
+CHEMBL4594472,BAFISONTAMAB,Antibody,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Hepatocyte growth factor receptor inhibitor,2,TRUE,FALSE
+CHEMBL4594492,REVUSIRAN,Oligonucleotide,PHASE_3,1,TTR,Transthyretin mRNA RNAi inhibitor,1,TRUE,FALSE
+CHEMBL4594511,VUTRISIRAN,Oligonucleotide,APPROVAL,1,TTR,Transthyretin mRNA rnai inhibitor,1,TRUE,FALSE
+CHEMBL4594515,LOSATUXIZUMAB VEDOTIN,Antibody drug conjugate,PHASE_1,1,EGFR,Epidermal growth factor receptor binding agent; Tubulin inhibitor,16,TRUE,FALSE
+CHEMBL4594536,CS-1003,Unknown,PHASE_3,1,PDCD1,Programmed cell death protein 1 inhibitor,1,TRUE,FALSE
+CHEMBL4594549,PIMURUTAMAB,Antibody,PHASE_2_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL4594550,SERPLULIMAB,Antibody,APPROVAL,1,PDCD1,Programmed cell death protein 1 antagonist,1,TRUE,FALSE
+CHEMBL4594578,TEBOTELIMAB,Antibody,PHASE_2_3,1,PDCD1,Lymphocyte activation gene 3 protein inhibitor; Programmed cell death protein 1 inhibitor,2,TRUE,FALSE
+CHEMBL4594602,LOMVASTOMIG,Antibody,PHASE_2,1,PDCD1,Hepatitis A virus cellular receptor 2 inhibitor; Programmed cell death protein 1 inhibitor,2,TRUE,FALSE
+CHEMBL4594612,BEPRANEMAB,Antibody,PHASE_2,1,MAPT,Microtubule-associated protein tau inhibitor,1,TRUE,FALSE
+CHEMBL4650226,ACORAMIDIS HYDROCHLORIDE,Small molecule,APPROVAL,1,TTR,Transthyretin stabiliser,1,TRUE,FALSE
+CHEMBL4650279,TUXOBERTINIB,Small molecule,PHASE_1_2,1,EGFR,Epidermal growth factor receptor erbB1 negative allosteric modulator; Receptor protein-tyrosine kinase erbB-2 negative allosteric modulator,2,TRUE,FALSE
+CHEMBL4650281,CLN-081,Small molecule,PHASE_3,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL4650289,KBP5209,Unknown,PHASE_1,1,EGFR,Epidermal growth factor receptor inhibitor,4,TRUE,FALSE
+CHEMBL4650290,GC1118,Unknown,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL4650316,GIREDESTRANT,Small molecule,PHASE_3,1,ESR1,Estrogen receptor alpha degrader,1,TRUE,FALSE
+CHEMBL4650319,MOBOCERTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL4650365,CAMIZESTRANT,Small molecule,PREAPPROVAL,1,ESR1,Estrogen receptor alpha degrader,1,TRUE,FALSE
+CHEMBL4650402,POSDINEMAB,Antibody,PHASE_2,1,MAPT,Microtubule-associated protein tau inhibitor,1,TRUE,FALSE
+CHEMBL4650472,PUCOTENLIMAB,Antibody,PHASE_3,1,PDCD1,Programmed cell death protein 1 inhibitor,1,TRUE,FALSE
+CHEMBL4650482,PIMIVALIMAB,Antibody,PHASE_2,1,PDCD1,Programmed cell death protein 1 inhibitor,1,TRUE,FALSE
+CHEMBL4650516,FINOTONLIMAB,Antibody,PHASE_3,1,PDCD1,Programmed cell death protein 1 inhibitor,1,TRUE,FALSE
+CHEMBL467399,BIIB021,Small molecule,PHASE_2,1,HSP90AB1,Heat shock protein HSP90 inhibitor,2,TRUE,FALSE
+CHEMBL46740,BAZEDOXIFENE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,TRUE,FALSE
+CHEMBL4761468,AUMOLERTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL4802154,TILPISERTIB,Small molecule,PHASE_2,1,MAP3K8,Mitogen-activated protein kinase kinase kinase 8 inhibitor,1,TRUE,FALSE
+CHEMBL4802239,MOBOCERTINIB SUCCINATE,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL483465,ELRAGLUSIB,Small molecule,PHASE_2,1,GSK3B,Glycogen synthase kinase-3 beta inhibitor,1,TRUE,FALSE
+CHEMBL487,DROLOXIFENE,Small molecule,PHASE_2,1,ESR1,Estrogen receptor modulator,2,TRUE,FALSE
+CHEMBL488436,AZD-5438,Small molecule,PHASE_1,1,CDK2,Cyclin-dependent kinase inhibitor,20,TRUE,FALSE
+CHEMBL489,AFIMOXIFENE,Small molecule,PHASE_2,1,ESR1,Estrogen receptor modulator; Estrogen-related receptor gamma antagonist,3,TRUE,FALSE
+CHEMBL492,ETIDOCAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL494089,GSK-690693,Small molecule,PHASE_1,1,PRKCD,Protein kinase C (PKC) inhibitor; Serine/threonine-protein kinase AKT inhibitor; cAMP-dependent protein kinase (PKA) inhibitor,17,TRUE,FALSE
+CHEMBL5095303,VUTRISIRAN SODIUM,Oligonucleotide,APPROVAL,1,TTR,Transthyretin mRNA rnai inhibitor,1,TRUE,FALSE
+CHEMBL514201,TALMAPIMOD,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL517,DISOPYRAMIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL529437,COCAINE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL5314397,ACUMAPIMOD,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL5314407,ARQ-736,Small molecule,PHASE_1,1,RAF1,Serine/threonine-protein kinase B-raf inhibitor; Serine/threonine-protein kinase RAF inhibitor,2,TRUE,FALSE
+CHEMBL5314410,THELIATINIB,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL5314411,EPITINIB,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL539770,TERODILINE HYDROCHLORIDE,Small molecule,APPROVAL,1,CHRM4,Muscarinic acetylcholine receptor antagonist; Voltage-gated calcium channel blocker,31,TRUE,FALSE
+CHEMBL545315,CANERTINIB DIHYDROCHLORIDE,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Receptor protein-tyrosine kinase erbB-4 inhibitor,3,TRUE,FALSE
+CHEMBL553,ERLOTINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL554,LAPATINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,2,TRUE,FALSE
+CHEMBL558,MEXILETINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL564829,MILCICLIB,Small molecule,PHASE_2,1,CDK2,Cyclin-dependent kinase 1 inhibitor; Cyclin-dependent kinase 2 inhibitor; Cyclin-dependent kinase 4 inhibitor; Nerve growth factor receptor Trk-A inhibitor,4,TRUE,FALSE
+CHEMBL565612,SOTRASTAURIN,Small molecule,PHASE_2,1,PRKCD,Protein kinase C (PKC) inhibitor,11,TRUE,FALSE
+CHEMBL569,PROCAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL573352,TAS-106,Small molecule,PHASE_2,1,POLR1A,DNA-directed RNA polymerase I subunit RPA1 inhibitor; DNA-directed RNA polymerase II subunit RPB1 inhibitor; DNA-directed RNA polymerase III subunit RPC1 inhibitor,2,TRUE,FALSE
+CHEMBL58323,LACOSAMIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL585902,AMG-548,Small molecule,UNKNOWN,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
+CHEMBL587723,AEE-788,Small molecule,PHASE_1_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor; Vascular endothelial growth factor receptor 1 inhibitor; Vascular endothelial growth factor receptor 2 inhibitor,4,TRUE,FALSE
+CHEMBL598797,CUDC-101,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Histone deacetylase inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,13,TRUE,FALSE
+CHEMBL601719,CRIZOTINIB,Small molecule,APPROVAL,1,NPM1,ALK tyrosine kinase receptor inhibitor; EML4-ALK inhibitor; Hepatocyte growth factor receptor inhibitor; Macrophage-stimulating protein receptor inhibitor; NPM/ALK (Nucleophosmin/ALK tyrosine kinase receptor) inhibitor; Proto-oncogene tyrosine-protein kinase ROS inhibitor,6,TRUE,FALSE
+CHEMBL605,PROCAINAMIDE HYDROCHLORIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL6067986,AV-412,Small molecule,PHASE_1,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor; Receptor protein-tyrosine kinase erbB-2 inhibitor,2,TRUE,FALSE
+CHEMBL6067998,LASOFOXIFENE TARTRATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor modulator,2,TRUE,FALSE
+CHEMBL6068423,ESTETROL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor agonist,2,TRUE,FALSE
+CHEMBL6068478,LAZERTINIB MESYLATE,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL6069183,CEP-2563,Small molecule,PHASE_1,1,PRKCD,Neurotrophic tyrosine kinase receptor inhibitor; Platelet-derived growth factor receptor beta inhibitor; Protein kinase C (PKC) inhibitor; Tyrosine-protein kinase receptor FLT3 inhibitor; Tyrosine-protein kinase receptor RET inhibitor,17,TRUE,FALSE
+CHEMBL607707,PELITINIB,Small molecule,PHASE_2,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL608533,MIDOSTAURIN,Small molecule,APPROVAL,1,PRKCD,Platelet-derived growth factor receptor inhibitor; Protein kinase C (PKC) inhibitor; Stem cell growth factor receptor inhibitor; Tyrosine-protein kinase receptor FLT3 inhibitor; Vascular endothelial growth factor receptor 2 inhibitor,16,TRUE,FALSE
+CHEMBL631,PROPAFENONE,Small molecule,APPROVAL,1,SCN1A,Beta-1 adrenergic receptor antagonist; Beta-2 adrenergic receptor antagonist; Sodium channel alpha subunit blocker,12,TRUE,FALSE
+CHEMBL6318,IDOXIFENE,Small molecule,PHASE_3,1,ESR1,Estrogen receptor modulator,2,TRUE,FALSE
+CHEMBL640,PROCAINAMIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL68055,ACOLBIFENE,Small molecule,PHASE_3,1,ESR1,Estrogen receptor modulator,2,TRUE,FALSE
+CHEMBL691,ETHINYL ESTRADIOL,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha agonist,1,TRUE,FALSE
+CHEMBL698,TETRACAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL741,LAMOTRIGINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL744,RILUZOLE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL750,ZONISAMIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL786,TAMOXIFEN CITRATE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha modulator,1,TRUE,FALSE
+CHEMBL79,LIDOCAINE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL803,CYTARABINE,Small molecule,APPROVAL,1,POLE2,DNA polymerase (alpha/delta/epsilon) inhibitor,11,TRUE,FALSE
+CHEMBL81,RALOXIFENE,Small molecule,APPROVAL,1,ESR1,Estrogen receptor beta modulator; Estrogen receptor modulator,2,TRUE,FALSE
+CHEMBL83,TAMOXIFEN,Small molecule,APPROVAL,1,ESR1,Estrogen receptor alpha modulator,1,TRUE,FALSE
+CHEMBL856,PRIMIDONE,Small molecule,APPROVAL,1,SCN1A,GABA-A receptor; anion channel positive allosteric modulator; Sodium channel alpha subunit blocker,26,TRUE,FALSE
+CHEMBL861,MEPHENYTOIN,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL87992,ESLICARBAZEPINE ACETATE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL888,GEMCITABINE,Small molecule,APPROVAL,1,POLE2,DNA polymerase (alpha/delta/epsilon) inhibitor; Ribonucleoside-diphosphate reductase RR1 inhibitor,14,TRUE,FALSE
+CHEMBL900,ORPHENADRINE,Small molecule,APPROVAL,1,SCN1A,Glutamate [NMDA] receptor antagonist; Histamine H1 receptor antagonist; Norepinephrine transporter inhibitor; Sodium channel alpha subunit blocker,19,TRUE,FALSE
+CHEMBL918,PHENACEMIDE,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL919,FOSPHENYTOIN SODIUM,Small molecule,APPROVAL,1,SCN1A,Sodium channel alpha subunit blocker,10,TRUE,FALSE
+CHEMBL939,GEFITINIB,Small molecule,APPROVAL,1,EGFR,Epidermal growth factor receptor erbB1 inhibitor,1,TRUE,FALSE
+CHEMBL954,ENCLOMIPHENE,Small molecule,PHASE_2,1,ESR1,Estrogen receptor alpha modulator,1,TRUE,FALSE
+CHEMBL9960,AZD-7624,Small molecule,PHASE_2,1,MAPK14,MAP kinase p38 alpha inhibitor,1,TRUE,FALSE
